@@ -1,7 +1,7 @@
 [
  {
-  "asOf": "2026-10-19T05:57:06Z",
-  "lastBarDate": "2026-10-17",
+  "asOf": "2026-10-19T07:04:08Z",
+  "lastBarDate": "2026-10-19",
   "product": "FTMO 2-Step Challenge, Swing account, US$200,000 (one of two identical accounts)",
   "currency": "USD",
   "phase": "FTMO Challenge",
@@ -58,12 +58,12 @@
   "allAvgR": null,
   "allProfitFactor": null,
   "allNetUSD": 0.0,
-  "schedule": "Runs every 3 hours Mon-Sat (00:15, 03:15 ... 21:15 UTC); the US-close run at 00:15 UTC (11:15 Sydney) handles the daily system, every run handles the hourly metals component",
-  "dataSource": "Daily OHLC (indices, US stocks, gold, silver, Bitcoin and Ether) plus hourly bars for gold and silver from the Yahoo Finance chart feed (GC=F/SI=F futures as spot proxies), Alpha Vantage as fallback",
-  "lastHourlyBar": "2026-10-19 04:00 UTC",
+  "schedule": "The engine runs on GitHub Actions every 3 hours Mon-Sat (00:23, 03:23 ... 21:23 UTC); the US-close run at 00:23 UTC (11:23 Sydney) handles the daily system, every run handles the hourly metals component; the dashboard is refreshed about 30 minutes after each run",
+  "dataSource": "Daily OHLC (indices, US stocks, gold, silver, Bitcoin and Ether) plus hourly bars for gold and silver from the Yahoo Finance chart feed (GC=F/SI=F futures as spot proxies); a symbol whose fetch fails is skipped until the next run",
+  "lastHourlyBar": "2026-10-19 06:00 UTC",
   "attemptsFailed": 0,
   "phasesPassed": 0,
-  "runs": 4,
+  "runs": 5,
   "flattenNextOpen": false,
   "status": "active"
  }
