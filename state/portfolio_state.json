@@ -556,7 +556,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -594,7 +594,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 5,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -1104,17 +1104,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -1470,7 +1470,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -1508,7 +1508,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 5,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -2018,17 +2018,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -2384,7 +2384,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -2422,7 +2422,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 3,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -2906,17 +2906,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -3262,7 +3262,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -3300,7 +3300,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 5,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -3810,17 +3810,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -4176,7 +4176,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -4214,7 +4214,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 3,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -4697,17 +4697,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -5053,7 +5053,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -5091,7 +5091,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 3,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -5574,17 +5574,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -5930,7 +5930,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -5968,7 +5968,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 5,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -6478,17 +6478,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -6844,7 +6844,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -6882,7 +6882,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 5,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -7392,17 +7392,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -7758,7 +7758,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -7796,7 +7796,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 3,
-    "runs": 16
+    "runs": 17
    },
    "config": {
     "configVersion": 7,
@@ -8279,17 +8279,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -8635,7 +8635,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -8673,7 +8673,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 2,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k"
    },
    "config": {
@@ -9103,17 +9103,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -9459,7 +9459,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -9497,7 +9497,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 2,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k"
    },
    "config": {
@@ -9927,17 +9927,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -10283,7 +10283,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -10321,7 +10321,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 1,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k"
    },
    "config": {
@@ -10738,17 +10738,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -11089,7 +11089,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -11127,7 +11127,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 2,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k"
    },
    "config": {
@@ -11557,17 +11557,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -11913,7 +11913,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -11951,7 +11951,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 1,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k"
    },
    "config": {
@@ -12367,17 +12367,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -12718,7 +12718,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -12756,7 +12756,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 1,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k"
    },
    "config": {
@@ -13172,17 +13172,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -13523,7 +13523,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -13561,7 +13561,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 2,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k"
    },
    "config": {
@@ -13991,17 +13991,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -14347,7 +14347,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -14385,7 +14385,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 2,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k"
    },
    "config": {
@@ -14815,17 +14815,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
@@ -15171,7 +15171,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-19T21:51:57Z",
+    "lastRunAt": "2026-10-19T22:06:55Z",
     "lastProcessed": {
      "EURUSD": "2026-10-16",
      "GBPUSD": "2026-10-16",
@@ -15209,7 +15209,7 @@
      "XAGUSD": 1792440000
     },
     "nextId": 1,
-    "runs": 8,
+    "runs": 9,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m"
    },
    "config": {
@@ -15625,17 +15625,17 @@
     },
     {
      "symbol": "GER40",
-     "date": "2026-10-19",
-     "close": 25319.76953125,
-     "regime": "down",
-     "adx": 18.4,
-     "atrPct": 1.17,
-     "distEma20Atr": -0.09,
-     "chg5Pct": 0.17,
-     "chg20Pct": -1.0,
-     "ema20": 25347.8,
-     "ema50": 25462.2,
-     "rsi2": 33.7,
+     "date": "2026-10-16",
+     "close": 25622.609375,
+     "regime": "none",
+     "adx": 18.9,
+     "atrPct": 1.12,
+     "distEma20Atr": 0.95,
+     "chg5Pct": 2.13,
+     "chg20Pct": 1.26,
+     "ema20": 25350.8,
+     "ema50": 25468.0,
+     "rsi2": 97.0,
      "aboveSma200": true,
      "donchianHi": 25783.16015625,
      "donchianLo": 24792.7890625
