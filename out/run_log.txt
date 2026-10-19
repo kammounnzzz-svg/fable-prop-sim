@@ -1,7 +1,7 @@
-run started 2026-10-19T05:55:28Z, finished 2026-10-19T05:55:56Z, ok=True
+run started 2026-10-19T05:56:43Z, finished 2026-10-19T05:57:06Z, ok=True
 
 ### fetch (exit 0)
-XAUUSD  1127 hourly bars, last 2026-10-19 04:00 UTC close 4204.39990234375
+XAUUSD  1127 hourly bars, last 2026-10-19 04:00 UTC close 4204.0
 XAGUSD  1127 hourly bars, last 2026-10-19 04:00 UTC close 57.915000915527344
 EURUSD   515 bars, last 2026-10-16 close 1.1213151216506958
 GBPUSD   515 bars, last 2026-10-16 close 1.327316164970398
@@ -33,7 +33,7 @@ LLY      501 bars, last 2026-10-16 close 1257.030029296875
 COST     501 bars, last 2026-10-16 close 989.1099853515625
 BTCUSD   729 bars, last 2026-10-17 close 81382.1484375
 ETHUSD   729 bars, last 2026-10-17 close 2399.799072265625
-saved /home/claude/fable-prop-sim/bars/all.json (30 ok, 0 failed)
+saved /home/runner/work/fable-prop-sim/fable-prop-sim/bars/all.json (30 ok, 0 failed)
 
 
 ### portfolio-run (exit 0)
@@ -68,4 +68,4 @@ EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, 
 
 
 ### portfolio-export (exit 0)
-exported focus account ftmo-200k plus portfolio (16 accounts, 3400000 capital) to /home/claude/fable-prop-sim/out
+exported focus account ftmo-200k plus portfolio (16 accounts, 3400000 capital) to /home/runner/work/fable-prop-sim/fable-prop-sim/out
