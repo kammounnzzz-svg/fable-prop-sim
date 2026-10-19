@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-10-19",
+  "kind": "open",
+  "text": "T4 long 84 sh AMZN at 255.39, stop 237.54, risk 1499 USD (dip)",
+  "n": 4
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "open",
+  "text": "T3 long 83 sh NVDA at 218.05, stop 200.15, risk 1486 USD (dip)",
+  "n": 3
+ },
+ {
   "date": "2026-10-16",
   "kind": "order",
   "text": "O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1500 USD)",
