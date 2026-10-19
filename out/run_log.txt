@@ -1,8 +1,8 @@
-run started 2026-10-19T19:04:35Z, finished 2026-10-19T19:04:58Z, ok=True
+run started 2026-10-19T19:14:50Z, finished 2026-10-19T19:15:14Z, ok=True
 
 ### fetch (exit 0)
-XAUUSD  1141 hourly bars, last 2026-10-19 18:00 UTC close 4166.5
-XAGUSD  1141 hourly bars, last 2026-10-19 18:00 UTC close 57.43000030517578
+XAUUSD  1141 hourly bars, last 2026-10-19 18:00 UTC close 4165.0
+XAGUSD  1141 hourly bars, last 2026-10-19 18:00 UTC close 57.42499923706055
 EURUSD   515 bars, last 2026-10-16 close 1.1213151216506958
 GBPUSD   515 bars, last 2026-10-16 close 1.327316164970398
 AUDUSD   515 bars, last 2026-10-16 close 0.6918500065803528
@@ -37,39 +37,25 @@ saved /home/runner/work/fable-prop-sim/fable-prop-sim/bars/all.json (30 ok, 0 fa
 
 
 ### portfolio-run (exit 0)
-ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 1500 USD)
-    EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1500 USD)
-brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 1500 USD)
-    EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1500 USD)
-fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 1500 USD)
-fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 2 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 750 USD)
-    EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 750 USD)
-the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 750 USD)
-cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 750 USD)
-fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 1500 USD)
-    EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1500 USD)
-ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 1200 USD)
-    EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1200 USD)
-lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 1 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 4500 USD)
-ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 0 | 0 date(s), hourly to 2026-10-19 18:00 UTC
-portfolio updated
+ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new
+No new completed bars since the last run. Nothing changed.
 
 
 ### portfolio-status (exit 0)
