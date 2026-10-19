@@ -1,0 +1,71 @@
+run started 2026-10-19T05:55:28Z, finished 2026-10-19T05:55:56Z, ok=True
+
+### fetch (exit 0)
+XAUUSD  1127 hourly bars, last 2026-10-19 04:00 UTC close 4204.39990234375
+XAGUSD  1127 hourly bars, last 2026-10-19 04:00 UTC close 57.915000915527344
+EURUSD   515 bars, last 2026-10-16 close 1.1213151216506958
+GBPUSD   515 bars, last 2026-10-16 close 1.327316164970398
+AUDUSD   515 bars, last 2026-10-16 close 0.6918500065803528
+NZDUSD   515 bars, last 2026-10-16 close 0.5621293783187866
+USDJPY   515 bars, last 2026-10-16 close 158.14300537109375
+USDCAD   515 bars, last 2026-10-16 close 1.4193400144577026
+XAUUSD   501 bars, last 2026-10-16 close 4181.10009765625
+US500    501 bars, last 2026-10-16 close 7659.43994140625
+US100    501 bars, last 2026-10-16 close 29187.55078125
+US30     501 bars, last 2026-10-16 close 52002.41015625
+GER40    507 bars, last 2026-10-16 close 25622.609375
+UK100    507 bars, last 2026-10-16 close 10881.900390625
+EU50     500 bars, last 2026-10-16 close 6204.22998046875
+JP225    484 bars, last 2026-10-16 close 65324.2890625
+AUS200   505 bars, last 2026-10-16 close 8806.7001953125
+XAGUSD   501 bars, last 2026-10-16 close 56.994998931884766
+NVDA     501 bars, last 2026-10-16 close 214.1300048828125
+AAPL     501 bars, last 2026-10-16 close 343.4599914550781
+MSFT     501 bars, last 2026-10-16 close 529.0499877929688
+AMZN     501 bars, last 2026-10-16 close 250.0
+TSLA     501 bars, last 2026-10-16 close 354.7200012207031
+GOOGL    501 bars, last 2026-10-16 close 340.5899963378906
+META     501 bars, last 2026-10-16 close 709.3300170898438
+AVGO     501 bars, last 2026-10-16 close 328.75
+JPM      501 bars, last 2026-10-16 close 339.7200012207031
+NFLX     501 bars, last 2026-10-16 close 70.52999877929688
+LLY      501 bars, last 2026-10-16 close 1257.030029296875
+COST     501 bars, last 2026-10-16 close 989.1099853515625
+BTCUSD   729 bars, last 2026-10-17 close 81382.1484375
+ETHUSD   729 bars, last 2026-10-17 close 2399.799072265625
+saved /home/claude/fable-prop-sim/bars/all.json (30 ok, 0 failed)
+
+
+### portfolio-run (exit 0)
+ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 2 | nothing new
+lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 1 | nothing new
+No new completed bars since the last run. Nothing changed.
+
+
+### portfolio-status (exit 0)
+PORTFOLIO 16 accounts, capital 3400000, funded 0 (0), fees paid USD 13820, payouts USD 0, net P&L 0 (+0.00%), failed attempts 0
+  ftmo-200k        FTMO 2-Step Swing            x2   200000 | FTMO Challenge           a1 bal    200000 eq    200000  +0.00% | days 0/4 | pos 0 ord 2 | fees   2419 payouts       0
+  brightfunded-200k BrightFunded Classic 2-Step  x2   200000 | BrightFunded Challenge   a1 bal    200000 eq    200000  +0.00% | days 0/5 | pos 0 ord 2 | fees   2233 payouts       0
+  fintokei-200k    Fintokei ProTrader Swing     x2   200000 | Fintokei Challenge       a1 bal    200000 eq    200000  +0.00% | days 0/3 | pos 0 ord 1 | fees   2998 payouts       0
+  fundingpips-100k FundingPips 2-Step Standard  x3   100000 | FundingPips Challenge    a1 bal    100000 eq    100000  +0.00% | days 0/0 | pos 0 ord 2 | fees   1350 payouts       0
+  the5ers-100k     The5ers High Stakes (New)    x1   100000 | The5ers Challenge        a1 bal    100000 eq    100000  +0.00% | days 0/3 | pos 0 ord 1 | fees    575 payouts       0
+  cti-100k         City Traders Imperium 2-Step x2   100000 | City Traders Imperium Ch a1 bal    100000 eq    100000  +0.00% | days 0/3 | pos 0 ord 1 | fees   1098 payouts       0
+  fundednext-200k  FundedNext Stellar 2-Step (m x1   200000 | FundedNext Challenge     a1 bal    200000 eq    200000  +0.00% | days 0/5 | pos 0 ord 2 | fees   1050 payouts       0
+  ftp-200k         Funded Trading Plus 2-Step C x2   200000 | Funded Trading Plus Chal a1 bal    200000 eq    200000  +0.00% | days 0/0 | pos 0 ord 2 | fees   1098 payouts       0
+  lux-1m           Lux Trading Firm 1-Step Clas x1  1000000 | Lux Trading Firm Evaluat a1 bal   1000000 eq   1000000  +0.00% | days 0/0 | pos 0 ord 1 | fees    999 payouts       0
+FTMO Challenge | attempt 1 | balance 200000.00 | equity 200000.00 (+0.00%) | day +0.00
+ORDER O1 long NVDA at next open, stop 17.91 away, risk 1500, dip score 96
+ORDER O2 long AMZN at next open, stop 17.85 away, risk 1500, dip score 91
+EVENT 2026-10-16 order O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 1500 USD)
+EVENT 2026-10-16 order O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1500 USD)
+
+
+### portfolio-export (exit 0)
+exported focus account ftmo-200k plus portfolio (16 accounts, 3400000 capital) to /home/claude/fable-prop-sim/out

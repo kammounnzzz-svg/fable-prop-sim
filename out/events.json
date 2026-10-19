@@ -1,0 +1,14 @@
+[
+ {
+  "date": "2026-10-16",
+  "kind": "order",
+  "text": "O2 queued: long AMZN at next open, stop 17.85 away (dip, score 91, risk 1500 USD)",
+  "n": 2
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "order",
+  "text": "O1 queued: long NVDA at next open, stop 17.91 away (dip, score 96, risk 1500 USD)",
+  "n": 1
+ }
+]

@@ -1,0 +1,18 @@
+[
+ {
+  "asOf": "2026-10-19T05:55:56Z",
+  "accounts": 16,
+  "firms": 9,
+  "capital": 3400000.0,
+  "feesPaidUSD": 13820.48,
+  "feesPaidAUD": 19970.59,
+  "payoutsUSD": 0.0,
+  "payoutsAUD": 0.0,
+  "netPnlUSD": 0.0,
+  "netPct": 0.0,
+  "fundedAccounts": 0,
+  "fundedCapital": 0.0,
+  "attemptsFailed": 0,
+  "equity": 3400000.0
+ }
+]

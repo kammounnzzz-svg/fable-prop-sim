@@ -1,0 +1,51 @@
+name: Prop portfolio simulation (paper trading)
+
+# Runs the simulation engine on a fixed schedule: fetch prices, process every account's
+# rulebook, export the dashboard datasets, and commit the new state back to this repository.
+# No broker, no real orders, no money - a paper-trading simulation only.
+on:
+  schedule:
+    - cron: "23 */3 * * 1-6"   # every 3 hours Mon-Sat at :23 UTC (00:23 UTC is the daily-close run)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sim-run
+  cancel-in-progress: false
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run the simulation (fetch bars, run every account, export)
+        run: python3 scripts/run_sim.py
+
+      - name: Commit the new state and exports
+        if: always()
+        run: |
+          git config user.name "fable-prop-sim bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state out
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "sim run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push failed (attempt $attempt), rebasing on the remote and retrying"
+            git pull --rebase --autostash || true
+            sleep 10
+          done
+          echo "could not push after 3 attempts" >&2
+          exit 1
