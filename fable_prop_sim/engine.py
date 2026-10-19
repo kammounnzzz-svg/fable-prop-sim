@@ -1555,10 +1555,11 @@ def cmd_portfolio_backtest(a):
     data = load_json(os.path.join(a.bars, "all.json")); allbars = data["bars"]
     hourly = load_hourly_bars(a.bars) if not a.no_hourly else {}
     print("%-16s %-30s %8s | %s" % ("account", "firm/program", "size", "result"))
+    results = []
     for acct in manifest["accounts"]:
         if a.only and acct["id"] not in a.only.split(","):
             continue
-        cfg = account_config(acct); state = new_state(cfg)
+        cfg = account_config(acct); state = new_state(cfg); start_in_funded(state, acct)
         if hourly:
             alld = sorted(set(b["d"] for bars in allbars.values() for b in bars if b["d"] >= a.start and (a.end is None or b["d"] <= a.end)))
             for d in alld:
@@ -1573,6 +1574,23 @@ def cmd_portfolio_backtest(a):
         print("%-16s %-30s %8.0f | now %-12s a%d bal %9.0f | trades %3d win %4.0f%% PF %4s net %+8.0f | passed %d (funded %s) failed %d | paid %7.0f | worst day %+6.0f low %8.0f" % (
             acct["id"], (acct.get("firm", "") + " " + acct.get("program", ""))[:30], cfg["initial"], acc["phase"], acc["attempt"], acc["balance"], st.get("n", 0), st.get("winRatePct", 0) or 0, st.get("profitFactor"), st.get("netUSD", 0),
             len(passed), fund[0]["end"] if fund else "-", len(failed), paid, worst_day, low))
+        # equity curve stats for the JSON report: max drawdown of equity, monthly P&L, time in each phase
+        eq = state["equity"]; peak = cfg["initial"]; mdd = 0.0
+        for pt in eq:
+            peak = max(peak, pt["equity"]); mdd = min(mdd, pt["equity"] - peak)
+        monthly = {}
+        for pt in eq:
+            monthly[pt["date"][:7]] = monthly.get(pt["date"][:7], 0.0) + pt["dayPnl"]
+        funded_trades = [t for t in state["trades"] if t.get("phase") == "funded"]
+        eval_trades = [t for t in state["trades"] if t.get("phase") != "funded"]
+        results.append({"id": acct["id"], "track": acct.get("track", "funded-start" if acct.get("startPhase") == "funded" else "challenge"), "firm": acct.get("firm", ""), "program": acct.get("program", ""),
+                        "copies": acct.get("copies", 1), "initial": cfg["initial"], "start": a.start, "end": a.end, "phaseNow": acc["phase"], "attemptNow": acc["attempt"], "balanceNow": r2(acc["balance"]),
+                        "trades": st, "evalTrades": stats(eval_trades), "fundedTrades": stats(funded_trades), "passed": passed, "failed": failed, "fundedOn": fund[0]["end"] if fund else None,
+                        "paidToTrader": r2(paid), "payouts": acc["payouts"], "worstDay": r2(worst_day), "lowestWorstCaseEquity": r2(low), "maxDrawdownUSD": r2(mdd),
+                        "monthlyPnl": {k: r2(v) for k, v in sorted(monthly.items())}, "feesPaid": r2(acc.get("feesPaidEUR", 0.0)), "sessions": len(eq)})
+    if getattr(a, "json", None):
+        save_json(a.json, {"generatedAt": iso(now_utc()), "manifest": a.manifest, "bars": a.bars, "start": a.start, "end": a.end, "hourly": bool(hourly), "accounts": results})
+        print("saved", a.json)
 
 def latest_closes(bars_dir):
     data = load_json(os.path.join(bars_dir, "all.json"))
@@ -1728,7 +1746,7 @@ def main():
     p = sub.add_parser("portfolio-status"); p.add_argument("--states", default="portfolio_state.json"); p.add_argument("--bars", default="bars"); p.add_argument("--account"); p.set_defaults(fn=cmd_portfolio_status)
     p = sub.add_parser("portfolio-journal"); p.add_argument("--states", default="portfolio_state.json"); p.add_argument("--title", required=True); p.add_argument("--body", required=True); p.set_defaults(fn=cmd_portfolio_journal)
     p = sub.add_parser("portfolio-cancel"); p.add_argument("--states", default="portfolio_state.json"); p.add_argument("--symbol", required=True); p.add_argument("--side", default="long"); p.add_argument("--note", required=True); p.set_defaults(fn=cmd_portfolio_cancel)
-    p = sub.add_parser("portfolio-backtest"); p.add_argument("--manifest", required=True); p.add_argument("--bars", default="bars"); p.add_argument("--start", required=True); p.add_argument("--end"); p.add_argument("--no-hourly", action="store_true"); p.add_argument("--only"); p.set_defaults(fn=cmd_portfolio_backtest)
+    p = sub.add_parser("portfolio-backtest"); p.add_argument("--manifest", required=True); p.add_argument("--bars", default="bars"); p.add_argument("--start", required=True); p.add_argument("--end"); p.add_argument("--no-hourly", action="store_true"); p.add_argument("--only"); p.add_argument("--json"); p.set_defaults(fn=cmd_portfolio_backtest)
     a = ap.parse_args()
     rc = a.fn(a)
     sys.exit(rc or 0)
