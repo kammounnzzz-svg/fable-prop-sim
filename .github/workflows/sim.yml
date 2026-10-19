@@ -5,7 +5,10 @@ name: Prop portfolio simulation (paper trading)
 # No broker, no real orders, no money - a paper-trading simulation only.
 on:
   schedule:
-    - cron: "23 */3 * * 1-6"   # every 3 hours Mon-Sat at :23 UTC (00:23 UTC is the daily-close run)
+    # every 3 hours Mon-Sat at :23 UTC (00:23 UTC is the daily-close run); the :41 line is a second chance
+    # in the same window because GitHub sometimes delays or drops a scheduled run - a duplicate run is harmless
+    - cron: "23 */3 * * 1-6"
+    - cron: "41 */3 * * 1-6"
   workflow_dispatch: {}
 
 permissions:
