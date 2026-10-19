@@ -66,6 +66,7 @@ def main():
         "baseCommit": os.environ.get("GITHUB_SHA", ""), "runner": "github-actions" if os.environ.get("GITHUB_ACTIONS") else "manual",
     }
     try:
+        sys.path.insert(0, ROOT)
         from fable_prop_sim import __version__  # noqa
         meta["engineVersion"] = __version__
     except Exception:  # noqa
