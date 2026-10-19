@@ -12,7 +12,7 @@ Paper-trading simulation of a portfolio of prop-firm style accounts (FTMO-type r
 ## Layout
 
 - `fable_prop_sim/engine.py` — the engine (standard library only). Commands: `fetch`, `portfolio-init`, `portfolio-run`, `portfolio-status`, `portfolio-export`, `portfolio-journal`, `portfolio-cancel`, `portfolio-backtest`, plus the single-account `init/run/status/export/backtest`.
-- `state/portfolio_state.json` — the live state pack: `manifest` (accounts, copies, rulebook overrides, focus account) + one engine state per account. The manifest is the source of truth for the rules; every run rebuilds each account's config from it.
+- `state/portfolio_state.json` — the live state pack: `manifest` (accounts, copies, rulebook overrides, focus account, tracks) + one engine state per account. The manifest is the source of truth for the rules; every run rebuilds each account's config from it. Two tracks: `challenge` (track A, bought as evaluations that the engine passes) and `funded-start` (track B, the same programmes assumed passed by the trader and handed over funded; `scripts/add_funded_track.py` created them), so the exports show the engine before and after the evaluation side by side.
 - `out/` — dashboard datasets for the focus account (account, positions, orders, trades, equity, events, history, watchlist, journal) plus `portfolio.json` (one row per account), `psummary.json` (portfolio totals), `run_meta.json`, `run_log.txt`, `run_history.json`.
 - `portfolio.example.json` — an example manifest.
 

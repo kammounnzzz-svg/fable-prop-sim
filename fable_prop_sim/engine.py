@@ -66,7 +66,7 @@ INSTRUMENTS = {
 SESSION_HOURS = {"fx": 24.0, "gc": 17.0, "ny_index": 6.75, "ny_equity": 6.75, "xetra": 8.75, "lse": 8.75, "tse": 6.75, "asx": 6.25, "crypto": 24.0}
 BENCHMARK_RATE = 0.040   # USD overnight benchmark used for CFD financing (approximation)
 
-CONFIG_VERSION = 6   # bump when DEFAULT_CONFIG changes; a running state is upgraded to it on the next run
+CONFIG_VERSION = 7   # bump when DEFAULT_CONFIG changes; a running state is upgraded to it on the next run
 
 DEFAULT_CONFIG = {
     "configVersion": CONFIG_VERSION,
@@ -89,8 +89,8 @@ DEFAULT_CONFIG = {
     "riskScale": 1.0,                 # multiplies every risk % (0.8 for firms with an 8% max loss)
     "rewardSplitPct": 80.0,
     "rewardWaitDays": 14,
-    "fundedLadder": {"enabled": True, "cushionPct": [0.0, 2.0, 4.0], "riskPct": [0.5, 0.75, 1.0], "keepBufferPct": 4.0},   # funded: risk steps up with closed profit kept on the account
-    "riskPct": {"challenge": 1.00, "verification": 0.75, "funded": 0.50},   # % of initial balance per trade
+    "fundedLadder": {"enabled": True, "cushionPct": [0.0, 2.0, 4.0], "riskPct": [0.75, 1.125, 1.5], "keepBufferPct": 4.0},   # funded: risk steps up with closed profit kept on the account (v7: 0.75 base, the knee of the steady-state frontier)
+    "riskPct": {"challenge": 1.00, "verification": 0.75, "funded": 0.75},   # % of initial balance per trade
     "maxOpenRiskPct": 3.75,           # daily components' combined open risk; the intraday leg has its own reserved slice (worst case 4.75% < 5%)
     "maxPositions": 6,
     "maxNewPerRun": 2,
@@ -1392,6 +1392,13 @@ def load_pack(path):
 def pack_accounts(pack):
     return [a for a in pack["manifest"]["accounts"] if a.get("enabled", True)]
 
+def start_in_funded(state, acct):
+    """Manifest `startPhase: "funded"`: the account begins in the funded stage (the trader passed the evaluation by hand); the entry fee still counts."""
+    if acct.get("startPhase") == "funded":
+        state["account"]["phase"] = "funded"
+        record_event(state, now_utc().date().isoformat(), "config", "starts in the funded stage: evaluation passed by the trader, the engine only has to keep the account alive and paid")
+    return state
+
 def cmd_portfolio_init(a):
     manifest = load_json(a.manifest)
     data = load_json(os.path.join(a.bars, "all.json"))
@@ -1400,6 +1407,7 @@ def cmd_portfolio_init(a):
     for acct in manifest["accounts"]:
         cfg = account_config(acct)
         state = new_state(cfg)
+        start_in_funded(state, acct)
         for sym, bars in data["bars"].items():
             if len(bars) >= 2:
                 state["meta"]["lastProcessed"][sym] = bars[-2]["d"]
@@ -1447,7 +1455,11 @@ def acc_last_hourly(state):
     return state["account"].get("lastHourlyBar") or "-"
 
 def portfolio_rows(pack, closes):
-    rows = []; tot = {"accounts": 0, "capital": 0.0, "fees": 0.0, "payouts": 0.0, "netPnl": 0.0, "funded": 0, "fundedCapital": 0.0, "failed": 0, "equity": 0.0}
+    """Rows (one per manifest account) and summaries: one per track in manifest order, plus an "all" row when there is more than one track.
+    A track groups accounts that would be held together: "challenge" (bought as evaluations) or "funded-start" (passed by the trader, handed over funded)."""
+    rows = []
+    tracks = {}
+    def new_tot(): return {"accounts": 0, "capital": 0.0, "fees": 0.0, "payouts": 0.0, "netPnl": 0.0, "funded": 0, "fundedCapital": 0.0, "failed": 0, "equity": 0.0, "firms": set()}
     for acct in pack_accounts(pack):
         state = pack["states"].get(acct["id"])
         if not state:
@@ -1455,7 +1467,9 @@ def portfolio_rows(pack, closes):
         r = account_row(state); cfg = state["config"]; copies = int(acct.get("copies", 1))
         fx = acct.get("feeToUSD", 1.0)
         fees_usd = r["feesPaid"] * fx * copies
-        rows.append({"id": acct["id"], "firm": acct.get("firm", ""), "program": acct.get("program", ""), "copies": copies, "size": cfg["initial"], "capital": cfg["initial"] * copies,
+        track = acct.get("track", "funded-start" if acct.get("startPhase") == "funded" else "challenge")
+        tot = tracks.setdefault(track, new_tot())
+        rows.append({"id": acct["id"], "track": track, "firm": acct.get("firm", ""), "program": acct.get("program", ""), "copies": copies, "size": cfg["initial"], "capital": cfg["initial"] * copies,
                      "rules": "%s / daily %s / max %s%% %s" % ("+".join("%g%%" % t for t in phase_targets(cfg)), "none" if cfg.get("maxDailyLossPct") is None else "%g%%" % cfg["maxDailyLossPct"], cfg["maxLossPct"], cfg.get("maxLossBasis", "equity")),
                      "phase": r["phase"], "attempt": r["attempt"], "balance": r["balance"], "equity": r["equity"], "netPct": r["netPct"], "dayPnl": r["dayPnl"],
                      "toTarget": r["toTarget"], "progressPct": r["progressPct"], "tradingDays": r["tradingDays"], "minTradingDays": r["minTradingDays"],
@@ -1463,33 +1477,45 @@ def portfolio_rows(pack, closes):
                      "feesPaid": r2(fees_usd), "payouts": r2(r["payoutsTotal"] * copies), "attemptsFailed": r["attemptsFailed"], "phasesPassed": r["phasesPassed"],
                      "status": acct.get("status", "simulated"), "note": acct.get("note", "")})
         tot["accounts"] += copies; tot["capital"] += cfg["initial"] * copies; tot["fees"] += fees_usd; tot["payouts"] += r["payoutsTotal"] * copies
-        tot["netPnl"] += (r["equity"] - cfg["initial"]) * copies; tot["equity"] += r["equity"] * copies
+        tot["netPnl"] += (r["equity"] - cfg["initial"]) * copies; tot["equity"] += r["equity"] * copies; tot["firms"].add(acct.get("firm", ""))
         if r["phaseKey"] == "funded":
             tot["funded"] += copies; tot["fundedCapital"] += cfg["initial"] * copies
         tot["failed"] += r["attemptsFailed"] * copies
-    summary = {"asOf": iso(now_utc()), "accounts": tot["accounts"], "firms": len(set(a.get("firm", "") for a in pack_accounts(pack))), "capital": r2(tot["capital"]), "feesPaidUSD": r2(tot["fees"]), "feesPaidAUD": r2(tot["fees"] * pack["manifest"].get("usdToAud", 1.445)),
-               "payoutsUSD": r2(tot["payouts"]), "payoutsAUD": r2(tot["payouts"] * pack["manifest"].get("usdToAud", 1.445)), "netPnlUSD": r2(tot["netPnl"]), "netPct": round(tot["netPnl"] / tot["capital"] * 100, 2) if tot["capital"] else 0,
-               "fundedAccounts": tot["funded"], "fundedCapital": r2(tot["fundedCapital"]), "attemptsFailed": tot["failed"], "equity": r2(tot["equity"])}
-    return rows, summary
+    aud = pack["manifest"].get("usdToAud", 1.445)
+    labels = {"challenge": "A: bought as evaluations, the engine passes them", "funded-start": "B: passed by the trader, handed over funded"}
+    def summarize(track, tot):
+        return {"asOf": iso(now_utc()), "track": track, "label": labels.get(track, track), "accounts": tot["accounts"], "firms": len(tot["firms"]), "capital": r2(tot["capital"]), "feesPaidUSD": r2(tot["fees"]), "feesPaidAUD": r2(tot["fees"] * aud),
+                "payoutsUSD": r2(tot["payouts"]), "payoutsAUD": r2(tot["payouts"] * aud), "netPnlUSD": r2(tot["netPnl"]), "netPct": round(tot["netPnl"] / tot["capital"] * 100, 2) if tot["capital"] else 0,
+                "fundedAccounts": tot["funded"], "fundedCapital": r2(tot["fundedCapital"]), "attemptsFailed": tot["failed"], "equity": r2(tot["equity"])}
+    summaries = [summarize(t, tot) for t, tot in tracks.items()]
+    if len(summaries) > 1:
+        allt = new_tot()
+        for tot in tracks.values():
+            for k in ("accounts", "capital", "fees", "payouts", "netPnl", "funded", "fundedCapital", "failed", "equity"):
+                allt[k] += tot[k]
+            allt["firms"] |= tot["firms"]
+        summaries.append(summarize("all", allt))
+    return rows, summaries
 
 def cmd_portfolio_export(a):
     pack = load_pack(a.states)
     closes = latest_closes(a.bars) if a.bars else {}
     focus = a.focus or pack["manifest"].get("focus") or pack_accounts(pack)[0]["id"]
     export_state(pack["states"][focus], a.bars, a.out)
-    rows, summary = portfolio_rows(pack, closes)
+    rows, summaries = portfolio_rows(pack, closes)
     save_json(os.path.join(a.out, "portfolio.json"), rows_or_placeholder(rows, "id"))
-    save_json(os.path.join(a.out, "psummary.json"), [summary])
-    print("exported focus account %s plus portfolio (%d accounts, %.0f capital) to %s" % (focus, summary["accounts"], summary["capital"], a.out))
+    save_json(os.path.join(a.out, "psummary.json"), summaries)
+    print("exported focus account %s plus portfolio (%s) to %s" % (focus, "; ".join("%s: %d accounts, %.0f capital" % (s["track"], s["accounts"], s["capital"]) for s in summaries), a.out))
 
 def cmd_portfolio_status(a):
     pack = load_pack(a.states)
-    rows, summary = portfolio_rows(pack, {})
-    print("PORTFOLIO %d accounts, capital %.0f, funded %d (%.0f), fees paid USD %.0f, payouts USD %.0f, net P&L %.0f (%+.2f%%), failed attempts %d" % (
-        summary["accounts"], summary["capital"], summary["fundedAccounts"], summary["fundedCapital"], summary["feesPaidUSD"], summary["payoutsUSD"], summary["netPnlUSD"], summary["netPct"], summary["attemptsFailed"]))
+    rows, summaries = portfolio_rows(pack, {})
+    for summary in summaries:
+        print("PORTFOLIO track %-12s %d accounts, capital %.0f, funded %d (%.0f), fees paid USD %.0f, payouts USD %.0f, net P&L %.0f (%+.2f%%), failed attempts %d" % (
+            summary["track"], summary["accounts"], summary["capital"], summary["fundedAccounts"], summary["fundedCapital"], summary["feesPaidUSD"], summary["payoutsUSD"], summary["netPnlUSD"], summary["netPct"], summary["attemptsFailed"]))
     for r in rows:
-        print("  %-16s %-28s x%d %8.0f | %-24s a%d bal %9.0f eq %9.0f %+6.2f%% | days %d/%d | pos %d ord %d | fees %6.0f payouts %7.0f" % (
-            r["id"], (r["firm"] + " " + r["program"])[:28], r["copies"], r["size"], r["phase"][:24], r["attempt"], r["balance"], r["equity"], r["netPct"], r["tradingDays"], r["minTradingDays"], r["openPositions"], r["pendingOrders"], r["feesPaid"], r["payouts"]))
+        print("  %-13s %-18s %-28s x%d %8.0f | %-24s a%d bal %9.0f eq %9.0f %+6.2f%% | days %d/%d | pos %d ord %d | fees %6.0f payouts %7.0f" % (
+            r["track"], r["id"], (r["firm"] + " " + r["program"])[:28], r["copies"], r["size"], r["phase"][:24], r["attempt"], r["balance"], r["equity"], r["netPct"], r["tradingDays"], r["minTradingDays"], r["openPositions"], r["pendingOrders"], r["feesPaid"], r["payouts"]))
     if a.account:
         st = pack["states"][a.account]
         cmd_status_state(st, a.bars)
