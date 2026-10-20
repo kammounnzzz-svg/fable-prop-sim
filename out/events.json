@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-10-20",
+  "kind": "order",
+  "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)",
+  "n": 5
+ },
+ {
   "date": "2026-10-19",
   "kind": "open",
   "text": "T4 long 84 sh AMZN at 255.39, stop 237.54, risk 1499 USD (dip)",

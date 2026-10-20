@@ -1,6 +1,15 @@
 [
  {
-  "id": "none",
-  "empty": true
+  "id": "O5",
+  "symbol": "JP225",
+  "side": "long",
+  "setup": "dip",
+  "signalClose": 64075.421875,
+  "stopDist": 4191.0,
+  "riskUSD": 1500.0,
+  "score": 86.9,
+  "createdDate": "2026-10-20",
+  "fills": "next open",
+  "reason": "long JP225: RSI(2) 13 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
  }
 ]
