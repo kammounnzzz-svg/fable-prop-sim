@@ -1,6 +1,6 @@
 {
- "startedAt": "2026-10-20T07:09:02Z",
- "finishedAt": "2026-10-20T07:09:30Z",
+ "startedAt": "2026-10-20T07:21:11Z",
+ "finishedAt": "2026-10-20T07:21:37Z",
  "ok": true,
  "stage": "done",
  "error": "",
@@ -11,116 +11,7 @@
   "XAUUSD"
  ],
  "dailySymbols": 30,
- "events": [
-  {
-   "account": "ftmo-200k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)"
-  },
-  {
-   "account": "brightfunded-200k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)"
-  },
-  {
-   "account": "fintokei-200k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)"
-  },
-  {
-   "account": "fundingpips-100k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 750 USD)"
-  },
-  {
-   "account": "the5ers-100k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 750 USD)"
-  },
-  {
-   "account": "cti-100k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 750 USD)"
-  },
-  {
-   "account": "fundednext-200k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)"
-  },
-  {
-   "account": "ftp-200k",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1200 USD)"
-  },
-  {
-   "account": "lux-1m",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 4500 USD)"
-  },
-  {
-   "account": "ftmo-200k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O2 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1125 USD)"
-  },
-  {
-   "account": "brightfunded-200k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O2 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1125 USD)"
-  },
-  {
-   "account": "fintokei-200k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1125 USD)"
-  },
-  {
-   "account": "fundingpips-100k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O2 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 562 USD)"
-  },
-  {
-   "account": "the5ers-100k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 562 USD)"
-  },
-  {
-   "account": "cti-100k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 562 USD)"
-  },
-  {
-   "account": "fundednext-200k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O2 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1125 USD)"
-  },
-  {
-   "account": "ftp-200k-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O2 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 900 USD)"
-  },
-  {
-   "account": "lux-1m-funded",
-   "date": "2026-10-20",
-   "kind": "order",
-   "text": "O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 3375 USD)"
-  }
- ],
+ "events": [],
  "accounts": [
   "ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     199999 eq     200512 (+0.26%) day     +513 | pos 2 ord 1 | 1 date(s), hourly to 2026-10-20 06:00 UTC",
   "brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     199999 eq     200512 (+0.26%) day     +513 | pos 2 ord 1 | 1 date(s), hourly to 2026-10-20 06:00 UTC",
@@ -143,16 +34,16 @@
  ],
  "passFail": [],
  "focus": "ftmo-200k",
- "runId": "39384647473",
- "runNumber": "20",
- "baseCommit": "e39186ea929f044ab5f97c6389723ca93ae7dd11",
+ "runId": "39385934861",
+ "runNumber": "21",
+ "baseCommit": "a8cfff08edd1612dbb267afa1c081102af7d718b",
  "runner": "github-actions",
  "engineVersion": "0.7.2",
  "engineSha256": "73df2450bbf497dbba6823e9c1b3e3f15760e6935302bbb58254013cc2b3504b",
- "stateSha256Before": "00966f59817cdbc20d392470d08ceceae9c43c0c95bb8faed7090e2a22397173",
+ "stateSha256Before": "33be92b83de84eb8c72600fca07d3035e56ab174a02adc40643e9cd0f9d1dc67",
  "newTrades": [],
  "phaseChanges": [],
- "lastDate": "2026-10-20",
+ "lastDate": "2026-10-19",
  "lastHourlyBar": "2026-10-20 06:00 UTC",
- "stateSha256": "33be92b83de84eb8c72600fca07d3035e56ab174a02adc40643e9cd0f9d1dc67"
+ "stateSha256": "1a301c2f877d8907ef343ae7a44d1995d42fa21a314eb2e77e91f72a35fce58c"
 }
