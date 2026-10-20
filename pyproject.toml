@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fable-prop-sim"
-version = "0.7.1"
+version = "0.7.2"
 description = "Paper-trading simulation engine for prop-firm style accounts (no broker, no real orders)"
 requires-python = ">=3.9"
 

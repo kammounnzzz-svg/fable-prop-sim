@@ -775,27 +775,35 @@ def process(state, allbars, mode="live", no_orders=False, start=None, end=None, 
     cfg, acc = state["config"], state["account"]
     ind, idx = cached_indicators(allbars, cfg)
     lastp = state["meta"]["lastProcessed"]
-    newdates = set(); last_new = {}
+    newdates = set(); last_new = {}; lp_by_sym = {}
     for sym, bars in allbars.items():
         lp = lastp.get(sym) or (start and (pdate(start) - dt.timedelta(days=1)).isoformat()) or bars[-1]["d"]
+        lp_by_sym[sym] = lp
         for b in bars:
             if b["d"] > lp and (end is None or b["d"] <= end):
                 newdates.add(b["d"]); last_new[sym] = b["d"]
     dates = sorted(newdates)
     closes = {}
+    known = state["meta"].setdefault("lastCloses", {})   # {sym: {"d": date, "c": close}} of the last bar each symbol was processed on
     for sym, bars in allbars.items():         # latest known closes up to the first new date
         prior = [b for b in bars if not dates or b["d"] < dates[0]]
         if prior:
             closes[sym] = prior[-1]["c"]
+            k = known.get(sym)
+            if k and k["d"] > prior[-1]["d"]:
+                closes[sym] = k["c"]           # the feed is missing a session it has already given us (Yahoo drops the latest bar for hours at times): keep the newer mark
     log = []
     for d in dates:
         day = {"date": d, "realized": 0.0, "realizedLoss": 0.0, "fills": [], "closes": [], "adverse": 0.0, "orders": []}
         day_start = acc["balance"]
         if acc["phaseStart"] is None:
             acc["phaseStart"] = d
-        traded_syms = [sym for sym in allbars if d in idx[sym]]
+        # only symbols that have NOT yet been processed on this date: when one symbol's bar for a past date arrives late
+        # (Yahoo delivers some sessions hours later), the date is revisited for that symbol alone, never re-run for the others
+        traded_syms = [sym for sym in allbars if d in idx[sym] and d > lp_by_sym.get(sym, "")]
         for sym in traded_syms:
             closes[sym] = allbars[sym][idx[sym][d]]["c"]
+            known[sym] = {"d": d, "c": closes[sym]}
         for sym in traded_syms:
             i = idx[sym][d]; bar = allbars[sym][i]; atr = ind[sym]["atr"][i]
             conv = conv_rate(sym, closes)
@@ -1346,7 +1354,7 @@ def rows_or_placeholder(rows, key):
     return rows if rows else [{key: "none", "empty": True}]
 
 def export_state(state, bars_dir, out_dir):
-    closes = latest_closes(bars_dir) if bars_dir else {}
+    closes = latest_closes(bars_dir, state) if bars_dir else {}
     os.makedirs(out_dir, exist_ok=True)
     save_json(os.path.join(out_dir, "account.json"), [account_row(state)])
     save_json(os.path.join(out_dir, "positions.json"), rows_or_placeholder(positions_rows(state, closes) if closes else [], "id"))
@@ -1499,8 +1507,8 @@ def portfolio_rows(pack, closes):
 
 def cmd_portfolio_export(a):
     pack = load_pack(a.states)
-    closes = latest_closes(a.bars) if a.bars else {}
     focus = a.focus or pack["manifest"].get("focus") or pack_accounts(pack)[0]["id"]
+    closes = latest_closes(a.bars, pack["states"][focus]) if a.bars else {}
     export_state(pack["states"][focus], a.bars, a.out)
     rows, summaries = portfolio_rows(pack, closes)
     save_json(os.path.join(a.out, "portfolio.json"), rows_or_placeholder(rows, "id"))
@@ -1523,7 +1531,7 @@ def cmd_portfolio_status(a):
 def cmd_status_state(state, bars_dir):
     row = account_row(state)
     print("%s | attempt %d | balance %.2f | equity %.2f (%+.2f%%) | day %+.2f" % (row["phase"], row["attempt"], row["balance"], row["equity"], row["netPct"], row["dayPnl"]))
-    closes = latest_closes(bars_dir) if bars_dir else {}
+    closes = latest_closes(bars_dir, state) if bars_dir else {}
     for p in positions_rows(state, closes) if closes else []:
         print("POS %s %s %s %s entry %s now %s stop %s pnl %+.2f (%+.2fR) %s %s" % (p["id"], p["side"], p["size"], p["symbol"], p["entry"], p["price"], p["stop"], p["pnlUSD"], p["r"], p["stage"], p["exitPlan"]))
     for o in state["orders"]:
@@ -1592,9 +1600,19 @@ def cmd_portfolio_backtest(a):
         save_json(a.json, {"generatedAt": iso(now_utc()), "manifest": a.manifest, "bars": a.bars, "start": a.start, "end": a.end, "hourly": bool(hourly), "accounts": results})
         print("saved", a.json)
 
-def latest_closes(bars_dir):
+def latest_closes(bars_dir, state=None):
+    """Last fetched close per symbol; when a state is given, a newer close the engine already processed wins over a feed that dropped that session."""
     data = load_json(os.path.join(bars_dir, "all.json"))
-    return {sym: bars[-1]["c"] for sym, bars in data["bars"].items() if bars}
+    out = {}
+    known = (state or {}).get("meta", {}).get("lastCloses", {}) if state else {}
+    for sym, bars in data["bars"].items():
+        if not bars:
+            continue
+        out[sym] = bars[-1]["c"]
+        k = known.get(sym)
+        if k and k["d"] > bars[-1]["d"]:
+            out[sym] = k["c"]
+    return out
 
 def cmd_status(a):
     state = load_json(a.state)
