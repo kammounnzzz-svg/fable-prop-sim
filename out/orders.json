@@ -11,5 +11,18 @@
   "createdDate": "2026-10-20",
   "fills": "next open",
   "reason": "long JP225: RSI(2) 13 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+ },
+ {
+  "id": "O6",
+  "symbol": "META",
+  "side": "long",
+  "setup": "dip",
+  "signalClose": 694.25,
+  "stopDist": 73.73,
+  "riskUSD": 1500.0,
+  "score": 95.6,
+  "createdDate": "2026-10-20",
+  "fills": "next open",
+  "reason": "long META: RSI(2) 4 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
  }
 ]

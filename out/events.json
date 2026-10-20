@@ -2,6 +2,18 @@
  {
   "date": "2026-10-20",
   "kind": "order",
+  "text": "O6 queued: long META at next open, stop 73.73 away (dip, score 96, risk 1500 USD)",
+  "n": 7
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "close",
+  "text": "T4 long AMZN closed at 263.98 (mean reached (close back through the 5-day average)): +716.47 USD, +0.48R",
+  "n": 6
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "order",
   "text": "O5 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)",
   "n": 5
  },

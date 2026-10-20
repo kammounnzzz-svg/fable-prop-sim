@@ -1,6 +1,26 @@
 [
  {
-  "id": "none",
-  "empty": true
+  "id": "T4",
+  "symbol": "AMZN",
+  "side": "long",
+  "units": 84,
+  "lots": 84,
+  "entry": 255.3910643371582,
+  "exit": 263.97719277954104,
+  "entryDate": "2026-10-19",
+  "exitDate": "2026-10-20",
+  "bars": 2,
+  "grossUSD": 721.23,
+  "swapUSD": -3.93,
+  "commUSD": 0.84,
+  "netUSD": 716.47,
+  "r": 0.48,
+  "riskUSD": 1499.32,
+  "setup": "dip",
+  "reason": "mean reached (close back through the 5-day average)",
+  "thesis": "long AMZN: RSI(2) 9 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+  "phase": "challenge",
+  "attempt": 1,
+  "strat": "mr"
  }
 ]
