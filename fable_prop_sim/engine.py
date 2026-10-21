@@ -46,6 +46,8 @@ INSTRUMENTS = {
     "EU50": dict(y="^STOXX50E", cls="index", quote="EUR", usd=None, lot=1, pip=0.1, dp=1, spread=1.5, comm=0.0, swap=0.025, margin=20, group="eu_index", session="xetra"),
     "JP225": dict(y="^N225", cls="index", quote="JPY", usd=None, lot=1, pip=1, dp=0, spread=8.0, comm=0.0, swap=0.025, margin=20, group="asia_index", session="tse"),
     "AUS200": dict(y="^AXJO", cls="index", quote="AUD", usd=None, lot=1, pip=0.1, dp=1, spread=1.5, comm=0.0, swap=0.025, margin=20, group="asia_index", session="asx"),
+    "USOIL": dict(y="CL=F", cls="energy", quote="USD", usd="quote", lot=1000, pip=0.01, dp=2, spread=0.03, comm=0.0, swap=0.03, margin=10, group="energy", session="cl", note="WTI front-month futures (CL=F) used as the spot CFD proxy"),
+    "UKOIL": dict(y="BZ=F", cls="energy", quote="USD", usd="quote", lot=1000, pip=0.01, dp=2, spread=0.03, comm=0.0, swap=0.03, margin=10, group="energy", session="cl", note="Brent front-month futures (BZ=F) used as the spot CFD proxy"),
     "XAGUSD": dict(y="SI=F", cls="metal", quote="USD", usd="quote", lot=5000, pip=0.001, dp=3, spread=0.025, comm=0.0, swap=0.025, margin=20, group="metal", session="gc", note="silver futures (SI=F) used as the spot proxy"),
     "NVDA": dict(y="NVDA", cls="stock", quote="USD", usd=None, lot=1, pip=0.01, dp=2, spread=0.0004, comm=0.005, swap=0.025, margin=5, group="stock", session="ny_equity"),
     "AAPL": dict(y="AAPL", cls="stock", quote="USD", usd=None, lot=1, pip=0.01, dp=2, spread=0.0003, comm=0.005, swap=0.025, margin=5, group="stock", session="ny_equity"),
@@ -63,10 +65,10 @@ INSTRUMENTS = {
     "BTCUSD": dict(y="BTC-USD", cls="crypto", quote="USD", usd=None, lot=1, pip=1.0, dp=1, spread=0.0008, comm=0.0, swap=0.16, margin=50, group="crypto", session="crypto"),
     "ETHUSD": dict(y="ETH-USD", cls="crypto", quote="USD", usd=None, lot=1, pip=0.1, dp=2, spread=0.0012, comm=0.0, swap=0.16, margin=50, group="crypto", session="crypto"),
 }
-SESSION_HOURS = {"fx": 24.0, "gc": 17.0, "ny_index": 6.75, "ny_equity": 6.75, "xetra": 8.75, "lse": 8.75, "tse": 6.75, "asx": 6.25, "crypto": 24.0}
+SESSION_HOURS = {"fx": 24.0, "gc": 17.0, "cl": 23.0, "ny_index": 6.75, "ny_equity": 6.75, "xetra": 8.75, "lse": 8.75, "tse": 6.75, "asx": 6.25, "crypto": 24.0}
 BENCHMARK_RATE = 0.040   # USD overnight benchmark used for CFD financing (approximation)
 
-CONFIG_VERSION = 7   # bump when DEFAULT_CONFIG changes; a running state is upgraded to it on the next run
+CONFIG_VERSION = 8   # bump when DEFAULT_CONFIG changes; a running state is upgraded to it on the next run
 
 DEFAULT_CONFIG = {
     "configVersion": CONFIG_VERSION,
@@ -90,11 +92,11 @@ DEFAULT_CONFIG = {
     "rewardSplitPct": 80.0,
     "rewardWaitDays": 14,
     "fundedLadder": {"enabled": True, "cushionPct": [0.0, 2.0, 4.0], "riskPct": [0.75, 1.125, 1.5], "keepBufferPct": 4.0},   # funded: risk steps up with closed profit kept on the account (v7: 0.75 base, the knee of the steady-state frontier)
-    "riskPct": {"challenge": 1.00, "verification": 0.75, "funded": 0.75},   # % of initial balance per trade
-    "maxOpenRiskPct": 3.75,           # daily components' combined open risk; the intraday leg has its own reserved slice (worst case 4.75% < 5%)
+    "riskPct": {"challenge": 1.50, "verification": 1.125, "funded": 0.75},   # % of initial balance per trade (v8: evaluation phases concentrated at 1.5%/1.125% with ONE daily-leg position at a time; funded unchanged)
+    "maxOpenRiskPct": {"challenge": 1.5, "verification": 1.125, "funded": 3.75},   # daily components' combined open risk by phase (a number applies to every phase); the intraday leg has its own slice. v8: one daily position in the evaluation (worst case 1.5% + 1.5% metals = 3.0% < 5%), 3.75% once funded (worst case 3.75 + 1.0 = 4.75%)
     "maxPositions": 6,
     "maxNewPerRun": 2,
-    "groupCaps": {"fx": 2, "metal": 1, "us_index": 1, "eu_index": 1, "asia_index": 1, "stock": 2, "crypto": 1},
+    "groupCaps": {"fx": 2, "metal": 1, "energy": 1, "us_index": 1, "eu_index": 1, "asia_index": 1, "stock": 2, "crypto": 1},
     "clusterCaps": {"equity": 3},          # us_index + eu_index + asia_index + stock together
     "clusters": {"us_index": "equity", "eu_index": "equity", "asia_index": "equity", "stock": "equity"},
     "maxSameUsdDirection": 2,
@@ -112,7 +114,7 @@ DEFAULT_CONFIG = {
         "trend": {"enabled": False, "classes": ["index"], "entries": ["breakout"], "adxMin": 25.0,
                   "stopAtr": 3.0, "trailAtr": 3.5, "trailAtR": 1.0, "breakeven": False, "emaExit": False, "shorts": False},
         "mr": {"enabled": True, "classes": ["index", "stock"], "rsiBuy": 15.0, "rsiSell": 90.0, "stopAtr": 3.0, "maxBars": 8, "shorts": False,
-               "panicDropPct": 2.5, "panicRangeAtr": 2.5, "riskMult": 0.75},
+               "panicDropPct": 2.5, "panicRangeAtr": 2.5, "riskMult": 0.75, "blockPreMonthEnd": True},   # v8: no new index dip-buys whose fill lands in the weak T-8..T-4 window before month end (Etula et al. 2020); +0.02-0.05 Sharpe in the 15-year harness, better in both engine replays
         # pullback-in-uptrend: close dips under the 20-day EMA (but within 2 ATR of it) with a rising 50-day EMA and above the 200-day average;
         # exit on a close back above the 20-day EMA or after maxBars
         "pullback": {"enabled": False, "classes": ["index"], "stopAtr": 2.5, "maxBars": 10, "riskMult": 0.75},   # off: lost money in both engine windows (2021-24, 2025-26)
@@ -121,7 +123,7 @@ DEFAULT_CONFIG = {
         # crypto breakout sleeve: 20-day high with price above the 200-day average, 2.5 ATR stop, 3 ATR trail after +1R, half the usual risk
         "crypto": {"enabled": True, "symbols": ["BTCUSD", "ETHUSD"], "stopAtr": 2.5, "trailAtr": 3.0, "trailAtR": 1.0, "riskMult": 0.5},
         "intraday": {"enabled": True, "symbols": ["XAUUSD", "XAGUSD"], "donchian": 48, "atrLen": 14, "minRangeAtr": 0.5,
-                     "stopAtr": 2.5, "trailAtr": 3.0, "trailAtR": 1.0, "riskPct": 1.0, "gapSkipAtr": 1.0, "yahooRange": "60d",
+                     "stopAtr": 2.5, "trailAtr": 3.0, "trailAtR": 1.0, "riskPct": {"challenge": 1.5, "verification": 1.125, "funded": 1.0}, "slots": 1, "gapSkipAtr": 1.0, "yahooRange": "60d",
                      "scaleOutAtR": {"challenge": None, "verification": 2.0, "funded": 2.0},   # bank half at +2R once past the Challenge
                      "entryHoursUTC": [21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]},   # v6: no new metal entries during US hours (13-20 UTC); gold's return accrues in Asian/London hours and the US session subtracts (same profit, fewer trades, smaller drawdown in the 2-year test)
     },
@@ -515,6 +517,15 @@ def reset_account(acc, cfg, phase, attempt, fee_add=0.0, last_payout=None):
     if fee_add:
         acc["feesPaidEUR"] = acc.get("feesPaidEUR", 0.0) + fee_add
 
+def phase_value(x, phase):
+    """A config value that is either one number for every phase or a dict by phase (falls back to the funded value)."""
+    if isinstance(x, dict):
+        return x.get(phase, x.get("funded"))
+    return x
+
+def open_risk_budget(cfg, phase):
+    return cfg["initial"] * phase_value(cfg["maxOpenRiskPct"], phase) / 100
+
 def phase_risk_pct(state):
     cfg, acc = state["config"], state["account"]
     pct = cfg["riskPct"][acc["phase"]]
@@ -529,7 +540,7 @@ def phase_risk_pct(state):
 def risk_per_trade(state, strat="daily"):
     cfg, acc = state["config"], state["account"]
     base = phase_risk_pct(state)
-    pct = min(cfg["strategies"]["intraday"]["riskPct"], base) if strat == "intraday" else base
+    pct = min(phase_value(cfg["strategies"]["intraday"]["riskPct"], acc["phase"]), base) if strat == "intraday" else base
     pct *= cfg.get("riskScale", 1.0)
     mult = 1.0
     dd = (acc["lastEquity"] - cfg["initial"]) / cfg["initial"] * 100
@@ -688,7 +699,8 @@ def signals_at(sym, bars, ind, i, cfg):
     smaL, smaX, rv = ind["smaL"][i], ind["smaX"][i], ind["rsi"][i]
     if mcfg["enabled"] and cls in mcfg["classes"] and None not in (smaL, smaX, rv):
         panic = (bars[i - 1]["c"] - c) / c * 100 > mcfg["panicDropPct"] or (h - l) > mcfg["panicRangeAtr"] * atr
-        if c > smaL and rv < mcfg["rsiBuy"] and c < smaX and not panic:
+        blocked = mcfg.get("blockPreMonthEnd") and cls == "index" and 3 <= weekdays_left_in_month(next_weekday(pdate(b["d"]))) <= 7
+        if c > smaL and rv < mcfg["rsiBuy"] and c < smaX and not panic and not blocked:
             out.append({"side": "long", "setup": "dip", "strat": "mr", "stopDist": mcfg["stopAtr"] * atr, "atr": atr, "score": 100 - rv})
         if mcfg["shorts"] and c < smaL and rv > mcfg["rsiSell"] and c > smaX:
             out.append({"side": "short", "setup": "spike", "strat": "mr", "stopDist": mcfg["stopAtr"] * atr, "atr": atr, "score": rv})
@@ -728,6 +740,15 @@ def next_weekday(d):
     while d.weekday() >= 5:
         d = d + dt.timedelta(days=1)
     return d
+
+def weekdays_left_in_month(d):
+    """Weekday sessions after date d in the same calendar month (0 = d is the last weekday of its month)."""
+    n = 0; x = d
+    while True:
+        x = next_weekday(x)
+        if x.month != d.month:
+            return n
+        n += 1
 
 def is_turn_of_month_signal_day(date_str):
     """True on the session before the month's last weekday session (the order then fills at that last session's open)."""
@@ -1159,8 +1180,9 @@ def intraday_slot_free(state, sym, closes):
     if u and sum(1 for p in state["positions"] + state["orders"] if usd_direction(p["symbol"], p["side"]) == u) >= cfg["maxSameUsdDirection"]:
         return False
     open_risk_1h = sum(risk_to_stop(p, conv_rate(p["symbol"], closes)) for p in state["positions"] if p.get("tf") == "1h") + sum(o["riskUSD"] for o in state["orders"] if o.get("tf") == "1h")
-    slice_pct = min(cfg["strategies"]["intraday"]["riskPct"], phase_risk_pct(state))
-    return open_risk_1h + cfg["initial"] * slice_pct / 100 <= cfg["initial"] * slice_pct / 100 + 1e-6
+    slice_pct = min(phase_value(cfg["strategies"]["intraday"]["riskPct"], state["account"]["phase"]), phase_risk_pct(state))
+    slots = cfg["strategies"]["intraday"].get("slots", 1)
+    return open_risk_1h + cfg["initial"] * slice_pct / 100 <= slots * cfg["initial"] * slice_pct / 100 + 1e-6
 
 def fail_attempt(state, d, breach, closes, day):
     cfg, acc = state["config"], state["account"]
@@ -1247,12 +1269,12 @@ def queue_orders(state, allbars, ind, idx, d, closes, day, traded_syms):
         u = usd_direction(sym, side)
         if u and usd_count[u] >= cfg["maxSameUsdDirection"]:
             continue
-        if open_risk + risk > cfg["initial"] * cfg["maxOpenRiskPct"] / 100 + 1e-6:
+        if open_risk + risk > open_risk_budget(cfg, acc["phase"]) + 1e-6:
             continue
         b = allbars[sym][idx[sym][d]]
         vsc = vol_scale(cfg, allbars[sym], ind[sym], idx[sym][d])
         trade_risk = risk * cfg["strategies"].get(strat, {}).get("riskMult", 1.0) * vsc
-        if open_risk + trade_risk > cfg["initial"] * cfg["maxOpenRiskPct"] / 100 + 1e-6:
+        if open_risk + trade_risk > open_risk_budget(cfg, acc["phase"]) + 1e-6:
             continue
         ii = idx[sym][d]
         if strat == "trend":

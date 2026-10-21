@@ -86,7 +86,11 @@
       "stock",
       "crypto"
      ],
-     "maxOpenRiskPct": 2.0
+     "maxOpenRiskPct": {
+      "challenge": 1.5,
+      "verification": 1.125,
+      "funded": 2.0
+     }
     },
     "track": "challenge"
    },
@@ -354,7 +358,11 @@
       "stock",
       "crypto"
      ],
-     "maxOpenRiskPct": 2.0
+     "maxOpenRiskPct": {
+      "challenge": 1.5,
+      "verification": 1.125,
+      "funded": 2.0
+     }
     },
     "track": "funded-start",
     "startPhase": "funded"
