@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -598,11 +598,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 8,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -727,7 +727,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "ftmo-200k",
     "firm": "FTMO",
     "program": "2-Step Swing",
@@ -775,16 +775,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -845,7 +850,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -888,7 +894,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -942,7 +953,7 @@
     "lastWorst": 200485.3014465459,
     "lastDayPnl": -230.74968555488158,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC",
+    "lastHourlyBar": "2026-10-21 10:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149
     }
@@ -1452,6 +1463,40 @@
      "aboveSma200": false,
      "donchianHi": 8849.900390625,
      "donchianLo": 8613.2001953125
+    },
+    {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
     },
     {
      "symbol": "XAGUSD",
@@ -1756,7 +1801,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -1790,11 +1835,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 8,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -1919,7 +1964,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "brightfunded-200k",
     "firm": "BrightFunded",
     "program": "Classic 2-Step",
@@ -1967,16 +2012,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -2037,7 +2087,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -2080,7 +2131,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -2134,7 +2190,7 @@
     "lastWorst": 200485.3014465459,
     "lastDayPnl": -230.74968555488158,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC",
+    "lastHourlyBar": "2026-10-21 10:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149
     }
@@ -2646,6 +2702,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -2948,7 +3038,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -2982,11 +3072,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 5,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -3111,7 +3201,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "fintokei-200k",
     "firm": "Fintokei",
     "program": "ProTrader Swing",
@@ -3162,16 +3252,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 2.0,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 2.0
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -3232,7 +3327,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -3275,7 +3371,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -3328,7 +3429,7 @@
     "lastWorst": 199871.7329790551,
     "lastDayPnl": -38.41470558097353,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -3796,6 +3897,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -4078,7 +4213,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -4112,11 +4247,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 8,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -4241,7 +4376,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "fundingpips-100k",
     "firm": "FundingPips",
     "program": "2-Step Standard + Swing add-on",
@@ -4289,16 +4424,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -4359,7 +4499,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -4402,7 +4543,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -4456,7 +4602,7 @@
     "lastWorst": 100243.54905020277,
     "lastDayPnl": -114.4790158476244,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC",
+    "lastHourlyBar": "2026-10-21 10:00 UTC",
     "realizedByDate": {
      "2026-10-20": 358.23306605040744
     }
@@ -4968,6 +5114,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -5270,7 +5450,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -5304,11 +5484,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 5,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -5433,7 +5613,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "the5ers-100k",
     "firm": "The5ers",
     "program": "High Stakes (New)",
@@ -5483,16 +5663,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -5553,7 +5738,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -5596,7 +5782,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -5649,7 +5840,7 @@
     "lastWorst": 99936.03967400668,
     "lastDayPnl": -19.52891489677131,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -6115,6 +6306,40 @@
      "aboveSma200": false,
      "donchianHi": 8849.900390625,
      "donchianLo": 8613.2001953125
+    },
+    {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
     },
     {
      "symbol": "XAGUSD",
@@ -6399,7 +6624,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -6433,11 +6658,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 5,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -6562,7 +6787,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "cti-100k",
     "firm": "City Traders Imperium",
     "program": "2-Step",
@@ -6612,16 +6837,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -6682,7 +6912,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -6725,7 +6956,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -6778,7 +7014,7 @@
     "lastWorst": 99936.03967400668,
     "lastDayPnl": -19.52891489677131,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -7246,6 +7482,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -7528,7 +7798,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -7562,11 +7832,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 8,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -7691,7 +7961,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "fundednext-200k",
     "firm": "FundedNext",
     "program": "Stellar 2-Step (manual execution only)",
@@ -7739,16 +8009,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -7809,7 +8084,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -7852,7 +8128,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -7906,7 +8187,7 @@
     "lastWorst": 200485.3014465459,
     "lastDayPnl": -230.74968555488158,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC",
+    "lastHourlyBar": "2026-10-21 10:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149
     }
@@ -8418,6 +8699,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -8720,7 +9035,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -8754,11 +9069,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 8,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -8883,7 +9198,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "ftp-200k",
     "firm": "Funded Trading Plus",
     "program": "2-Step Classic",
@@ -8931,16 +9246,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -9001,7 +9321,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -9044,7 +9365,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -9098,7 +9424,7 @@
     "lastWorst": 200385.6607041247,
     "lastDayPnl": -185.47132981289178,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC",
+    "lastHourlyBar": "2026-10-21 10:00 UTC",
     "realizedByDate": {
      "2026-10-20": 571.4620339375546
     }
@@ -9610,6 +9936,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -9912,7 +10272,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -9946,11 +10306,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 5,
-    "runs": 44,
+    "runs": 45,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-20",
@@ -10075,7 +10435,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "lux-1m",
     "firm": "Lux Trading Firm",
     "program": "1-Step Classic",
@@ -10125,16 +10485,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -10195,7 +10560,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -10238,7 +10604,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -10291,7 +10662,7 @@
     "lastWorst": 999614.9899153409,
     "lastDayPnl": -115.41362586524338,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -10759,6 +11130,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -11041,7 +11446,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -11075,11 +11480,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 6,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -11205,7 +11610,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "ftmo-200k-funded",
     "firm": "FTMO",
     "program": "2-Step Swing",
@@ -11253,16 +11658,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -11323,7 +11733,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -11366,7 +11777,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -11419,7 +11835,7 @@
     "lastWorst": 199911.09072462525,
     "lastDayPnl": -85.07602396089351,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -11865,6 +12281,40 @@
      "aboveSma200": false,
      "donchianHi": 8849.900390625,
      "donchianLo": 8613.2001953125
+    },
+    {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
     },
     {
      "symbol": "XAGUSD",
@@ -12159,7 +12609,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -12193,11 +12643,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 6,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -12323,7 +12773,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "brightfunded-200k-funded",
     "firm": "BrightFunded",
     "program": "Classic 2-Step",
@@ -12371,16 +12821,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -12441,7 +12896,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -12484,7 +12940,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -12537,7 +12998,7 @@
     "lastWorst": 199911.09072462525,
     "lastDayPnl": -85.07602396089351,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -12985,6 +13446,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -13277,7 +13772,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -13311,11 +13806,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 3,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -13441,7 +13936,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "fintokei-200k-funded",
     "firm": "Fintokei",
     "program": "ProTrader Swing",
@@ -13492,16 +13987,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 2.0,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 2.0
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -13562,7 +14062,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -13605,7 +14106,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -13657,7 +14163,7 @@
     "lastWorst": 199911.16572462526,
     "lastDayPnl": -72.04137698825798,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -14060,6 +14566,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -14337,7 +14877,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -14371,11 +14911,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 6,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -14501,7 +15041,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "fundingpips-100k-funded",
     "firm": "FundingPips",
     "program": "2-Step Standard + Swing add-on",
@@ -14549,16 +15089,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -14619,7 +15164,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -14662,7 +15208,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -14715,7 +15266,7 @@
     "lastWorst": 99955.65237322483,
     "lastDayPnl": -42.01876918686321,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -15163,6 +15714,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -15455,7 +16040,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -15489,11 +16074,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 3,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -15619,7 +16204,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "the5ers-100k-funded",
     "firm": "The5ers",
     "program": "High Stakes (New)",
@@ -15669,16 +16254,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -15739,7 +16329,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -15782,7 +16373,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -15834,7 +16430,7 @@
     "lastWorst": 99955.68737322484,
     "lastDayPnl": -35.9359339329676,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -16235,6 +16831,40 @@
      "aboveSma200": false,
      "donchianHi": 8849.900390625,
      "donchianLo": 8613.2001953125
+    },
+    {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
     },
     {
      "symbol": "XAGUSD",
@@ -16514,7 +17144,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -16548,11 +17178,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 3,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -16678,7 +17308,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "cti-100k-funded",
     "firm": "City Traders Imperium",
     "program": "2-Step",
@@ -16728,16 +17358,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -16798,7 +17433,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -16841,7 +17477,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -16893,7 +17534,7 @@
     "lastWorst": 99955.68737322484,
     "lastDayPnl": -35.9359339329676,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -17296,6 +17937,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -17573,7 +18248,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -17607,11 +18282,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 6,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -17737,7 +18412,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "fundednext-200k-funded",
     "firm": "FundedNext",
     "program": "Stellar 2-Step (manual execution only)",
@@ -17785,16 +18460,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -17855,7 +18535,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -17898,7 +18579,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -17951,7 +18637,7 @@
     "lastWorst": 199911.09072462525,
     "lastDayPnl": -85.07602396089351,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -18399,6 +19085,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -18691,7 +19411,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -18725,11 +19445,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 6,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -18855,7 +19575,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "ftp-200k-funded",
     "firm": "Funded Trading Plus",
     "program": "2-Step Classic",
@@ -18903,16 +19623,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -18973,7 +19698,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -19016,7 +19742,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -19069,7 +19800,7 @@
     "lastWorst": 199928.8725797002,
     "lastDayPnl": -68.06081916872063,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -19517,6 +20248,40 @@
      "donchianLo": 8613.2001953125
     },
     {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
+    },
+    {
      "symbol": "XAGUSD",
      "date": "2026-10-20",
      "close": 57.70600128173828,
@@ -19809,7 +20574,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-21T10:11:47Z",
+    "lastRunAt": "2026-10-21T11:49:28Z",
     "lastProcessed": {
      "EURUSD": "2026-10-20",
      "GBPUSD": "2026-10-20",
@@ -19843,11 +20608,11 @@
      "ETHUSD": "2026-10-20"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792573200,
-     "XAGUSD": 1792573200
+     "XAUUSD": 1792576800,
+     "XAGUSD": 1792576800
     },
     "nextId": 3,
-    "runs": 36,
+    "runs": 37,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -19973,7 +20738,7 @@
     }
    },
    "config": {
-    "configVersion": 7,
+    "configVersion": 8,
     "accountId": "lux-1m-funded",
     "firm": "Lux Trading Firm",
     "program": "1-Step Classic",
@@ -20023,16 +20788,21 @@
      "keepBufferPct": 4.0
     },
     "riskPct": {
-     "challenge": 1.0,
-     "verification": 0.75,
+     "challenge": 1.5,
+     "verification": 1.125,
      "funded": 0.75
     },
-    "maxOpenRiskPct": 3.75,
+    "maxOpenRiskPct": {
+     "challenge": 1.5,
+     "verification": 1.125,
+     "funded": 3.75
+    },
     "maxPositions": 6,
     "maxNewPerRun": 2,
     "groupCaps": {
      "fx": 2,
      "metal": 1,
+     "energy": 1,
      "us_index": 1,
      "eu_index": 1,
      "asia_index": 1,
@@ -20093,7 +20863,8 @@
       "shorts": false,
       "panicDropPct": 2.5,
       "panicRangeAtr": 2.5,
-      "riskMult": 0.75
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
      },
      "pullback": {
       "enabled": false,
@@ -20136,7 +20907,12 @@
       "stopAtr": 2.5,
       "trailAtr": 3.0,
       "trailAtR": 1.0,
-      "riskPct": 1.0,
+      "riskPct": {
+       "challenge": 1.5,
+       "verification": 1.125,
+       "funded": 1.0
+      },
+      "slots": 1,
       "gapSkipAtr": 1.0,
       "yahooRange": "60d",
       "scaleOutAtR": {
@@ -20188,7 +20964,7 @@
     "lastWorst": 999733.2881520514,
     "lastDayPnl": -216.29364008712582,
     "pragueDay": "2026-10-22",
-    "lastHourlyBar": "2026-10-21 09:00 UTC"
+    "lastHourlyBar": "2026-10-21 10:00 UTC"
    },
    "positions": [
     {
@@ -20589,6 +21365,40 @@
      "aboveSma200": false,
      "donchianHi": 8849.900390625,
      "donchianLo": 8613.2001953125
+    },
+    {
+     "symbol": "USOIL",
+     "date": "2026-10-20",
+     "close": 101.79000091552734,
+     "regime": "up",
+     "adx": 26.8,
+     "atrPct": 4.53,
+     "distEma20Atr": 1.36,
+     "chg5Pct": 8.13,
+     "chg20Pct": 7.61,
+     "ema20": 95.51,
+     "ema50": 92.23,
+     "rsi2": 56.8,
+     "aboveSma200": true,
+     "donchianHi": 104.18000030517578,
+     "donchianLo": 86.86000061035156
+    },
+    {
+     "symbol": "UKOIL",
+     "date": "2026-10-20",
+     "close": 108.79000091552734,
+     "regime": "up",
+     "adx": 19.2,
+     "atrPct": 3.89,
+     "distEma20Atr": 0.93,
+     "chg5Pct": 2.93,
+     "chg20Pct": 9.61,
+     "ema20": 104.86,
+     "ema50": 100.27,
+     "rsi2": 52.3,
+     "aboveSma200": true,
+     "donchianHi": 110.69000244140625,
+     "donchianLo": 96.55999755859375
     },
     {
      "symbol": "XAGUSD",
