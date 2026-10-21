@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-10-21",
+  "kind": "open",
+  "text": "T7 long $56.7/pt JP225 at 64890, stop 60699, risk 1499 USD (dip)",
+  "n": 8
+ },
+ {
   "date": "2026-10-20",
   "kind": "order",
   "text": "O6 queued: long META at next open, stop 73.73 away (dip, score 96, risk 1500 USD)",
