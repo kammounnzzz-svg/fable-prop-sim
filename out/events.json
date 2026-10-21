@@ -2,6 +2,12 @@
  {
   "date": "2026-10-21",
   "kind": "open",
+  "text": "T8 long 20 sh META at 697.88, stop 624.15, risk 1475 USD (dip)",
+  "n": 9
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "open",
   "text": "T7 long $56.7/pt JP225 at 64890, stop 60699, risk 1499 USD (dip)",
   "n": 8
  },
