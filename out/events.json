@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-10-22",
+  "kind": "close",
+  "text": "T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -82.42 USD, -0.06R",
+  "n": 10
+ },
+ {
   "date": "2026-10-21",
   "kind": "open",
   "text": "T8 long 20 sh META at 697.88, stop 624.15, risk 1475 USD (dip)",
