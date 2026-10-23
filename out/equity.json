@@ -232,5 +232,23 @@
   "phase": "challenge",
   "attempt": 1,
   "dayPnl": -1697.72
+ },
+ {
+  "date": "2026-10-22",
+  "balance": 200633.95,
+  "equity": 198936.23,
+  "worst": 198936.23,
+  "phase": "challenge",
+  "attempt": 1,
+  "dayPnl": -1697.72
+ },
+ {
+  "date": "2026-10-23",
+  "balance": 200633.95,
+  "equity": 198855.25,
+  "worst": 198855.25,
+  "phase": "challenge",
+  "attempt": 1,
+  "dayPnl": -1778.7
  }
 ]
