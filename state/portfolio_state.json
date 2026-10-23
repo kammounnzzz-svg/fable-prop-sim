@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -598,11 +598,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 9,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -954,7 +954,7 @@
     "lastWorst": 198855.25186200594,
     "lastDayPnl": -1778.7022456591658,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759
@@ -1938,7 +1938,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -1972,11 +1972,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 9,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -2328,7 +2328,7 @@
     "lastWorst": 198855.25186200594,
     "lastDayPnl": -1778.7022456591658,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759
@@ -3312,7 +3312,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -3346,11 +3346,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 5,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -3703,7 +3703,7 @@
     "lastWorst": 199419.4675221992,
     "lastDayPnl": -795.6999025379191,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-21": 215.1674247371282
     }
@@ -4608,7 +4608,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -4642,11 +4642,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 9,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -4998,7 +4998,7 @@
     "lastWorst": 99428.82406438056,
     "lastDayPnl": -888.6494474305218,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-20": 358.23306605040744,
      "2026-10-22": -40.714554239310615
@@ -5982,7 +5982,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -6016,11 +6016,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 5,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -6372,7 +6372,7 @@
     "lastWorst": 99708.92017294418,
     "lastDayPnl": -397.1482758698985,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727
     }
@@ -7277,7 +7277,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -7311,11 +7311,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 5,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -7667,7 +7667,7 @@
     "lastWorst": 99708.92017294418,
     "lastDayPnl": -397.1482758698985,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727
     }
@@ -8572,7 +8572,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -8606,11 +8606,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 9,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -8962,7 +8962,7 @@
     "lastWorst": 198855.25186200594,
     "lastDayPnl": -1778.7022456591658,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759
@@ -9946,7 +9946,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -9980,11 +9980,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 9,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -10336,7 +10336,7 @@
     "lastWorst": 199082.74187876636,
     "lastDayPnl": -1422.1197860484535,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-20": 571.4620339375546,
      "2026-10-22": -66.5303691227759
@@ -11320,7 +11320,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -11354,11 +11354,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 5,
-    "runs": 81,
+    "runs": 82,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-22",
@@ -11710,7 +11710,7 @@
     "lastWorst": 998256.9992157995,
     "lastDayPnl": -2388.5030584118795,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-21": 645.5022742113847
     }
@@ -12615,7 +12615,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -12649,11 +12649,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 8,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -13005,7 +13005,7 @@
     "lastWorst": 199022.52598765446,
     "lastDayPnl": -1294.0555701826815,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442
     }
@@ -13939,7 +13939,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -13973,11 +13973,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 8,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -14329,7 +14329,7 @@
     "lastWorst": 199022.52598765446,
     "lastDayPnl": -1294.0555701826815,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442
     }
@@ -15263,7 +15263,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -15297,11 +15297,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 3,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -15654,7 +15654,7 @@
     "lastWorst": 199403.5759107961,
     "lastDayPnl": -596.4240892039088,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC"
+    "lastHourlyBar": "2026-10-23 18:00 UTC"
    },
    "positions": [
     {
@@ -16485,7 +16485,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -16519,11 +16519,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 8,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -16875,7 +16875,7 @@
     "lastWorst": 99532.44386282175,
     "lastDayPnl": -623.0717269929883,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-22": 155.55058981473755
     }
@@ -17809,7 +17809,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -17843,11 +17843,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 3,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -18199,7 +18199,7 @@
     "lastWorst": 99702.4896307971,
     "lastDayPnl": -297.51036920289334,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC"
+    "lastHourlyBar": "2026-10-23 18:00 UTC"
    },
    "positions": [
     {
@@ -19030,7 +19030,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -19064,11 +19064,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 3,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -19420,7 +19420,7 @@
     "lastWorst": 99702.4896307971,
     "lastDayPnl": -297.51036920289334,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC"
+    "lastHourlyBar": "2026-10-23 18:00 UTC"
    },
    "positions": [
     {
@@ -20251,7 +20251,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -20285,11 +20285,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 8,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -20641,7 +20641,7 @@
     "lastWorst": 199022.52598765446,
     "lastDayPnl": -1294.0555701826815,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442
     }
@@ -21575,7 +21575,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -21609,11 +21609,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 8,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -21965,7 +21965,7 @@
     "lastWorst": 199220.24294140664,
     "lastDayPnl": -1035.2444561461452,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC",
+    "lastHourlyBar": "2026-10-23 18:00 UTC",
     "realizedByDate": {
      "2026-10-22": 255.54739755278308
     }
@@ -22899,7 +22899,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-23T16:14:43Z",
+    "lastRunAt": "2026-10-23T19:02:52Z",
     "lastProcessed": {
      "EURUSD": "2026-10-22",
      "GBPUSD": "2026-10-22",
@@ -22933,11 +22933,11 @@
      "ETHUSD": "2026-10-22"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1792767600,
-     "XAGUSD": 1792767600
+     "XAUUSD": 1792778400,
+     "XAGUSD": 1792778400
     },
     "nextId": 3,
-    "runs": 73,
+    "runs": 74,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -23289,7 +23289,7 @@
     "lastWorst": 998209.3243815901,
     "lastDayPnl": -1790.6756184098776,
     "pragueDay": "2026-10-24",
-    "lastHourlyBar": "2026-10-23 15:00 UTC"
+    "lastHourlyBar": "2026-10-23 18:00 UTC"
    },
    "positions": [
     {
