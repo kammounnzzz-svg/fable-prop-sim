@@ -1,6 +1,6 @@
 {
- "startedAt": "2026-10-24T21:48:47Z",
- "finishedAt": "2026-10-24T21:49:11Z",
+ "startedAt": "2026-10-24T22:01:32Z",
+ "finishedAt": "2026-10-24T22:01:59Z",
  "ok": true,
  "stage": "done",
  "error": "",
@@ -34,16 +34,16 @@
  ],
  "passFail": [],
  "focus": "ftmo-200k",
- "runId": "40135851297",
- "runNumber": "97",
- "baseCommit": "51350180d7bf7e83e51d7df7170c44ecb09adf2f",
+ "runId": "40136758687",
+ "runNumber": "98",
+ "baseCommit": "1b39aff37e5ead914cf021bee858e6228e187ec9",
  "runner": "github-actions",
  "engineVersion": "0.8.0",
  "engineSha256": "d86719dd516c286e9596cfe81075af45ef52155381a02ca328b0cee983c0e07d",
- "stateSha256Before": "9e12bee37fb26f1c37f37365bb631784653416395887c101bde8821136ee1925",
+ "stateSha256Before": "bae808025ed0ec8b610b2141f4e9ab332358d41f40e092c81e9ac3fa83f53203",
  "newTrades": [],
  "phaseChanges": [],
  "lastDate": "2026-10-23",
  "lastHourlyBar": "2026-10-23 20:00 UTC",
- "stateSha256": "bae808025ed0ec8b610b2141f4e9ab332358d41f40e092c81e9ac3fa83f53203"
+ "stateSha256": "83a68aebee0b7a467ce631fb344d77411db7b9d108e3c0b6dfc46b9b1b1fe8f9"
 }
