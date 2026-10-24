@@ -1,4 +1,4 @@
-run started 2026-10-24T01:12:04Z, finished 2026-10-24T01:12:30Z, ok=True
+run started 2026-10-24T01:22:18Z, finished 2026-10-24T01:22:46Z, ok=True
 
 ### fetch (exit 0)
 XAUUSD  1143 hourly bars, last 2026-10-23 20:00 UTC close 4010.0
@@ -13,26 +13,26 @@ XAUUSD   504 bars, last 2026-10-23 close 4010.0
 US500    501 bars, last 2026-10-23 close 7623.68017578125
 US100    501 bars, last 2026-10-23 close 28957.52734375
 US30     501 bars, last 2026-10-23 close 52215.16015625
-GER40    506 bars, last 2026-10-22 close 25371.75
-UK100    506 bars, last 2026-10-22 close 10725.0
-EU50     499 bars, last 2026-10-22 close 6087.009765625
-JP225    486 bars, last 2026-10-22 close 62907.83984375
-AUS200   507 bars, last 2026-10-22 close 8793.2001953125
+GER40    507 bars, last 2026-10-23 close 25181.650390625
+UK100    507 bars, last 2026-10-23 close 10690.400390625
+EU50     500 bars, last 2026-10-23 close 6068.22021484375
+JP225    487 bars, last 2026-10-23 close 62693.16015625
+AUS200   508 bars, last 2026-10-23 close 8795.2001953125
 USOIL    503 bars, last 2026-10-22 close 99.47000122070312
 UKOIL    503 bars, last 2026-10-22 close 113.16999816894531
 XAGUSD   504 bars, last 2026-10-23 close 53.959999084472656
-NVDA     500 bars, last 2026-10-22 close 212.2100067138672
-AAPL     500 bars, last 2026-10-22 close 348.2200012207031
-MSFT     500 bars, last 2026-10-22 close 521.0800170898438
-AMZN     500 bars, last 2026-10-22 close 250.3800048828125
-TSLA     500 bars, last 2026-10-22 close 374.5799865722656
-GOOGL    500 bars, last 2026-10-22 close 324.2200012207031
-META     500 bars, last 2026-10-22 close 648.8499755859375
-AVGO     500 bars, last 2026-10-22 close 323.239990234375
-JPM      500 bars, last 2026-10-22 close 336.5400085449219
-NFLX     500 bars, last 2026-10-22 close 67.05000305175781
-LLY      500 bars, last 2026-10-22 close 1306.68994140625
-COST     500 bars, last 2026-10-22 close 1018.2100219726562
+NVDA     501 bars, last 2026-10-23 close 210.9600067138672
+AAPL     501 bars, last 2026-10-23 close 347.7300109863281
+MSFT     501 bars, last 2026-10-23 close 524.510009765625
+AMZN     501 bars, last 2026-10-23 close 248.0
+TSLA     501 bars, last 2026-10-23 close 372.2200012207031
+GOOGL    501 bars, last 2026-10-23 close 320.2099914550781
+META     501 bars, last 2026-10-23 close 642.6199951171875
+AVGO     501 bars, last 2026-10-23 close 321.67999267578125
+JPM      501 bars, last 2026-10-23 close 331.5799865722656
+NFLX     501 bars, last 2026-10-23 close 65.8499984741211
+LLY      501 bars, last 2026-10-23 close 1273.4599609375
+COST     501 bars, last 2026-10-23 close 1003.3200073242188
 BTCUSD   729 bars, last 2026-10-22 close 81311.890625
 ETHUSD   729 bars, last 2026-10-22 close 2386.189208984375
 saved /home/runner/work/fable-prop-sim/fable-prop-sim/bars/all.json (32 ok, 0 failed)
