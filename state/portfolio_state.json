@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -602,7 +602,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -1574,7 +1574,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -1591,7 +1591,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -1600,7 +1600,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -2037,7 +2037,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -2075,7 +2075,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -3047,7 +3047,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -3064,7 +3064,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -3073,7 +3073,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -3510,7 +3510,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -3548,7 +3548,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 5,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -4467,7 +4467,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -4484,7 +4484,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -4493,7 +4493,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -4905,7 +4905,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -4943,7 +4943,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -5915,7 +5915,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -5932,7 +5932,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -5941,7 +5941,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -6378,7 +6378,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -6416,7 +6416,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 5,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -7334,7 +7334,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -7351,7 +7351,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -7360,7 +7360,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -7772,7 +7772,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -7810,7 +7810,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 5,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -8728,7 +8728,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -8745,7 +8745,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -8754,7 +8754,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -9166,7 +9166,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -9204,7 +9204,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -10176,7 +10176,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -10193,7 +10193,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -10202,7 +10202,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -10639,7 +10639,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -10677,7 +10677,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -11649,7 +11649,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -11666,7 +11666,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -11675,7 +11675,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -12112,7 +12112,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -12150,7 +12150,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 5,
-    "runs": 120,
+    "runs": 121,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-26",
@@ -13068,7 +13068,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -13085,7 +13085,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -13094,7 +13094,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -13506,7 +13506,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -13544,7 +13544,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -14485,7 +14485,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -14502,7 +14502,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -14511,7 +14511,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -14948,7 +14948,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -14986,7 +14986,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -15927,7 +15927,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -15944,7 +15944,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -15953,7 +15953,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -16390,7 +16390,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -16428,7 +16428,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 3,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -17283,7 +17283,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -17300,7 +17300,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -17309,7 +17309,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -17711,7 +17711,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -17749,7 +17749,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -18690,7 +18690,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -18707,7 +18707,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -18716,7 +18716,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -19153,7 +19153,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -19191,7 +19191,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 3,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -20045,7 +20045,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -20062,7 +20062,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -20071,7 +20071,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -20473,7 +20473,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -20511,7 +20511,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 3,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -21365,7 +21365,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -21382,7 +21382,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -21391,7 +21391,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -21793,7 +21793,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -21831,7 +21831,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -22772,7 +22772,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -22789,7 +22789,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -22798,7 +22798,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -23235,7 +23235,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -23273,7 +23273,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 9,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -24214,7 +24214,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -24231,7 +24231,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -24240,7 +24240,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
@@ -24677,7 +24677,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-27T03:57:14Z",
+    "lastRunAt": "2026-10-27T04:13:56Z",
     "lastProcessed": {
      "EURUSD": "2026-10-26",
      "GBPUSD": "2026-10-26",
@@ -24715,7 +24715,7 @@
      "XAGUSD": 1793066400
     },
     "nextId": 3,
-    "runs": 112,
+    "runs": 113,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -25569,7 +25569,7 @@
     {
      "symbol": "US100",
      "date": "2026-10-26",
-     "close": 29273.404296875,
+     "close": 29273.400390625,
      "regime": "none",
      "adx": 25.7,
      "atrPct": 1.62,
@@ -25586,7 +25586,7 @@
     {
      "symbol": "US30",
      "date": "2026-10-26",
-     "close": 52361.6015625,
+     "close": 52361.578125,
      "regime": "none",
      "adx": 20.1,
      "atrPct": 1.0,
@@ -25595,7 +25595,7 @@
      "chg20Pct": 1.71,
      "ema20": 52064.0,
      "ema50": 52108.0,
-     "rsi2": 41.3,
+     "rsi2": 41.2,
      "aboveSma200": true,
      "donchianHi": 52927.87890625,
      "donchianLo": 50546.5390625
