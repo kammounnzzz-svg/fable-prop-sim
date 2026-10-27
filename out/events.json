@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-10-27",
+  "kind": "close",
+  "text": "T8 long META closed at 624.03 (stop): -1490.85 USD, -1.01R",
+  "n": 11
+ },
+ {
   "date": "2026-10-22",
   "kind": "close",
   "text": "T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -82.42 USD, -0.06R",
