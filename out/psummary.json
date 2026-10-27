@@ -1,6 +1,6 @@
 [
  {
-  "asOf": "2026-10-27T01:12:08Z",
+  "asOf": "2026-10-27T01:22:31Z",
   "track": "challenge",
   "label": "A: bought as evaluations, the engine passes them",
   "accounts": 16,
@@ -18,7 +18,7 @@
   "equity": 3380986.96
  },
  {
-  "asOf": "2026-10-27T01:12:08Z",
+  "asOf": "2026-10-27T01:22:31Z",
   "track": "funded-start",
   "label": "B: passed by the trader, handed over funded",
   "accounts": 16,
@@ -36,7 +36,7 @@
   "equity": 3387532.5
  },
  {
-  "asOf": "2026-10-27T01:12:08Z",
+  "asOf": "2026-10-27T01:22:31Z",
   "track": "all",
   "label": "all",
   "accounts": 32,
