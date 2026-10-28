@@ -1,25 +1,6 @@
 [
  {
-  "id": "T7",
-  "symbol": "JP225",
-  "side": "long",
-  "size": "$56.7/pt",
-  "units": 56.7,
-  "entry": 64889.94921875,
-  "entryDate": "2026-10-21",
-  "tf": "1d",
-  "price": 63268.37109375,
-  "stop": 60699.0,
-  "initialStop": 60699.0,
-  "riskUSD": 1498.96,
-  "riskNow": 1508.42,
-  "pnlUSD": -607.79,
-  "r": -0.41,
-  "swapUSD": -24.13,
-  "bars": 5,
-  "setup": "dip",
-  "stage": "initial",
-  "thesis": "long JP225: RSI(2) 13 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
-  "exitPlan": "mean reached (close back through the 5-day average)"
+  "id": "none",
+  "empty": true
  }
 ]
