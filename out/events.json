@@ -1,6 +1,12 @@
 [
  {
   "date": "2026-10-28",
+  "kind": "order",
+  "text": "O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1508 USD)",
+  "n": 13
+ },
+ {
+  "date": "2026-10-28",
   "kind": "close",
   "text": "T7 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -443.94 USD, -0.30R",
   "n": 12
