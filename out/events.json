@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-10-29",
+  "kind": "open",
+  "text": "T10 long 31 sh COST at 994.02, stop 946.50, risk 1473 USD (dip)",
+  "n": 14
+ },
+ {
   "date": "2026-10-28",
   "kind": "order",
   "text": "O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1508 USD)",

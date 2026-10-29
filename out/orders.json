@@ -1,15 +1,6 @@
 [
  {
-  "id": "O9",
-  "symbol": "COST",
-  "side": "long",
-  "setup": "dip",
-  "signalClose": 982.72998046875,
-  "stopDist": 47.53,
-  "riskUSD": 1507.5,
-  "score": 90.2,
-  "createdDate": "2026-10-28",
-  "fills": "next open",
-  "reason": "long COST: RSI(2) 10 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+  "id": "none",
+  "empty": true
  }
 ]
