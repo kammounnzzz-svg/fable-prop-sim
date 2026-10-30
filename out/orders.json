@@ -1,6 +1,15 @@
 [
  {
-  "id": "none",
-  "empty": true
+  "id": "O11",
+  "symbol": "US30",
+  "side": "long",
+  "setup": "dip",
+  "signalClose": 51770.30859375,
+  "stopDist": 1518.0,
+  "riskUSD": 2250.0,
+  "score": 94.2,
+  "createdDate": "2026-10-30",
+  "fills": "next open",
+  "reason": "long US30: RSI(2) 6 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
  }
 ]

@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-10-30",
+  "kind": "order",
+  "text": "O11 queued: long US30 at next open, stop 1518 away (dip, score 94, risk 2250 USD)",
+  "n": 16
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "close",
+  "text": "T10 long COST closed at 1012.80 (mean reached (close back through the 5-day average)): +576.09 USD, +0.39R",
+  "n": 15
+ },
+ {
   "date": "2026-10-29",
   "kind": "open",
   "text": "T10 long 31 sh COST at 994.02, stop 946.50, risk 1473 USD (dip)",
