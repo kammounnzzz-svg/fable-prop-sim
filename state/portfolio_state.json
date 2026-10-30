@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -602,7 +602,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 12,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -2067,7 +2067,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -2301,7 +2301,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -2339,7 +2339,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 12,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -3804,7 +3804,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -4038,7 +4038,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -4076,7 +4076,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 7,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -5479,7 +5479,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -5673,7 +5673,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -5711,7 +5711,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 12,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -7176,7 +7176,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -7410,7 +7410,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -7448,7 +7448,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 7,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -8850,7 +8850,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -9044,7 +9044,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -9082,7 +9082,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 7,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -10484,7 +10484,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -10678,7 +10678,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -10716,7 +10716,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 12,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -12181,7 +12181,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -12415,7 +12415,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -12453,7 +12453,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 13,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -13932,7 +13932,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -14171,7 +14171,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -14209,7 +14209,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 7,
-    "runs": 180,
+    "runs": 181,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-10-29",
@@ -15611,7 +15611,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -15805,7 +15805,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -15843,7 +15843,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 16,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -17331,7 +17331,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -17590,7 +17590,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -17628,7 +17628,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 16,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -19116,7 +19116,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -19375,7 +19375,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:50Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -19413,7 +19413,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 9,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -20813,7 +20813,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -21017,7 +21017,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:51Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -21055,7 +21055,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 16,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -22543,7 +22543,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -22802,7 +22802,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:51Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -22840,7 +22840,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 9,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -24239,7 +24239,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -24443,7 +24443,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:51Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -24481,7 +24481,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 9,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -25880,7 +25880,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -26084,7 +26084,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:51Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -26122,7 +26122,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 16,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -27610,7 +27610,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -27869,7 +27869,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:51Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -27907,7 +27907,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 16,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -29395,7 +29395,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
@@ -29654,7 +29654,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-10-30T21:56:10Z",
+    "lastRunAt": "2026-10-30T22:13:51Z",
     "lastProcessed": {
      "EURUSD": "2026-10-29",
      "GBPUSD": "2026-10-29",
@@ -29692,7 +29692,7 @@
      "XAGUSD": 1793390400
     },
     "nextId": 9,
-    "runs": 172,
+    "runs": 173,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -31091,7 +31091,7 @@
      "regime": "down",
      "adx": 26.1,
      "atrPct": 3.72,
-     "distEma20Atr": -4.42,
+     "distEma20Atr": -4.41,
      "chg5Pct": -12.61,
      "chg20Pct": -18.53,
      "ema20": 325.78,
