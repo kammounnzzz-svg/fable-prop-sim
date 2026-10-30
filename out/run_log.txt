@@ -1,8 +1,8 @@
-run started 2026-10-30T10:25:52Z, finished 2026-10-30T10:26:19Z, ok=True
+run started 2026-10-30T13:21:03Z, finished 2026-10-30T13:21:28Z, ok=True
 
 ### fetch (exit 0)
-XAUUSD  1131 hourly bars, last 2026-10-30 09:00 UTC close 4002.10009765625
-XAGUSD  1130 hourly bars, last 2026-10-30 09:00 UTC close 50.849998474121094
+XAUUSD  1134 hourly bars, last 2026-10-30 12:00 UTC close 3963.800048828125
+XAGUSD  1133 hourly bars, last 2026-10-30 12:00 UTC close 50.064998626708984
 EURUSD   517 bars, last 2026-10-29 close 1.1155734062194824
 GBPUSD   517 bars, last 2026-10-29 close 1.332800269126892
 AUDUSD   517 bars, last 2026-10-29 close 0.7057999968528748
@@ -39,25 +39,165 @@ saved /home/runner/work/fable-prop-sim/fable-prop-sim/bars/all.json (32 ok, 0 fa
 
 
 ### portfolio-run (exit 0)
-ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     198699 eq     198763 (-0.62%) day      +64 | pos 1 ord 0 | nothing new
-brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     198699 eq     198763 (-0.62%) day      +64 | pos 1 ord 0 | nothing new
-fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     199771 eq     199184 (-0.41%) day     -587 | pos 1 ord 0 | nothing new
-fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99350 eq      99381 (-0.62%) day      +31 | pos 1 ord 0 | nothing new
-the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      99884 eq      99591 (-0.41%) day     -294 | pos 1 ord 0 | nothing new
-cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      99884 eq      99591 (-0.41%) day     -294 | pos 1 ord 0 | nothing new
-fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     198699 eq     198763 (-0.62%) day      +64 | pos 1 ord 0 | nothing new
-ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     198957 eq     198694 (-0.65%) day     -263 | pos 2 ord 0 | nothing new
-lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     999313 eq     997550 (-0.24%) day    -1763 | pos 1 ord 0 | nothing new
-ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     199305 eq     199059 (-0.47%) day     -246 | pos 2 ord 1 | nothing new
-brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     199305 eq     199059 (-0.47%) day     -246 | pos 2 ord 1 | nothing new
-fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     199667 eq     199374 (-0.31%) day     -294 | pos 1 ord 2 | nothing new
-fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      99687 eq      99563 (-0.44%) day     -124 | pos 2 ord 1 | nothing new
-the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      99834 eq      99687 (-0.31%) day     -147 | pos 1 ord 2 | nothing new
-cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      99834 eq      99687 (-0.31%) day     -147 | pos 1 ord 2 | nothing new
-fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     199305 eq     199059 (-0.47%) day     -246 | pos 2 ord 1 | nothing new
-ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     199452 eq     199254 (-0.37%) day     -198 | pos 2 ord 1 | nothing new
-lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     999001 eq     998120 (-0.19%) day     -881 | pos 1 ord 2 | nothing new
-No new completed bars since the last run. Nothing changed.
+ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     198699 eq     198763 (-0.62%) day      +64 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O6 queued: long META at next open, stop 73.73 away (dip, score 96, risk 1500 USD)
+    EVENT 2026-10-21 open T7 long $56.7/pt JP225 at 64890, stop 60699, risk 1499 USD (dip)
+    EVENT 2026-10-21 open T8 long 20 sh META at 697.88, stop 624.15, risk 1475 USD (dip)
+    EVENT 2026-10-22 close T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -82.42 USD, -0.06R
+    EVENT 2026-10-27 close T8 long META closed at 624.03 (stop): -1490.85 USD, -1.01R
+    EVENT 2026-10-28 close T7 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -443.94 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1508 USD)
+    EVENT 2026-10-29 open T10 long 31 sh COST at 994.02, stop 946.50, risk 1473 USD (dip)
+brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     198699 eq     198763 (-0.62%) day      +64 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O6 queued: long META at next open, stop 73.73 away (dip, score 96, risk 1500 USD)
+    EVENT 2026-10-21 open T7 long $56.7/pt JP225 at 64890, stop 60699, risk 1499 USD (dip)
+    EVENT 2026-10-21 open T8 long 20 sh META at 697.88, stop 624.15, risk 1475 USD (dip)
+    EVENT 2026-10-22 close T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -82.42 USD, -0.06R
+    EVENT 2026-10-27 close T8 long META closed at 624.03 (stop): -1490.85 USD, -1.01R
+    EVENT 2026-10-28 close T7 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -443.94 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1508 USD)
+    EVENT 2026-10-29 open T10 long 31 sh COST at 994.02, stop 946.50, risk 1473 USD (dip)
+fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     199771 eq     199184 (-0.41%) day     -587 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 1500 USD)
+    EVENT 2026-10-19 open T2 long $7.1/pt US500 at 7703.1, stop 7492.1, risk 1498 USD (dip)
+    EVENT 2026-10-20 order O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1500 USD)
+    EVENT 2026-10-21 open T4 long $56.7/pt JP225 at 64890, stop 60699, risk 1499 USD (dip)
+    EVENT 2026-10-21 close T2 long US500 closed at 7736.1 (mean reached (close back through the 5-day average)): +215.17 USD, +0.14R
+    EVENT 2026-10-28 close T4 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -443.94 USD, -0.30R
+    EVENT 2026-10-29 order O5 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 2250 USD)
+    EVENT 2026-10-30 open T6 long $87.6/pt JP225 at 64348, stop 60297, risk 2248 USD (turn of month)
+fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99350 eq      99381 (-0.62%) day      +31 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O6 queued: long META at next open, stop 73.73 away (dip, score 96, risk 750 USD)
+    EVENT 2026-10-21 open T7 long $28.3/pt JP225 at 64890, stop 60699, risk 748 USD (dip)
+    EVENT 2026-10-21 open T8 long 10 sh META at 697.88, stop 624.15, risk 737 USD (dip)
+    EVENT 2026-10-22 close T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -40.71 USD, -0.06R
+    EVENT 2026-10-27 close T8 long META closed at 624.03 (stop): -745.43 USD, -1.01R
+    EVENT 2026-10-28 close T7 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -221.58 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 754 USD)
+    EVENT 2026-10-29 open T10 long 15 sh COST at 994.02, stop 946.50, risk 713 USD (dip)
+the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      99884 eq      99591 (-0.41%) day     -294 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 750 USD)
+    EVENT 2026-10-19 open T2 long $3.5/pt US500 at 7703.1, stop 7492.1, risk 738 USD (dip)
+    EVENT 2026-10-20 order O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 750 USD)
+    EVENT 2026-10-21 open T4 long $28.3/pt JP225 at 64890, stop 60699, risk 748 USD (dip)
+    EVENT 2026-10-21 close T2 long US500 closed at 7736.1 (mean reached (close back through the 5-day average)): +106.07 USD, +0.14R
+    EVENT 2026-10-28 close T4 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -221.58 USD, -0.30R
+    EVENT 2026-10-29 order O5 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-30 open T6 long $43.8/pt JP225 at 64348, stop 60297, risk 1124 USD (turn of month)
+cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      99884 eq      99591 (-0.41%) day     -294 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 750 USD)
+    EVENT 2026-10-19 open T2 long $3.5/pt US500 at 7703.1, stop 7492.1, risk 738 USD (dip)
+    EVENT 2026-10-20 order O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 750 USD)
+    EVENT 2026-10-21 open T4 long $28.3/pt JP225 at 64890, stop 60699, risk 748 USD (dip)
+    EVENT 2026-10-21 close T2 long US500 closed at 7736.1 (mean reached (close back through the 5-day average)): +106.07 USD, +0.14R
+    EVENT 2026-10-28 close T4 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -221.58 USD, -0.30R
+    EVENT 2026-10-29 order O5 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-30 open T6 long $43.8/pt JP225 at 64348, stop 60297, risk 1124 USD (turn of month)
+fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     198699 eq     198763 (-0.62%) day      +64 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O6 queued: long META at next open, stop 73.73 away (dip, score 96, risk 1500 USD)
+    EVENT 2026-10-21 open T7 long $56.7/pt JP225 at 64890, stop 60699, risk 1499 USD (dip)
+    EVENT 2026-10-21 open T8 long 20 sh META at 697.88, stop 624.15, risk 1475 USD (dip)
+    EVENT 2026-10-22 close T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -82.42 USD, -0.06R
+    EVENT 2026-10-27 close T8 long META closed at 624.03 (stop): -1490.85 USD, -1.01R
+    EVENT 2026-10-28 close T7 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -443.94 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1508 USD)
+    EVENT 2026-10-29 open T10 long 31 sh COST at 994.02, stop 946.50, risk 1473 USD (dip)
+ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     198957 eq     198694 (-0.65%) day     -263 | pos 2 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-21 open T8 long 16 sh META at 697.88, stop 624.15, risk 1180 USD (dip)
+    EVENT 2026-10-22 close T3 long NVDA closed at 217.19 (mean reached (close back through the 5-day average)): -66.53 USD, -0.06R
+    EVENT 2026-10-27 close T8 long META closed at 624.03 (stop): -1192.68 USD, -1.01R
+    EVENT 2026-10-28 close T7 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -354.68 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1206 USD)
+    EVENT 2026-10-29 order O10 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1206 USD)
+    EVENT 2026-10-29 open T11 long 25 sh COST at 994.02, stop 946.50, risk 1188 USD (dip)
+    EVENT 2026-10-30 open T12 long $46.9/pt JP225 at 64348, stop 60297, risk 1204 USD (turn of month)
+lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     999313 eq     997550 (-0.24%) day    -1763 | pos 1 ord 0 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-16 order O1 queued: long US500 at next open, stop 211.0 away (dip, score 88, risk 4500 USD)
+    EVENT 2026-10-19 open T2 long $21.3/pt US500 at 7703.1, stop 7492.1, risk 4493 USD (dip)
+    EVENT 2026-10-20 order O3 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 4500 USD)
+    EVENT 2026-10-21 open T4 long $170.2/pt JP225 at 64890, stop 60699, risk 4500 USD (dip)
+    EVENT 2026-10-21 close T2 long US500 closed at 7736.1 (mean reached (close back through the 5-day average)): +645.50 USD, +0.14R
+    EVENT 2026-10-28 close T4 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -1332.61 USD, -0.30R
+    EVENT 2026-10-29 order O5 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 6750 USD)
+    EVENT 2026-10-30 open T6 long $262.9/pt JP225 at 64348, stop 60297, risk 6748 USD (turn of month)
+ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     199305 eq     199059 (-0.47%) day     -246 | pos 2 ord 1 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-27 close T8 long MSFT closed at 532.27 (mean reached (close back through the 5-day average)): +441.86 USD, +0.40R
+    EVENT 2026-10-27 close T3 long META closed at 621.22 (stop): -1120.63 USD, -1.01R
+    EVENT 2026-10-28 close T5 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -332.76 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1125 USD)
+    EVENT 2026-10-29 order O10 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 order O11 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 open T12 long 23 sh COST at 994.02, stop 946.50, risk 1093 USD (dip)
+    EVENT 2026-10-30 open T13 long $43.8/pt JP225 at 64348, stop 60297, risk 1124 USD (turn of month)
+brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     199305 eq     199059 (-0.47%) day     -246 | pos 2 ord 1 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-27 close T8 long MSFT closed at 532.27 (mean reached (close back through the 5-day average)): +441.86 USD, +0.40R
+    EVENT 2026-10-27 close T3 long META closed at 621.22 (stop): -1120.63 USD, -1.01R
+    EVENT 2026-10-28 close T5 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -332.76 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1125 USD)
+    EVENT 2026-10-29 order O10 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 order O11 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 open T12 long 23 sh COST at 994.02, stop 946.50, risk 1093 USD (dip)
+    EVENT 2026-10-30 open T13 long $43.8/pt JP225 at 64348, stop 60297, risk 1124 USD (turn of month)
+fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     199667 eq     199374 (-0.31%) day     -294 | pos 1 ord 2 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 1125 USD)
+    EVENT 2026-10-21 open T2 long $42.5/pt JP225 at 64890, stop 60699, risk 1124 USD (dip)
+    EVENT 2026-10-28 close T2 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -332.76 USD, -0.30R
+    EVENT 2026-10-29 order O3 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 order O4 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 order O5 queued: long US500 at next open, stop 205.1 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-30 open T6 long $43.8/pt JP225 at 64348, stop 60297, risk 1124 USD (turn of month)
+fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      99687 eq      99563 (-0.44%) day     -124 | pos 2 ord 1 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-27 close T8 long MSFT closed at 532.27 (mean reached (close back through the 5-day average)): +220.93 USD, +0.40R
+    EVENT 2026-10-27 close T3 long META closed at 621.22 (stop): -522.97 USD, -1.01R
+    EVENT 2026-10-28 close T5 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -165.99 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 562 USD)
+    EVENT 2026-10-29 order O10 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-29 order O11 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-29 open T12 long 11 sh COST at 994.02, stop 946.50, risk 523 USD (dip)
+    EVENT 2026-10-30 open T13 long $21.9/pt JP225 at 64348, stop 60297, risk 562 USD (turn of month)
+the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      99834 eq      99687 (-0.31%) day     -147 | pos 1 ord 2 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 562 USD)
+    EVENT 2026-10-21 open T2 long $21.2/pt JP225 at 64890, stop 60699, risk 560 USD (dip)
+    EVENT 2026-10-28 close T2 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -165.99 USD, -0.30R
+    EVENT 2026-10-29 order O3 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-29 order O4 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-29 order O5 queued: long US500 at next open, stop 205.1 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-30 open T6 long $21.9/pt JP225 at 64348, stop 60297, risk 562 USD (turn of month)
+cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      99834 eq      99687 (-0.31%) day     -147 | pos 1 ord 2 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 562 USD)
+    EVENT 2026-10-21 open T2 long $21.2/pt JP225 at 64890, stop 60699, risk 560 USD (dip)
+    EVENT 2026-10-28 close T2 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -165.99 USD, -0.30R
+    EVENT 2026-10-29 order O3 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-29 order O4 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-29 order O5 queued: long US500 at next open, stop 205.1 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-10-30 open T6 long $21.9/pt JP225 at 64348, stop 60297, risk 562 USD (turn of month)
+fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     199305 eq     199059 (-0.47%) day     -246 | pos 2 ord 1 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-27 close T8 long MSFT closed at 532.27 (mean reached (close back through the 5-day average)): +441.86 USD, +0.40R
+    EVENT 2026-10-27 close T3 long META closed at 621.22 (stop): -1120.63 USD, -1.01R
+    EVENT 2026-10-28 close T5 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -332.76 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 1125 USD)
+    EVENT 2026-10-29 order O10 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 order O11 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-10-29 open T12 long 23 sh COST at 994.02, stop 946.50, risk 1093 USD (dip)
+    EVENT 2026-10-30 open T13 long $43.8/pt JP225 at 64348, stop 60297, risk 1124 USD (turn of month)
+ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     199452 eq     199254 (-0.37%) day     -198 | pos 2 ord 1 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-27 close T8 long MSFT closed at 532.27 (mean reached (close back through the 5-day average)): +359.01 USD, +0.40R
+    EVENT 2026-10-27 close T3 long META closed at 621.22 (stop): -896.51 USD, -1.01R
+    EVENT 2026-10-28 close T5 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -266.21 USD, -0.30R
+    EVENT 2026-10-28 order O9 queued: long COST at next open, stop 47.53 away (dip, score 90, risk 900 USD)
+    EVENT 2026-10-29 order O10 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 900 USD)
+    EVENT 2026-10-29 order O11 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 900 USD)
+    EVENT 2026-10-29 open T12 long 18 sh COST at 994.02, stop 946.50, risk 855 USD (dip)
+    EVENT 2026-10-30 open T13 long $35.0/pt JP225 at 64348, stop 60297, risk 898 USD (turn of month)
+lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     999001 eq     998120 (-0.19%) day     -881 | pos 1 ord 2 | 0 date(s), hourly to 2026-10-30 12:00 UTC
+    EVENT 2026-10-20 order O1 queued: long JP225 at next open, stop 4191 away (dip, score 87, risk 3375 USD)
+    EVENT 2026-10-21 open T2 long $127.6/pt JP225 at 64890, stop 60699, risk 3373 USD (dip)
+    EVENT 2026-10-28 close T2 long JP225 closed at 63735 (mean reached (close back through the 5-day average)): -999.07 USD, -0.30R
+    EVENT 2026-10-29 order O3 queued: long JP225 at next open, stop 4051 away (turn of month, score 55, risk 3375 USD)
+    EVENT 2026-10-29 order O4 queued: long GER40 at next open, stop 940.5 away (turn of month, score 55, risk 3375 USD)
+    EVENT 2026-10-29 order O5 queued: long US500 at next open, stop 205.1 away (turn of month, score 55, risk 3375 USD)
+    EVENT 2026-10-30 open T6 long $131.4/pt JP225 at 64348, stop 60297, risk 3373 USD (turn of month)
+portfolio updated
 
 
 ### portfolio-status (exit 0)
