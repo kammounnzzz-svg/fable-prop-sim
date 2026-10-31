@@ -1,6 +1,6 @@
 [
  {
-  "asOf": "2026-10-30T22:13:50Z",
+  "asOf": "2026-10-31T01:25:30Z",
   "lastBarDate": "2026-10-30",
   "product": "FTMO 2-Step Challenge, Swing account, US$200,000 (one of two identical accounts)",
   "currency": "USD",
@@ -15,9 +15,9 @@
   "balance": 199275.35,
   "equity": 199275.35,
   "floating": 0.0,
-  "dayPnl": 576.24,
-  "dayPnlPct": 0.29,
-  "worstEquityToday": 198699.11,
+  "dayPnl": 0.0,
+  "dayPnlPct": 0.0,
+  "worstEquityToday": 199275.35,
   "netPct": -0.36,
   "target": 220000.0,
   "targetPct": 10.0,
@@ -63,7 +63,7 @@
   "lastHourlyBar": "2026-10-30 20:00 UTC",
   "attemptsFailed": 0,
   "phasesPassed": 0,
-  "runs": 181,
+  "runs": 182,
   "flattenNextOpen": false,
   "status": "active"
  }
