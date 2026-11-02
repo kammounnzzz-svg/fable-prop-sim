@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-02",
+  "kind": "open",
+  "text": "T12 long $1.4/pt US30 at 52010, stop 50492, risk 2125 USD (dip)",
+  "n": 17
+ },
+ {
   "date": "2026-10-30",
   "kind": "order",
   "text": "O11 queued: long US30 at next open, stop 1518 away (dip, score 94, risk 2250 USD)",
