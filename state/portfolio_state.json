@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -602,7 +602,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 13,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -2411,7 +2411,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -2449,7 +2449,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 13,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -4258,7 +4258,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -4296,7 +4296,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 7,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -5983,7 +5983,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -6021,7 +6021,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 13,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -7830,7 +7830,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -7868,7 +7868,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 7,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -9554,7 +9554,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -9592,7 +9592,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 7,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -11278,7 +11278,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -11316,7 +11316,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 13,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -13125,7 +13125,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -13163,7 +13163,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 13,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -14971,7 +14971,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -15009,7 +15009,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 7,
-    "runs": 216,
+    "runs": 217,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-02",
@@ -16695,7 +16695,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -16733,7 +16733,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 17,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -18589,7 +18589,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -18627,7 +18627,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 17,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -20483,7 +20483,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -20521,7 +20521,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 9,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -22215,7 +22215,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -22253,7 +22253,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 17,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -24109,7 +24109,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -24147,7 +24147,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 9,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -25840,7 +25840,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -25878,7 +25878,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 9,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -27571,7 +27571,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -27609,7 +27609,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 17,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -29465,7 +29465,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:20Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -29503,7 +29503,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 17,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -31359,7 +31359,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-03T04:15:21Z",
+    "lastRunAt": "2026-11-03T04:29:44Z",
     "lastProcessed": {
      "EURUSD": "2026-11-02",
      "GBPUSD": "2026-11-02",
@@ -31397,7 +31397,7 @@
      "XAGUSD": 1793674800
     },
     "nextId": 9,
-    "runs": 208,
+    "runs": 209,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
