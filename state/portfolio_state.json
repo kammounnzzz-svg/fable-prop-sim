@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -579,7 +579,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -594,15 +594,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
     "nextId": 13,
-    "runs": 248,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -657,8 +657,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -717,12 +717,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -954,12 +954,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-05",
     "lastEquity": 201134.07822760218,
-    "lastWorst": 201134.07822760218,
+    "lastWorst": 199249.13135260218,
     "lastDayPnl": 1858.733180682786,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -1869,6 +1869,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 1858.73
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 199275.35,
+     "equity": 201134.08,
+     "worst": 199249.13,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 1858.73
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 199275.35,
+     "equity": 201134.08,
+     "worst": 199249.13,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 1858.73
     }
    ],
    "journal": [],
@@ -2012,7 +2030,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -2096,20 +2114,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -2385,36 +2403,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -2510,7 +2528,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -2525,7 +2543,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -2540,15 +2558,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
     "nextId": 13,
-    "runs": 248,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -2603,8 +2621,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -2663,12 +2681,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -2900,12 +2918,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-05",
     "lastEquity": 201134.07822760218,
-    "lastWorst": 201134.07822760218,
+    "lastWorst": 199249.13135260218,
     "lastDayPnl": 1858.733180682786,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -3815,6 +3833,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 1858.73
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 199275.35,
+     "equity": 201134.08,
+     "worst": 199249.13,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 1858.73
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 199275.35,
+     "equity": 201134.08,
+     "worst": 199249.13,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 1858.73
     }
    ],
    "journal": [],
@@ -3958,7 +3994,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -4042,20 +4078,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -4331,36 +4367,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -4456,7 +4492,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -4471,7 +4507,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -4486,15 +4522,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 8,
-    "runs": 248,
+    "nextId": 9,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -4549,8 +4585,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -4609,12 +4645,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -4835,7 +4871,8 @@
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 1499.0,
@@ -4845,36 +4882,50 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 197490.77359178205,
-    "lastWorst": 197490.77359178205,
-    "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 196827.37107902957,
+    "lastWorst": 196679.7402820202,
+    "lastDayPnl": -663.4025127524801,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-21": 215.1674247371282,
      "2026-10-28": -443.94197251869195,
      "2026-11-04": -2280.4518604363793
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O7",
+     "id": "T8",
+     "orderId": "O7",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 80.2,
+     "lots": 80.2,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 2250.0,
+     "riskUSD": 2248.07,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "challenge",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -5696,6 +5747,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 197490.77,
+     "equity": 197490.77,
+     "worst": 197490.77,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 197490.77,
+     "equity": 196827.37,
+     "worst": 196679.74,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": -663.4
     }
    ],
    "journal": [],
@@ -5839,7 +5908,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -5923,20 +5992,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -6212,36 +6281,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -6295,6 +6364,11 @@
      "date": "2026-11-04",
      "kind": "order",
      "text": "O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 2250 USD)"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T8 long $80.2/pt JP225 at 62389, stop 57947, risk 2248 USD (dip)"
     }
    ]
   },
@@ -6302,7 +6376,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -6317,7 +6391,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -6332,15 +6406,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
     "nextId": 13,
-    "runs": 248,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -6395,8 +6469,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -6455,12 +6529,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -6692,12 +6766,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-05",
     "lastEquity": 100558.63537812843,
-    "lastWorst": 100558.63537812843,
+    "lastWorst": 99616.16194062843,
     "lastDayPnl": 929.366590341393,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-20": 358.23306605040744,
      "2026-10-22": -40.714554239310615,
@@ -7607,6 +7681,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 99629.27,
+     "equity": 100558.64,
+     "worst": 99616.16,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 99629.27,
+     "equity": 100558.64,
+     "worst": 99616.16,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 929.37
     }
    ],
    "journal": [],
@@ -7750,7 +7842,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -7834,20 +7926,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -8123,36 +8215,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -8248,7 +8340,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -8263,7 +8355,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -8278,15 +8370,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 8,
-    "runs": 248,
+    "nextId": 9,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -8341,8 +8433,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -8401,12 +8493,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -8626,7 +8718,8 @@
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 575.0,
@@ -8636,36 +8729,50 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 98744.26301555746,
-    "lastWorst": 98744.26301555746,
-    "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 98412.56175918122,
+    "lastWorst": 98338.74636067654,
+    "lastDayPnl": -331.70125637624005,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
      "2026-11-04": -1140.2259302181897
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O7",
+     "id": "T8",
+     "orderId": "O7",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 40.1,
+     "lots": 40.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1125.0,
+     "riskUSD": 1124.03,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "challenge",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -9487,6 +9594,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 98744.26,
+     "equity": 98744.26,
+     "worst": 98744.26,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 98744.26,
+     "equity": 98412.56,
+     "worst": 98338.75,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": -331.7
     }
    ],
    "journal": [],
@@ -9630,7 +9755,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -9714,20 +9839,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -10003,36 +10128,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -10086,6 +10211,11 @@
      "date": "2026-11-04",
      "kind": "order",
      "text": "O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 1125 USD)"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T8 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)"
     }
    ]
   },
@@ -10093,7 +10223,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -10108,7 +10238,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -10123,15 +10253,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 8,
-    "runs": 248,
+    "nextId": 9,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -10186,8 +10316,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -10246,12 +10376,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -10471,7 +10601,8 @@
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 549.0,
@@ -10481,36 +10612,50 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 98744.26301555746,
-    "lastWorst": 98744.26301555746,
-    "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 98412.56175918122,
+    "lastWorst": 98338.74636067654,
+    "lastDayPnl": -331.70125637624005,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
      "2026-11-04": -1140.2259302181897
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O7",
+     "id": "T8",
+     "orderId": "O7",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 40.1,
+     "lots": 40.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1125.0,
+     "riskUSD": 1124.03,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "challenge",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -11332,6 +11477,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 98744.26,
+     "equity": 98744.26,
+     "worst": 98744.26,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 98744.26,
+     "equity": 98412.56,
+     "worst": 98338.75,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": -331.7
     }
    ],
    "journal": [],
@@ -11475,7 +11638,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -11559,20 +11722,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -11848,36 +12011,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -11931,6 +12094,11 @@
      "date": "2026-11-04",
      "kind": "order",
      "text": "O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 1125 USD)"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T8 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)"
     }
    ]
   },
@@ -11938,7 +12106,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -11953,7 +12121,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -11968,15 +12136,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
     "nextId": 13,
-    "runs": 248,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -12031,8 +12199,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -12091,12 +12259,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -12328,12 +12496,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-05",
     "lastEquity": 201134.07822760218,
-    "lastWorst": 201134.07822760218,
+    "lastWorst": 199249.13135260218,
     "lastDayPnl": 1858.733180682786,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -13243,6 +13411,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 1858.73
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 199275.35,
+     "equity": 201134.08,
+     "worst": 199249.13,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 1858.73
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 199275.35,
+     "equity": 201134.08,
+     "worst": 199249.13,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 1858.73
     }
    ],
    "journal": [],
@@ -13386,7 +13572,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -13470,20 +13656,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -13759,36 +13945,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -13884,7 +14070,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -13899,7 +14085,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -13914,15 +14100,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 14,
-    "runs": 248,
+    "nextId": 15,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -13977,8 +14163,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -14037,12 +14223,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -14264,7 +14450,8 @@
      "2026-10-28",
      "2026-10-29",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 549.0,
@@ -14274,12 +14461,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 198201.23401461222,
-    "lastWorst": 198201.23401461222,
-    "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 197670.181130339,
+    "lastWorst": 197552.00286141134,
+    "lastDayPnl": -531.0528842732019,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-20": 571.4620339375546,
      "2026-10-22": -66.5303691227759,
@@ -14289,24 +14476,38 @@
      "2026-11-04": -1220.9268522199336
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O13",
+     "id": "T14",
+     "orderId": "O13",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 64.2,
+     "lots": 64.2,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1800.0,
+     "riskUSD": 1799.57,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "challenge",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T4",
@@ -15200,6 +15401,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 198201.23,
+     "equity": 198201.23,
+     "worst": 198201.23,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 198201.23,
+     "equity": 197670.18,
+     "worst": 197552.0,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": -531.05
     }
    ],
    "journal": [],
@@ -15343,7 +15562,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -15427,20 +15646,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -15716,36 +15935,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -15844,6 +16063,11 @@
      "date": "2026-11-04",
      "kind": "order",
      "text": "O13 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 1800 USD)"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T14 long $64.2/pt JP225 at 62389, stop 57947, risk 1800 USD (dip)"
     }
    ]
   },
@@ -15851,7 +16075,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -15866,7 +16090,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -15881,15 +16105,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 8,
-    "runs": 248,
+    "nextId": 9,
+    "runs": 249,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-04",
@@ -15944,8 +16168,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -16004,12 +16228,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -16229,7 +16453,8 @@
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 999.0,
@@ -16239,36 +16464,50 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 992468.9345533559,
-    "lastWorst": 992468.9345533559,
-    "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 990477.0726447424,
+    "lastWorst": 990033.8120971133,
+    "lastDayPnl": -1991.8619086134713,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-21": 645.5022742113847,
      "2026-10-28": -1332.6088839979077,
      "2026-11-04": -6843.9588368575805
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O7",
+     "id": "T8",
+     "orderId": "O7",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 240.8,
+     "lots": 240.8,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 6750.0,
+     "riskUSD": 6749.81,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "challenge",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -17090,6 +17329,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 992468.93,
+     "equity": 992468.93,
+     "worst": 992468.93,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 992468.93,
+     "equity": 990477.07,
+     "worst": 990033.81,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": -1991.86
     }
    ],
    "journal": [],
@@ -17233,7 +17490,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -17317,20 +17574,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -17606,36 +17863,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -17689,6 +17946,11 @@
      "date": "2026-11-04",
      "kind": "order",
      "text": "O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 6750 USD)"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T8 long $240.8/pt JP225 at 62389, stop 57947, risk 6750 USD (dip)"
     }
    ]
   },
@@ -17696,7 +17958,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -17711,7 +17973,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -17726,15 +17988,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 18,
-    "runs": 240,
+    "nextId": 19,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -17790,8 +18052,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -17850,12 +18112,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -18066,7 +18328,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 198497.79703183824,
-    "dayStartBalance": 198592.31193619923,
+    "dayStartBalance": 198497.79703183824,
     "peakBalance": 200316.58155783714,
     "tradingDays": [
      "2026-10-20",
@@ -18078,7 +18340,8 @@
      "2026-10-29",
      "2026-10-30",
      "2026-11-02",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 1080.0,
@@ -18088,12 +18351,12 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 199427.16362217965,
-    "lastWorst": 199427.16362217965,
-    "lastDayPnl": 834.8516859804222,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 199095.4623658034,
+    "lastWorst": 198079.17352979872,
+    "lastDayPnl": 597.665333965153,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -18131,25 +18394,38 @@
      "attempt": 1,
      "strat": "mr",
      "tf": "1d"
-    }
-   ],
-   "orders": [
+    },
     {
-     "id": "O17",
+     "id": "T18",
+     "orderId": "O17",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 40.1,
+     "lots": 40.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1125.0,
+     "riskUSD": 1124.03,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T6",
@@ -19031,6 +19307,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 198497.8,
+     "equity": 199427.16,
+     "worst": 198484.69,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 198497.8,
+     "equity": 199095.46,
+     "worst": 198079.17,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 597.67
     }
    ],
    "journal": [],
@@ -19174,7 +19468,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -19258,20 +19552,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -19547,36 +19841,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -19705,6 +19999,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T14 long GER40 closed at 25888.1 (turn-of-month window over (3 sessions held)): -94.51 USD, -0.09R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T18 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)"
     }
    ]
   },
@@ -19712,7 +20011,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -19727,7 +20026,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -19742,15 +20041,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 18,
-    "runs": 240,
+    "nextId": 19,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -19806,8 +20105,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -19866,12 +20165,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -20082,7 +20381,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 198497.79703183824,
-    "dayStartBalance": 198592.31193619923,
+    "dayStartBalance": 198497.79703183824,
     "peakBalance": 200316.58155783714,
     "tradingDays": [
      "2026-10-20",
@@ -20094,7 +20393,8 @@
      "2026-10-29",
      "2026-10-30",
      "2026-11-02",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 997.0,
@@ -20104,12 +20404,12 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 199427.16362217965,
-    "lastWorst": 199427.16362217965,
-    "lastDayPnl": 834.8516859804222,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 199095.4623658034,
+    "lastWorst": 198079.17352979872,
+    "lastDayPnl": 597.665333965153,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -20147,25 +20447,38 @@
      "attempt": 1,
      "strat": "mr",
      "tf": "1d"
-    }
-   ],
-   "orders": [
+    },
     {
-     "id": "O17",
+     "id": "T18",
+     "orderId": "O17",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 40.1,
+     "lots": 40.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1125.0,
+     "riskUSD": 1124.03,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T6",
@@ -21047,6 +21360,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 198497.8,
+     "equity": 199427.16,
+     "worst": 198484.69,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 198497.8,
+     "equity": 199095.46,
+     "worst": 198079.17,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 597.67
     }
    ],
    "journal": [],
@@ -21190,7 +21521,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -21274,20 +21605,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -21563,36 +21894,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -21721,6 +22052,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T14 long GER40 closed at 25888.1 (turn-of-month window over (3 sessions held)): -94.51 USD, -0.09R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T18 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)"
     }
    ]
   },
@@ -21728,7 +22064,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -21743,7 +22079,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -21758,15 +22094,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 10,
-    "runs": 240,
+    "nextId": 11,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -21822,8 +22158,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -21882,12 +22218,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -22101,13 +22437,14 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 198418.426951758,
-    "dayStartBalance": 198527.01333200326,
+    "dayStartBalance": 198418.426951758,
     "peakBalance": 200000.0,
     "tradingDays": [
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 1499.0,
@@ -22117,35 +22454,49 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 198418.426951758,
-    "lastWorst": 198418.426951758,
-    "lastDayPnl": -108.58638024525135,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 198086.72569538176,
+    "lastWorst": 198012.9102968771,
+    "lastDayPnl": -331.7012563762546,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-28": -332.760737778561,
      "2026-11-04": -1248.812310463427
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O9",
+     "id": "T10",
+     "orderId": "O9",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 40.1,
+     "lots": 40.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1125.0,
+     "riskUSD": 1124.03,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -22955,6 +23306,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 198418.43,
+     "equity": 198418.43,
+     "worst": 198418.43,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 198418.43,
+     "equity": 198086.73,
+     "worst": 198012.91,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": -331.7
     }
    ],
    "journal": [],
@@ -23098,7 +23467,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -23182,20 +23551,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -23471,36 +23840,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -23574,6 +23943,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T8 long US500 closed at 7635.5 (turn-of-month window over (3 sessions held)): -14.07 USD, -0.01R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T10 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)"
     }
    ]
   },
@@ -23581,7 +23955,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -23596,7 +23970,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -23611,15 +23985,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 18,
-    "runs": 240,
+    "nextId": 19,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -23675,8 +24049,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -23735,12 +24109,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -23951,7 +24325,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 99274.57528932526,
-    "dayStartBalance": 99321.83274150576,
+    "dayStartBalance": 99274.57528932526,
     "peakBalance": 100155.51558981473,
     "tradingDays": [
      "2026-10-20",
@@ -23963,7 +24337,8 @@
      "2026-10-29",
      "2026-10-30",
      "2026-11-02",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 450.0,
@@ -23973,12 +24348,12 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 99672.87525661444,
-    "lastWorst": 99672.87525661444,
-    "lastDayPnl": 351.042515108682,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 99507.43822101531,
+    "lastWorst": 99066.70537341324,
+    "lastDayPnl": 232.86293169004784,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-22": 155.55058981473755,
      "2026-10-27": -302.0378887178909,
@@ -24016,25 +24391,38 @@
      "attempt": 1,
      "strat": "mr",
      "tf": "1d"
-    }
-   ],
-   "orders": [
+    },
     {
-     "id": "O17",
+     "id": "T18",
+     "orderId": "O17",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 20.0,
+     "lots": 20.0,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 562.5,
+     "riskUSD": 560.62,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T6",
@@ -24916,6 +25304,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 398.3
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 99274.58,
+     "equity": 99672.88,
+     "worst": 99268.96,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 398.3
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 99274.58,
+     "equity": 99507.44,
+     "worst": 99066.71,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 232.86
     }
    ],
    "journal": [],
@@ -25059,7 +25465,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -25143,20 +25549,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -25432,36 +25838,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -25590,6 +25996,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T14 long GER40 closed at 25888.1 (turn-of-month window over (3 sessions held)): -47.26 USD, -0.09R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T18 long $20.0/pt JP225 at 62389, stop 57947, risk 561 USD (dip)"
     }
    ]
   },
@@ -25597,7 +26008,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -25612,7 +26023,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -25627,15 +26038,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 10,
-    "runs": 240,
+    "nextId": 11,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -25691,8 +26102,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -25751,12 +26162,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -25969,13 +26380,14 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 99209.60495909992,
-    "dayStartBalance": 99263.89814922254,
+    "dayStartBalance": 99209.60495909992,
     "peakBalance": 100000.0,
     "tradingDays": [
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 575.0,
@@ -25985,35 +26397,49 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 99209.60495909992,
-    "lastWorst": 99209.60495909992,
-    "lastDayPnl": -54.293190122625674,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 99044.16792350079,
+    "lastWorst": 99007.35226339872,
+    "lastDayPnl": -165.43703559912683,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O9",
+     "id": "T10",
+     "orderId": "O9",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 20.0,
+     "lots": 20.0,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 562.5,
+     "riskUSD": 560.62,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -26823,6 +27249,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 99209.6,
+     "equity": 99209.6,
+     "worst": 99209.6,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 99209.6,
+     "equity": 99044.17,
+     "worst": 99007.35,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": -165.44
     }
    ],
    "journal": [],
@@ -26966,7 +27410,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -27050,20 +27494,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -27339,36 +27783,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -27442,6 +27886,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T8 long US500 closed at 7635.5 (turn-of-month window over (3 sessions held)): -7.04 USD, -0.01R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T10 long $20.0/pt JP225 at 62389, stop 57947, risk 561 USD (dip)"
     }
    ]
   },
@@ -27449,7 +27898,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -27464,7 +27913,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -27479,15 +27928,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 10,
-    "runs": 240,
+    "nextId": 11,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -27543,8 +27992,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -27603,12 +28052,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -27821,13 +28270,14 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 99209.60495909992,
-    "dayStartBalance": 99263.89814922254,
+    "dayStartBalance": 99209.60495909992,
     "peakBalance": 100000.0,
     "tradingDays": [
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 549.0,
@@ -27837,35 +28287,49 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 99209.60495909992,
-    "lastWorst": 99209.60495909992,
-    "lastDayPnl": -54.293190122625674,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 99044.16792350079,
+    "lastWorst": 99007.35226339872,
+    "lastDayPnl": -165.43703559912683,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O9",
+     "id": "T10",
+     "orderId": "O9",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 20.0,
+     "lots": 20.0,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 562.5,
+     "riskUSD": 560.62,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -28675,6 +29139,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 99209.6,
+     "equity": 99209.6,
+     "worst": 99209.6,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 99209.6,
+     "equity": 99044.17,
+     "worst": 99007.35,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": -165.44
     }
    ],
    "journal": [],
@@ -28818,7 +29300,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -28902,20 +29384,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -29191,36 +29673,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -29294,6 +29776,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T8 long US500 closed at 7635.5 (turn-of-month window over (3 sessions held)): -7.04 USD, -0.01R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T10 long $20.0/pt JP225 at 62389, stop 57947, risk 561 USD (dip)"
     }
    ]
   },
@@ -29301,7 +29788,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -29316,7 +29803,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -29331,15 +29818,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 18,
-    "runs": 240,
+    "nextId": 19,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -29395,8 +29882,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -29455,12 +29942,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -29671,7 +30158,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 198497.79703183824,
-    "dayStartBalance": 198592.31193619923,
+    "dayStartBalance": 198497.79703183824,
     "peakBalance": 200316.58155783714,
     "tradingDays": [
      "2026-10-20",
@@ -29683,7 +30170,8 @@
      "2026-10-29",
      "2026-10-30",
      "2026-11-02",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 1050.0,
@@ -29693,12 +30181,12 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 199427.16362217965,
-    "lastWorst": 199427.16362217965,
-    "lastDayPnl": 834.8516859804222,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 199095.4623658034,
+    "lastWorst": 198079.17352979872,
+    "lastDayPnl": 597.665333965153,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -29736,25 +30224,38 @@
      "attempt": 1,
      "strat": "mr",
      "tf": "1d"
-    }
-   ],
-   "orders": [
+    },
     {
-     "id": "O17",
+     "id": "T18",
+     "orderId": "O17",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 40.1,
+     "lots": 40.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 1125.0,
+     "riskUSD": 1124.03,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T6",
@@ -30636,6 +31137,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 198497.8,
+     "equity": 199427.16,
+     "worst": 198484.69,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 929.37
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 198497.8,
+     "equity": 199095.46,
+     "worst": 198079.17,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 597.67
     }
    ],
    "journal": [],
@@ -30779,7 +31298,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -30863,20 +31382,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -31152,36 +31671,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -31310,6 +31829,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T14 long GER40 closed at 25888.1 (turn-of-month window over (3 sessions held)): -94.51 USD, -0.09R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T18 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)"
     }
    ]
   },
@@ -31317,7 +31841,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -31332,7 +31856,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -31347,15 +31871,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 18,
-    "runs": 240,
+    "nextId": 19,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -31411,8 +31935,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -31471,12 +31995,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -31687,7 +32211,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 198799.5910449138,
-    "dayStartBalance": 198875.2029684026,
+    "dayStartBalance": 198799.5910449138,
     "peakBalance": 200255.4873975528,
     "tradingDays": [
      "2026-10-20",
@@ -31699,7 +32223,8 @@
      "2026-10-29",
      "2026-10-30",
      "2026-11-02",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 549.0,
@@ -31709,12 +32234,12 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 199463.4243237291,
-    "lastWorst": 199463.4243237291,
-    "lastDayPnl": 588.2213553265028,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 199197.89788159248,
+    "lastWorst": 198465.61343462867,
+    "lastDayPnl": 398.3068366786756,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-22": 255.54739755278308,
      "2026-10-27": -537.4967643680384,
@@ -31752,25 +32277,38 @@
      "attempt": 1,
      "strat": "mr",
      "tf": "1d"
-    }
-   ],
-   "orders": [
+    },
     {
-     "id": "O17",
+     "id": "T18",
+     "orderId": "O17",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 32.1,
+     "lots": 32.1,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 900.0,
+     "riskUSD": 899.79,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T6",
@@ -32652,6 +33190,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 663.83
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 198799.59,
+     "equity": 199463.42,
+     "worst": 198790.23,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 663.83
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 198799.59,
+     "equity": 199197.9,
+     "worst": 198465.61,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 398.31
     }
    ],
    "journal": [],
@@ -32795,7 +33351,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -32879,20 +33435,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -33168,36 +33724,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -33326,6 +33882,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T14 long GER40 closed at 25888.1 (turn-of-month window over (3 sessions held)): -75.61 USD, -0.09R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T18 long $32.1/pt JP225 at 62389, stop 57947, risk 900 USD (dip)"
     }
    ]
   },
@@ -33333,7 +33894,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-05T04:35:01Z",
+    "lastRunAt": "2026-11-05T07:42:37Z",
     "lastProcessed": {
      "EURUSD": "2026-11-04",
      "GBPUSD": "2026-11-04",
@@ -33348,7 +33909,7 @@
      "GER40": "2026-11-04",
      "UK100": "2026-11-04",
      "EU50": "2026-11-04",
-     "JP225": "2026-11-04",
+     "JP225": "2026-11-05",
      "AUS200": "2026-11-04",
      "XAGUSD": "2026-11-04",
      "NVDA": "2026-11-04",
@@ -33363,15 +33924,15 @@
      "NFLX": "2026-11-04",
      "LLY": "2026-11-04",
      "COST": "2026-11-04",
-     "BTCUSD": "2026-11-03",
-     "ETHUSD": "2026-11-03"
+     "BTCUSD": "2026-11-04",
+     "ETHUSD": "2026-11-04"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793847600,
-     "XAGUSD": 1793847600
+     "XAUUSD": 1793858400,
+     "XAGUSD": 1793858400
     },
-    "nextId": 10,
-    "runs": 240,
+    "nextId": 11,
+    "runs": 241,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -33427,8 +33988,8 @@
       "c": 6265.7099609375
      },
      "JP225": {
-      "d": "2026-11-04",
-      "c": 62188.62890625
+      "d": "2026-11-05",
+      "c": 61077.8984375
      },
      "AUS200": {
       "d": "2026-11-04",
@@ -33487,12 +34048,12 @@
       "c": 1046.469970703125
      },
      "BTCUSD": {
-      "d": "2026-11-03",
-      "c": 77345.046875
+      "d": "2026-11-04",
+      "c": 80405.2890625
      },
      "ETHUSD": {
-      "d": "2026-11-03",
-      "c": 2272.725830078125
+      "d": "2026-11-04",
+      "c": 2422.311767578125
      }
     }
    },
@@ -33705,13 +34266,14 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 995235.0737421864,
-    "dayStartBalance": 995580.2570295678,
+    "dayStartBalance": 995235.0737421864,
     "peakBalance": 1000000.0,
     "tradingDays": [
      "2026-10-21",
      "2026-10-28",
      "2026-10-30",
-     "2026-11-04"
+     "2026-11-04",
+     "2026-11-05"
     ],
     "profitableDays": 0,
     "feesPaidEUR": 999.0,
@@ -33721,35 +34283,49 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-04",
-    "lastEquity": 995235.0737421864,
-    "lastWorst": 995235.0737421864,
-    "lastDayPnl": -345.18328738142736,
-    "pragueDay": "2026-11-05",
-    "lastHourlyBar": "2026-11-05 03:00 UTC",
+    "lastDate": "2026-11-05",
+    "lastEquity": 994239.1427878797,
+    "lastWorst": 994017.5125140651,
+    "lastDayPnl": -995.9309543067357,
+    "pragueDay": "2026-11-06",
+    "lastHourlyBar": "2026-11-05 06:00 UTC",
     "realizedByDate": {
      "2026-10-28": -999.0651797775148,
      "2026-11-04": -3765.8610780359672
     }
    },
-   "positions": [],
-   "orders": [
+   "positions": [
     {
-     "id": "O9",
+     "id": "T10",
+     "orderId": "O9",
      "symbol": "JP225",
      "side": "long",
-     "setup": "dip",
-     "strat": "mr",
+     "units": 120.4,
+     "lots": 120.4,
+     "entry": 62388.73046875,
+     "entryDate": "2026-11-05",
+     "stop": 57946.725111417094,
+     "initialStop": 57946.725111417094,
      "stopDist": 4442.005357332904,
-     "riskUSD": 3375.0,
+     "riskUSD": 3374.9,
      "atr": 1480.6684524443012,
-     "signalClose": 62188.62890625,
-     "createdDate": "2026-11-04",
-     "score": 89.1,
-     "riskMult": 1.0,
-     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+     "setup": "dip",
+     "reason": "long JP225: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+     "extreme": 62388.73046875,
+     "beDone": false,
+     "trailOn": false,
+     "swapUSD": 0.0,
+     "commUSD": 0.0,
+     "bars": 1,
+     "lastDate": "2026-11-05",
+     "exitNextOpen": null,
+     "phase": "funded",
+     "attempt": 1,
+     "strat": "mr",
+     "tf": "1d"
     }
    ],
+   "orders": [],
    "trades": [
     {
      "id": "T2",
@@ -34559,6 +35135,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "balance": 995235.07,
+     "equity": 995235.07,
+     "worst": 995235.07,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "balance": 995235.07,
+     "equity": 994239.14,
+     "worst": 994017.51,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": -995.93
     }
    ],
    "journal": [],
@@ -34702,7 +35296,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-04",
-     "close": 28437.166015625,
+     "close": 28437.169921875,
      "regime": "down",
      "adx": 30.1,
      "atrPct": 1.88,
@@ -34786,20 +35380,20 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-04",
-     "close": 62188.62890625,
+     "date": "2026-11-05",
+     "close": 61077.8984375,
      "regime": "down",
-     "adx": 25.3,
-     "atrPct": 2.38,
-     "distEma20Atr": -1.53,
-     "chg5Pct": -1.71,
-     "chg20Pct": -11.09,
-     "ema20": 64456.0,
-     "ema50": 65302.0,
-     "rsi2": 10.9,
-     "aboveSma200": true,
+     "adx": 26.5,
+     "atrPct": 2.47,
+     "distEma20Atr": -2.03,
+     "chg5Pct": -4.5,
+     "chg20Pct": -13.59,
+     "ema20": 64134.0,
+     "ema50": 65136.0,
+     "rsi2": 4.4,
+     "aboveSma200": false,
      "donchianHi": 70798.6171875,
-     "donchianLo": 61462.609375
+     "donchianLo": 60030.1015625
     },
     {
      "symbol": "AUS200",
@@ -35075,36 +35669,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-03",
-     "close": 77345.046875,
-     "regime": "down",
-     "adx": 22.6,
-     "atrPct": 2.51,
-     "distEma20Atr": -1.25,
-     "chg5Pct": -0.55,
-     "chg20Pct": -5.17,
-     "ema20": 79770.4,
-     "ema50": 80049.1,
-     "rsi2": 49.5,
+     "date": "2026-11-04",
+     "close": 80405.2890625,
+     "regime": "none",
+     "adx": 21.3,
+     "atrPct": 2.72,
+     "distEma20Atr": 0.26,
+     "chg5Pct": 4.15,
+     "chg20Pct": -2.11,
+     "ema20": 79830.8,
+     "ema50": 80063.1,
+     "rsi2": 88.3,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
      "donchianLo": 76189.8828125
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-03",
-     "close": 2272.725830078125,
-     "regime": "down",
-     "adx": 30.9,
-     "atrPct": 3.47,
-     "distEma20Atr": -0.96,
-     "chg5Pct": 1.03,
-     "chg20Pct": -6.02,
-     "ema20": 2348.25,
-     "ema50": 2408.11,
-     "rsi2": 65.6,
+     "date": "2026-11-04",
+     "close": 2422.311767578125,
+     "regime": "none",
+     "adx": 29.0,
+     "atrPct": 3.68,
+     "distEma20Atr": 0.75,
+     "chg5Pct": 8.09,
+     "chg20Pct": -0.74,
+     "ema20": 2355.31,
+     "ema50": 2408.67,
+     "rsi2": 95.3,
      "aboveSma200": true,
-     "donchianHi": 2526.070556640625,
+     "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
     }
    ],
@@ -35178,6 +35772,11 @@
      "date": "2026-11-04",
      "kind": "close",
      "text": "T8 long US500 closed at 7635.5 (turn-of-month window over (3 sessions held)): -42.74 USD, -0.01R"
+    },
+    {
+     "date": "2026-11-05",
+     "kind": "open",
+     "text": "T10 long $120.4/pt JP225 at 62389, stop 57947, risk 3375 USD (dip)"
     }
    ]
   }
