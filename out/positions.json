@@ -1,25 +1,6 @@
 [
  {
-  "id": "T12",
-  "symbol": "US30",
-  "side": "long",
-  "size": "$1.4/pt",
-  "units": 1.4,
-  "entry": 52009.73046875,
-  "entryDate": "2026-11-02",
-  "tf": "1d",
-  "price": 53356.12109375,
-  "stop": 50492.0,
-  "initialStop": 50492.0,
-  "riskUSD": 2124.72,
-  "riskNow": 2124.72,
-  "pnlUSD": 1858.73,
-  "r": 0.87,
-  "swapUSD": -26.21,
-  "bars": 3,
-  "setup": "dip",
-  "stage": "initial",
-  "thesis": "long US30: RSI(2) 6 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
-  "exitPlan": "mean reached (close back through the 5-day average)"
+  "id": "none",
+  "empty": true
  }
 ]
