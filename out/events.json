@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-06",
+  "kind": "order",
+  "text": "O13 queued: long LLY at next open, stop 142.06 away (dip, score 88, risk 2250 USD)",
+  "n": 19
+ },
+ {
   "date": "2026-11-05",
   "kind": "close",
   "text": "T12 long US30 closed at 53678 (mean reached (close back through the 5-day average)): +2295.83 USD, +1.08R",
