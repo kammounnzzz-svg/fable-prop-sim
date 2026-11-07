@@ -1,8 +1,8 @@
-run started 2026-11-07T07:40:12Z, finished 2026-11-07T07:40:36Z, ok=True
+run started 2026-11-07T10:05:47Z, finished 2026-11-07T10:06:16Z, ok=True
 
 ### fetch (exit 0)
-XAUUSD  1142 hourly bars, last 2026-11-06 21:00 UTC close 4079.5
-XAGUSD  1141 hourly bars, last 2026-11-06 21:00 UTC close 51.96500015258789
+XAUUSD  1142 hourly bars, last 2026-11-06 21:00 UTC close 4074.89990234375
+XAGUSD  1141 hourly bars, last 2026-11-06 21:00 UTC close 51.94200134277344
 EURUSD   518 bars, last 2026-11-06 close 1.1228259801864624
 GBPUSD   518 bars, last 2026-11-06 close 1.3456052541732788
 AUDUSD   518 bars, last 2026-11-06 close 0.6931101679801941
