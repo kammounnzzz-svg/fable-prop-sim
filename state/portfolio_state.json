@@ -564,7 +564,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -594,15 +594,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 14,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -717,12 +717,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -955,12 +955,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 201571.17962771992,
     "lastWorst": 201571.17962771992,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -2007,6 +2007,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 201571.18,
+     "equity": 201571.18,
+     "worst": 201571.18,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -2523,34 +2532,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -2658,7 +2667,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -2688,15 +2697,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 14,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -2811,12 +2820,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -3049,12 +3058,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 201571.17962771992,
     "lastWorst": 201571.17962771992,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -4101,6 +4110,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 201571.18,
+     "equity": 201571.18,
+     "worst": 201571.18,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -4617,34 +4635,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -4752,7 +4770,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -4782,15 +4800,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 9,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -4905,12 +4923,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -5143,12 +5161,12 @@
     "lossStreak": 3,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 195233.91133641443,
     "lastWorst": 195233.91133641443,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-21": 215.1674247371282,
      "2026-10-28": -443.94197251869195,
@@ -6129,6 +6147,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 195233.91,
+     "equity": 195233.91,
+     "worst": 195233.91,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -6645,34 +6672,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -6745,7 +6772,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -6775,15 +6802,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 14,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -6898,12 +6925,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -7136,12 +7163,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 100777.1860781873,
     "lastWorst": 100777.1860781873,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-20": 358.23306605040744,
      "2026-10-22": -40.714554239310615,
@@ -8188,6 +8215,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 100777.19,
+     "equity": 100777.19,
+     "worst": 100777.19,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -8704,34 +8740,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -8839,7 +8875,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -8869,15 +8905,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 9,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -8992,12 +9028,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -9229,12 +9265,12 @@
     "lossStreak": 3,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 97615.83188787365,
     "lastWorst": 97615.83188787365,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
@@ -10215,6 +10251,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 97615.83,
+     "equity": 97615.83,
+     "worst": 97615.83,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -10731,34 +10776,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -10831,7 +10876,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -10861,15 +10906,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 9,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -10984,12 +11029,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -11221,12 +11266,12 @@
     "lossStreak": 3,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 97615.83188787365,
     "lastWorst": 97615.83188787365,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
@@ -12207,6 +12252,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 97615.83,
+     "equity": 97615.83,
+     "worst": 97615.83,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -12723,34 +12777,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -12823,7 +12877,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -12853,15 +12907,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 14,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -12976,12 +13030,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -13214,12 +13268,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 201571.17962771992,
     "lastWorst": 201571.17962771992,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -14266,6 +14320,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 201571.18,
+     "equity": 201571.18,
+     "worst": 201571.18,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -14782,34 +14845,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -14917,7 +14980,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -14947,15 +15010,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 16,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -15070,12 +15133,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -15309,12 +15372,12 @@
     "lossStreak": 2,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 196394.61859323314,
     "lastWorst": 196394.61859323314,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-20": 571.4620339375546,
      "2026-10-22": -66.5303691227759,
@@ -16386,6 +16449,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 196394.62,
+     "equity": 196394.62,
+     "worst": 196394.62,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -16902,34 +16974,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -17052,7 +17124,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -17082,15 +17154,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 9,
-    "runs": 292,
+    "runs": 293,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-06",
@@ -17205,12 +17277,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -17442,12 +17514,12 @@
     "lossStreak": 3,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 985692.7197018282,
     "lastWorst": 985692.7197018282,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-21": 645.5022742113847,
      "2026-10-28": -1332.6088839979077,
@@ -18428,6 +18500,15 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 985692.72,
+     "equity": 985692.72,
+     "worst": 985692.72,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -18944,34 +19025,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -19044,7 +19125,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -19074,15 +19155,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 20,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -19198,12 +19279,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -19438,12 +19519,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 198517.28319455468,
     "lastWorst": 198517.28319455468,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -20527,6 +20608,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 198517.28,
+     "equity": 198517.28,
+     "worst": 198517.28,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -21043,34 +21133,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -21228,7 +21318,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -21258,15 +21348,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 20,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -21382,12 +21472,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -21622,12 +21712,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 198517.28319455468,
     "lastWorst": 198517.28319455468,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -22711,6 +22801,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 198517.28,
+     "equity": 198517.28,
+     "worst": 198517.28,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -23227,34 +23326,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -23412,7 +23511,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -23442,15 +23541,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 11,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -23566,12 +23665,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -23803,12 +23902,12 @@
     "lossStreak": 5,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 197289.9958240742,
     "lastWorst": 197289.9958240742,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-28": -332.760737778561,
      "2026-11-04": -1248.812310463427,
@@ -24776,6 +24875,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 197290.0,
+     "equity": 197290.0,
+     "worst": 197290.0,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -25292,34 +25400,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -25412,7 +25520,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -25442,15 +25550,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 20,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -25566,12 +25674,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -25806,12 +25914,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 99203.73129986825,
     "lastWorst": 99203.73129986825,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-22": 155.55058981473755,
      "2026-10-27": -302.0378887178909,
@@ -26895,6 +27003,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 99203.73,
+     "equity": 99203.73,
+     "worst": 99203.73,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -27411,34 +27528,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -27596,7 +27713,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -27626,15 +27743,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 11,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -27750,12 +27867,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -27986,12 +28103,12 @@
     "lossStreak": 5,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 98646.79641661422,
     "lastWorst": 98646.79641661422,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135,
@@ -28959,6 +29076,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 98646.8,
+     "equity": 98646.8,
+     "worst": 98646.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -29475,34 +29601,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -29595,7 +29721,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -29625,15 +29751,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 11,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -29749,12 +29875,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -29985,12 +30111,12 @@
     "lossStreak": 5,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 98646.79641661422,
     "lastWorst": 98646.79641661422,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135,
@@ -30958,6 +31084,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 98646.8,
+     "equity": 98646.8,
+     "worst": 98646.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -31474,34 +31609,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -31594,7 +31729,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -31624,15 +31759,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 20,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -31748,12 +31883,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -31988,12 +32123,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 198517.28319455468,
     "lastWorst": 198517.28319455468,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -33077,6 +33212,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 198517.28,
+     "equity": 198517.28,
+     "worst": 198517.28,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -33593,34 +33737,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -33778,7 +33922,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -33808,15 +33952,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 20,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -33932,12 +34076,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -34172,12 +34316,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 198716.22425593875,
     "lastWorst": 198716.22425593875,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-22": 255.54739755278308,
      "2026-10-27": -537.4967643680384,
@@ -35261,6 +35405,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 198716.22,
+     "equity": 198716.22,
+     "worst": 198716.22,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -35777,34 +35930,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
@@ -35962,7 +36115,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-07T22:14:29Z",
+    "lastRunAt": "2026-11-09T01:36:08Z",
     "lastProcessed": {
      "EURUSD": "2026-11-06",
      "GBPUSD": "2026-11-06",
@@ -35992,15 +36145,15 @@
      "NFLX": "2026-11-06",
      "LLY": "2026-11-06",
      "COST": "2026-11-06",
-     "BTCUSD": "2026-11-06",
-     "ETHUSD": "2026-11-06"
+     "BTCUSD": "2026-11-07",
+     "ETHUSD": "2026-11-07"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1793998800,
-     "XAGUSD": 1793998800
+     "XAUUSD": 1794182400,
+     "XAGUSD": 1794182400
     },
     "nextId": 11,
-    "runs": 284,
+    "runs": 285,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -36116,12 +36269,12 @@
       "c": 1053.56005859375
      },
      "BTCUSD": {
-      "d": "2026-11-06",
-      "c": 75746.9296875
+      "d": "2026-11-07",
+      "c": 75747.578125
      },
      "ETHUSD": {
-      "d": "2026-11-06",
-      "c": 2235.04736328125
+      "d": "2026-11-07",
+      "c": 2236.315185546875
      }
     }
    },
@@ -36352,12 +36505,12 @@
     "lossStreak": 5,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-07",
     "lastEquity": 991846.9663164226,
     "lastWorst": 991846.9663164226,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-07",
-    "lastHourlyBar": "2026-11-06 21:00 UTC",
+    "pragueDay": "2026-11-09",
+    "lastHourlyBar": "2026-11-09 00:00 UTC",
     "realizedByDate": {
      "2026-10-28": -999.0651797775148,
      "2026-11-04": -3765.8610780359672,
@@ -37325,6 +37478,15 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "balance": 991846.97,
+     "equity": 991846.97,
+     "worst": 991846.97,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -37841,34 +38003,34 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-06",
-     "close": 75746.9296875,
+     "date": "2026-11-07",
+     "close": 75747.578125,
      "regime": "down",
-     "adx": 19.6,
-     "atrPct": 3.13,
-     "distEma20Atr": -1.42,
-     "chg5Pct": -3.2,
-     "chg20Pct": -6.92,
-     "ema20": 79106.8,
-     "ema50": 79738.6,
+     "adx": 19.0,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.35,
+     "chg5Pct": -1.21,
+     "chg20Pct": -7.64,
+     "ema20": 78786.9,
+     "ema50": 79582.1,
      "rsi2": 25.7,
      "aboveSma200": true,
      "donchianHi": 84840.046875,
-     "donchianLo": 75114.2890625
+     "donchianLo": 74795.109375
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-06",
-     "close": 2235.04736328125,
+     "date": "2026-11-07",
+     "close": 2236.315185546875,
      "regime": "down",
-     "adx": 25.0,
-     "atrPct": 4.26,
-     "distEma20Atr": -1.03,
-     "chg5Pct": -1.67,
-     "chg20Pct": -6.87,
-     "ema20": 2333.44,
-     "ema50": 2395.29,
-     "rsi2": 30.4,
+     "adx": 23.2,
+     "atrPct": 4.04,
+     "distEma20Atr": -0.97,
+     "chg5Pct": -0.56,
+     "chg20Pct": -7.16,
+     "ema20": 2324.19,
+     "ema50": 2389.06,
+     "rsi2": 31.6,
      "aboveSma200": true,
      "donchianHi": 2522.841796875,
      "donchianLo": 2173.300537109375
