@@ -961,5 +961,14 @@
   "phase": "challenge",
   "attempt": 1,
   "dayPnl": 693.2
+ },
+ {
+  "date": "2026-11-10",
+  "balance": 202203.23,
+  "equity": 202203.23,
+  "worst": 201571.1,
+  "phase": "challenge",
+  "attempt": 1,
+  "dayPnl": 632.12
  }
 ]

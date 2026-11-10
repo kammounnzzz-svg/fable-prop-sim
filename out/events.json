@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-10",
+  "kind": "close",
+  "text": "T14 long LLY closed at 1408.14 (mean reached (close back through the 5-day average)): +632.05 USD, +0.30R",
+  "n": 21
+ },
+ {
   "date": "2026-11-09",
   "kind": "open",
   "text": "T14 long 15 sh LLY at 1365.74, stop 1223.68, risk 2131 USD (dip)",
