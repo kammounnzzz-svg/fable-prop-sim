@@ -1,6 +1,6 @@
 [
  {
-  "asOf": "2026-11-14T04:30:05Z",
+  "asOf": "2026-11-14T07:29:03Z",
   "lastBarDate": "2026-11-13",
   "product": "FTMO 2-Step Challenge, Swing account, US$200,000 (one of two identical accounts)",
   "currency": "USD",
@@ -63,7 +63,7 @@
   "lastHourlyBar": "2026-11-13 21:00 UTC",
   "attemptsFailed": 0,
   "phasesPassed": 0,
-  "runs": 377,
+  "runs": 378,
   "flattenNextOpen": false,
   "status": "active"
  }
