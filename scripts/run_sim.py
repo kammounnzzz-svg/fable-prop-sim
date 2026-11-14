@@ -8,6 +8,10 @@ Steps: fetch bars from Yahoo (retry once), run every account in the portfolio pa
 out/run_meta.json + out/run_log.txt describing what happened. The script never raises
 and always exits 0 so that the workflow's commit step runs and the meta file is kept
 even when a step failed. Paper trading only: no broker, no real orders.
+
+After the engine's own export, scripts/export_tracks.py writes out/tracks.json (the
+strategy-level view per track for the dashboard). That step only reads the saved state;
+it is not part of the engine, and if it fails the run still counts as successful.
 """
 import datetime as dt
 import hashlib
@@ -55,6 +59,23 @@ def save_json(path, obj):
     os.replace(tmp, path)
 
 
+def track_export(meta, logs):
+    """Strategy-level export for the dashboard (out/tracks.json): read-only and optional.
+    Whatever happens in here, the simulation run's own result stands."""
+    try:
+        rc, log = sh([sys.executable, os.path.join(ROOT, "scripts", "export_tracks.py"), "--states", STATE, "--out", OUT], timeout=300)
+        logs.append("### export-tracks (exit %d)\n%s" % (rc, log))
+        if rc != 0:
+            meta["trackExport"] = ("failed (exit %d): %s" % (rc, log.strip()[-600:]))[:800]
+            return
+        meta["trackExport"] = "ok"
+        checks = [r.get("selfCheck") for r in load_json(os.path.join(OUT, "tracks.json")).get("rows", []) if r.get("section") == "stats"]
+        meta["trackSelfCheck"] = ("ok" if checks and all(c == "ok" for c in checks) else ("; ".join(str(c) for c in checks if c != "ok") or "no statistics rows"))[:800]
+    except Exception as e:  # noqa
+        meta["trackExport"] = ("failed: %s: %s" % (type(e).__name__, e))[:800]
+        logs.append("### export-tracks ERROR\n%s" % meta["trackExport"])
+
+
 def main():
     started = now()
     logs = []
@@ -64,6 +85,7 @@ def main():
         "events": [], "accounts": [], "passFail": [], "focus": None,
         "runId": os.environ.get("GITHUB_RUN_ID", ""), "runNumber": os.environ.get("GITHUB_RUN_NUMBER", ""),
         "baseCommit": os.environ.get("GITHUB_SHA", ""), "runner": "github-actions" if os.environ.get("GITHUB_ACTIONS") else "manual",
+        "trackExport": "not run", "trackSelfCheck": "",
     }
     try:
         sys.path.insert(0, ROOT)
@@ -137,6 +159,8 @@ def main():
             raise RuntimeError("portfolio-export exited %d: %s" % (rc, log[-1500:]))
         meta["ok"] = True
         meta["stage"] = "done"
+        # 5. strategy-level view per track (read-only; never changes the result of the run)
+        track_export(meta, logs)
     except Exception as e:  # noqa
         meta["error"] = ("%s: %s" % (type(e).__name__, e))[:2000]
         logs.append("### ERROR at stage %s\n%s" % (meta["stage"], meta["error"]))
