@@ -1,60 +1,223 @@
 {
- "startedAt": "2026-11-16T19:36:30Z",
- "finishedAt": "2026-11-16T19:36:55Z",
+ "startedAt": "2026-11-16T22:08:46Z",
+ "finishedAt": "2026-11-16T22:09:13Z",
  "ok": true,
  "stage": "done",
  "error": "",
- "nothingNew": true,
+ "nothingNew": false,
  "fetchFailures": {},
  "hourlySymbols": [
   "XAGUSD",
   "XAUUSD"
  ],
  "dailySymbols": 32,
- "events": [],
+ "events": [
+  {
+   "account": "ftmo-200k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)"
+  },
+  {
+   "account": "brightfunded-200k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)"
+  },
+  {
+   "account": "fintokei-200k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O9 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1508 USD)"
+  },
+  {
+   "account": "fundingpips-100k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1125 USD)"
+  },
+  {
+   "account": "the5ers-100k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O9 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 754 USD)"
+  },
+  {
+   "account": "cti-100k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O9 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 754 USD)"
+  },
+  {
+   "account": "fundednext-200k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)"
+  },
+  {
+   "account": "ftp-200k",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O17 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1800 USD)"
+  },
+  {
+   "account": "lux-1m",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O9 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 4522 USD)"
+  },
+  {
+   "account": "ftmo-200k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O21 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1125 USD)"
+  },
+  {
+   "account": "brightfunded-200k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O21 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1125 USD)"
+  },
+  {
+   "account": "fintokei-200k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O11 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 754 USD)"
+  },
+  {
+   "account": "fundingpips-100k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O21 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 562 USD)"
+  },
+  {
+   "account": "the5ers-100k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O11 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 377 USD)"
+  },
+  {
+   "account": "cti-100k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O11 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 377 USD)"
+  },
+  {
+   "account": "fundednext-200k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O21 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1125 USD)"
+  },
+  {
+   "account": "ftp-200k-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O21 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 900 USD)"
+  },
+  {
+   "account": "lux-1m-funded",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O11 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2261 USD)"
+  },
+  {
+   "account": "ftmo-200k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)"
+  },
+  {
+   "account": "brightfunded-200k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)"
+  },
+  {
+   "account": "fintokei-200k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)"
+  },
+  {
+   "account": "fundingpips-100k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1500 USD)"
+  },
+  {
+   "account": "the5ers-100k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1500 USD)"
+  },
+  {
+   "account": "cti-100k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1500 USD)"
+  },
+  {
+   "account": "fundednext-200k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)"
+  },
+  {
+   "account": "ftp-200k-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2400 USD)"
+  },
+  {
+   "account": "lux-1m-fast",
+   "date": "2026-11-16",
+   "kind": "order",
+   "text": "O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 9000 USD)"
+  }
+ ],
  "accounts": [
-  "ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     202203 eq     202203 (+1.10%) day       +0 | pos 0 ord 0 | nothing new",
-  "brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     202203 eq     202203 (+1.10%) day       +0 | pos 0 ord 0 | nothing new",
-  "fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     195234 eq     195234 (-2.38%) day       +0 | pos 0 ord 0 | nothing new",
-  "fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     101072 eq     101072 (+1.07%) day       +0 | pos 0 ord 0 | nothing new",
-  "the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      97616 eq      97616 (-2.38%) day       +0 | pos 0 ord 0 | nothing new",
-  "cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      97616 eq      97616 (-2.38%) day       +0 | pos 0 ord 0 | nothing new",
-  "fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     202203 eq     202203 (+1.10%) day       +0 | pos 0 ord 0 | nothing new",
-  "ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     196900 eq     196900 (-1.55%) day       +0 | pos 0 ord 0 | nothing new",
-  "lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     985693 eq     985693 (-1.43%) day       +0 | pos 0 ord 0 | nothing new",
-  "ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     198812 eq     198812 (-0.59%) day       +0 | pos 0 ord 0 | nothing new",
-  "brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     198812 eq     198812 (-0.59%) day       +0 | pos 0 ord 0 | nothing new",
-  "fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     197290 eq     197290 (-1.36%) day       +0 | pos 0 ord 0 | nothing new",
-  "fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      99330 eq      99330 (-0.67%) day       +0 | pos 0 ord 0 | nothing new",
-  "the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      98647 eq      98647 (-1.35%) day       +0 | pos 0 ord 0 | nothing new",
-  "cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      98647 eq      98647 (-1.35%) day       +0 | pos 0 ord 0 | nothing new",
-  "fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     198812 eq     198812 (-0.59%) day       +0 | pos 0 ord 0 | nothing new",
-  "ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     198969 eq     198969 (-0.52%) day       +0 | pos 0 ord 0 | nothing new",
-  "lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     991847 eq     991847 (-0.82%) day       +0 | pos 0 ord 0 | nothing new",
-  "ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new",
-  "lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 0 | nothing new"
+  "ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     202203 eq     202203 (+1.10%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     202203 eq     202203 (+1.10%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     195234 eq     195234 (-2.38%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     101072 eq     101072 (+1.07%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      97616 eq      97616 (-2.38%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      97616 eq      97616 (-2.38%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     202203 eq     202203 (+1.10%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     196900 eq     196900 (-1.55%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     985693 eq     985693 (-1.43%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     198812 eq     198812 (-0.59%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     198812 eq     198812 (-0.59%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     197290 eq     197290 (-1.36%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      99330 eq      99330 (-0.67%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      98647 eq      98647 (-1.35%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      98647 eq      98647 (-1.35%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     198812 eq     198812 (-0.59%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     198969 eq     198969 (-0.52%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     991847 eq     991847 (-0.82%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal     100000 eq     100000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     200000 eq     200000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC",
+  "lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal    1000000 eq    1000000 (+0.00%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-16 21:00 UTC"
  ],
  "passFail": [],
  "focus": "ftmo-200k",
- "runId": "43941089285",
- "runNumber": "401",
- "baseCommit": "4b6f2a70c7848def74e8382d4f166b5e36c593d5",
+ "runId": "43967135847",
+ "runNumber": "402",
+ "baseCommit": "6a2aaa68733e2dc97dd4d3fa51a8d9a51f804d12",
  "runner": "github-actions",
  "trackExport": "ok",
  "trackSelfCheck": "ok",
  "engineVersion": "0.8.0",
  "engineSha256": "d86719dd516c286e9596cfe81075af45ef52155381a02ca328b0cee983c0e07d",
- "stateSha256Before": "e30a541685488f72c78584f61ada032058750e11ba23a74d18d83af9ad585559",
+ "stateSha256Before": "5c2a4325dee7199d3a56f76f1d17aee7002a3ac58a11f105d2bbda5679d11be7",
  "newTrades": [],
  "phaseChanges": [],
  "lastDate": "2026-11-16",
- "lastHourlyBar": "2026-11-16 18:00 UTC",
- "stateSha256": "5c2a4325dee7199d3a56f76f1d17aee7002a3ac58a11f105d2bbda5679d11be7"
+ "lastHourlyBar": "2026-11-16 21:00 UTC",
+ "stateSha256": "2b58e3aba210ea4ddafb9cc02d92ede6ed8ac0281a6d2dd67f2ccf98b425e59e"
 }
