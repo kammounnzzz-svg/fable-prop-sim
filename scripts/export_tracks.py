@@ -9,6 +9,7 @@ saved state (state/portfolio_state.json) and summarises the whole strategy per t
 
   track "challenge"     (A)  the accounts bought as evaluations, which the engine has to pass
   track "funded-start"  (B)  the same accounts handed over already funded, which the engine keeps alive and paid
+  track "fast-pass"     (C)  the same evaluations pushed to pass sooner (2% per trade instead of 1.5%), added 16 Nov 2026
 
 READ ONLY. It never writes the state, never places, changes or cancels a trade, and is not part of the engine. If it
 fails, the simulation run is unaffected (the driver records the failure and carries on). Paper trading only.
@@ -36,10 +37,11 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-TRACKS = ["challenge", "funded-start"]
-TRACK_LETTER = {"challenge": "A", "funded-start": "B"}
+TRACKS = ["challenge", "funded-start", "fast-pass"]              # a track with no accounts in the state gets no rows
+TRACK_LETTER = {"challenge": "A", "funded-start": "B", "fast-pass": "C"}
 TRACK_LABEL = {"challenge": "Track A: bought as evaluations, the engine has to pass them",
-               "funded-start": "Track B: passed by the trader, handed over already funded"}
+               "funded-start": "Track B: passed by the trader, handed over already funded",
+               "fast-pass": "Track C: bought as evaluations, pushed to pass sooner (2% per trade)"}
 # the engine's legs, in the order the dashboard lists them; a leg with no signals yet still gets its row
 LEGS = [("intraday", "Hourly metals breakout"), ("mr", "Dip-buys (RSI-2)"), ("tom", "Turn of month"), ("crypto", "Crypto breakout")]
 LEG_NAME = dict(LEGS)
@@ -607,7 +609,7 @@ def render(rows):
     how = " ".join(line.strip() for line in how.splitlines()).replace("  ", " ")
     meta = [{"label": "Made by", "value": "scripts/export_tracks.py in the simulation's repository, run by the GitHub workflow right after every engine run. It only reads the engine's saved state; it places, changes or cancels nothing."},
             {"label": "Input", "value": "state/portfolio_state.json (the engine's saved state, read only), compared with out/portfolio.json and out/psummary.json of the same run"},
-            {"label": "How to read it", "value": "One table with a section column: stats (one row of statistics and progress per track), equity (the strategy P&L curve by day), month, leg, symbol, signal (one row per closed signal), open (positions and queued orders now) and account (one row per firm programme). Track challenge is A, funded-start is B. Amounts are US dollars summed over a track's accounts, identical copies included."},
+            {"label": "How to read it", "value": "One table with a section column: stats (one row of statistics and progress per track), equity (the strategy P&L curve by day), month, leg, symbol, signal (one row per closed signal), open (positions and queued orders now) and account (one row per firm programme). Track challenge is A, funded-start is B, fast-pass is C. Amounts are US dollars summed over a track's accounts, identical copies included."},
             {"label": "How the numbers are made", "value": how}]
     body = ",\n".join("  " + json.dumps(r, allow_nan=False) for r in rows)
     text = "{\n \"columns\": %s,\n \"rows\": [\n%s\n ],\n \"meta\": %s\n}\n" % (json.dumps(COLUMNS), body, json.dumps(meta, indent=1, allow_nan=False))

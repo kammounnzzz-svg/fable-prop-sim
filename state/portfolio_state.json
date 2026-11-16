@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "name": "Prop portfolio sim (Fable) - track A: evaluations the engine passes; track B: accounts passed by the trader and handed over funded",
+  "name": "Prop portfolio sim (Fable) - track A: evaluations the engine passes; track B: accounts passed by the trader and handed over funded; track C: evaluations passed with the faster 2% push",
   "focus": "ftmo-200k",
   "usdToAud": 1.445,
   "accounts": [
@@ -552,11 +552,448 @@
     },
     "track": "funded-start",
     "startPhase": "funded"
+   },
+   {
+    "id": "ftmo-200k-fast",
+    "firm": "FTMO",
+    "program": "2-Step Swing",
+    "initial": 200000,
+    "copies": 2,
+    "feeToUSD": 1.12,
+    "status": "core",
+    "note": "Track C twin of ftmo-200k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. Cap US$400K per trader; copying own accounts allowed within the cap; fee refunded with the first reward",
+    "product": "FTMO 2-Step Challenge, Swing account, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 1080.0,
+     "feeCurrency": "EUR",
+     "phaseTargetsPct": [
+      10.0,
+      5.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "equity",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 4,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 14,
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "brightfunded-200k-fast",
+    "firm": "BrightFunded",
+    "program": "Classic 2-Step",
+    "initial": 200000,
+    "copies": 2,
+    "feeToUSD": 1.12,
+    "status": "core (firm founded 2023)",
+    "note": "Track C twin of brightfunded-200k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. Cap US$400K; copying own accounts allowed; 10% static / 5% daily on the Classic plan; 5-minute news window when funded (soft breach); verify the $200K price",
+    "product": "BrightFunded Classic 2-Step, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 997.0,
+     "feeCurrency": "EUR",
+     "phaseTargetsPct": [
+      8.0,
+      5.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "equity",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 5,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 14,
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "fintokei-200k-fast",
+    "firm": "Fintokei",
+    "program": "ProTrader Swing",
+    "initial": 200000,
+    "copies": 2,
+    "feeToUSD": 1.0,
+    "status": "conditional: Australian acceptance unverified",
+    "note": "Track C twin of fintokei-200k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. No stocks or crypto; daily loss on closed balance only; 3% cap on open risk (so the daily legs get a 2% budget here); swap-free",
+    "product": "Fintokei ProTrader Swing, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 1499.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      8.0,
+      6.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "balance",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 3,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 14,
+     "excludeClasses": [
+      "stock",
+      "crypto"
+     ],
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 2.0
+     },
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "fundingpips-100k-fast",
+    "firm": "FundingPips",
+    "program": "2-Step Standard + Swing add-on",
+    "initial": 100000,
+    "copies": 3,
+    "feeToUSD": 1.0,
+    "status": "conditional: needs the Swing add-on; weekend rule tightened Jan 2026",
+    "note": "Track C twin of fundingpips-100k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. Without the Swing add-on funded positions are force-closed nightly; with it indices run at 1:5 leverage; price estimated",
+    "product": "FundingPips 2-Step Standard with Swing add-on, US$100,000 (one of three identical accounts) - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 450.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      8.0,
+      5.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "equity",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 0,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 14,
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "the5ers-100k-fast",
+    "firm": "The5ers",
+    "program": "High Stakes (New)",
+    "initial": 100000,
+    "copies": 1,
+    "feeToUSD": 1.0,
+    "status": "conditional: one account; firm says each account needs a different method",
+    "note": "Track C twin of the5ers-100k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. No single stocks; 3 profitable days (>=0.5%) per phase; no orders within 2 minutes of high-impact news; scaling to US$500K; price estimated",
+    "product": "The5ers High Stakes, US$100,000 - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 575.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      10.0,
+      5.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "equity",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 3,
+     "minProfitableDays": 3,
+     "profitableDayPct": 0.5,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 14,
+     "excludeClasses": [
+      "stock"
+     ],
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "cti-100k-fast",
+    "firm": "City Traders Imperium",
+    "program": "2-Step",
+    "initial": 100000,
+    "copies": 2,
+    "feeToUSD": 1.0,
+    "status": "conditional: drawdown type unverified; one-sided-betting review clause",
+    "note": "Track C twin of cti-100k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. No stocks; drawdown measured on balance, not equity; 3 profitable days; US$100K is the largest account",
+    "product": "City Traders Imperium 2-Step, US$100,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 549.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      10.0,
+      5.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "balance",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "balance",
+     "minTradingDays": 3,
+     "minProfitableDays": 3,
+     "profitableDayPct": 0.5,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 7,
+     "excludeClasses": [
+      "stock"
+     ],
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "fundednext-200k-fast",
+    "firm": "FundedNext",
+    "program": "Stellar 2-Step (manual execution only)",
+    "initial": 200000,
+    "copies": 1,
+    "feeToUSD": 1.0,
+    "status": "conditional: EAs only under $50K; identical trades across its accounts banned; weekend holding was suspended Jan-May 2026",
+    "note": "Track C twin of fundednext-200k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. One account at most, orders entered by hand; 3.5% withdrawal fee; fee refunded with the first payout",
+    "product": "FundedNext Stellar 2-Step, US$200,000 - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 1050.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      8.0,
+      5.0
+     ],
+     "maxDailyLossPct": 5.0,
+     "dailyLossBasis": "equity",
+     "maxLossPct": 10.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 5,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 21,
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "ftp-200k-fast",
+    "firm": "Funded Trading Plus",
+    "program": "2-Step Classic",
+    "initial": 200000,
+    "copies": 2,
+    "feeToUSD": 1.0,
+    "status": "tier B: 8% max loss, so risk runs at 0.8x",
+    "note": "Track C twin of ftp-200k: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. 7%+7% targets, 4% daily on balance, 8% static, swap-free, weekend holding allowed, payouts every 10 days; price estimated",
+    "product": "Funded Trading Plus 2-Step Classic, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 549.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      7.0,
+      7.0
+     ],
+     "maxDailyLossPct": 4.0,
+     "dailyLossBasis": "balance",
+     "maxLossPct": 8.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 0,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 10,
+     "riskScale": 0.8,
+     "dayGuardNoNewPct": -2.0,
+     "dayGuardFlattenPct": -2.8,
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
+   },
+   {
+    "id": "lux-1m-fast",
+    "firm": "Lux Trading Firm",
+    "program": "1-Step Classic",
+    "initial": 1000000,
+    "copies": 1,
+    "feeToUSD": 1.0,
+    "status": "optional: thin reputation evidence; 15% target against a 6% floor",
+    "note": "Track C twin of lux-1m: the same evaluation at 2.0% per trade in the Challenge and 1.5% in Verification, one daily-leg position at a time (track A: 1.5% / 1.125%); the funded stage is identical. No daily limit, ~6% static max loss, ~15% target; risk runs at 0.6x so the 6% floor matches a 10% floor at full risk; fee refunded on pass",
+    "product": "Lux Trading Firm 1-Step Classic, US$1,000,000 - fast-pass evaluation (track C)",
+    "config": {
+     "fee": 999.0,
+     "feeCurrency": "USD",
+     "phaseTargetsPct": [
+      15.0
+     ],
+     "maxDailyLossPct": null,
+     "maxLossPct": 6.0,
+     "maxLossBasis": "equity",
+     "minTradingDays": 0,
+     "rewardSplitPct": 80.0,
+     "rewardWaitDays": 14,
+     "riskScale": 0.6,
+     "ddHalfRiskPct": -3.6,
+     "ddQuarterRiskPct": -4.8,
+     "excludeClasses": [
+      "stock",
+      "crypto"
+     ],
+     "riskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 0.75
+     },
+     "maxOpenRiskPct": {
+      "challenge": 2.0,
+      "verification": 1.5,
+      "funded": 3.75
+     },
+     "strategies": {
+      "intraday": {
+       "riskPct": {
+        "challenge": 2.0,
+        "verification": 1.5,
+        "funded": 1.0
+       }
+      }
+     }
+    },
+    "track": "fast-pass"
    }
   ],
   "tracks": {
    "challenge": "A: bought as evaluations, the engine passes them",
-   "funded-start": "B: passed by the trader, handed over funded"
+   "funded-start": "B: passed by the trader, handed over funded",
+   "fast-pass": "C: bought as evaluations, passed with the faster 2% push"
   }
  },
  "states": {
@@ -43998,6 +44435,3615 @@
      "text": "T10 long JP225 closed at 57943 (stop): -3388.11 USD, -1.00R"
     }
    ]
+  },
+  "ftmo-200k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of ftmo-200k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "ftmo-200k-fast",
+    "firm": "FTMO",
+    "program": "2-Step Swing",
+    "product": "FTMO 2-Step Challenge, Swing account, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 200000.0,
+    "fee": 1080.0,
+    "feeCurrency": "EUR",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     10.0,
+     5.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "equity",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 4,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 14,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 200000.0,
+    "dayStartBalance": 200000.0,
+    "peakBalance": 200000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 1080.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 200000.0,
+    "lastWorst": 200000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "brightfunded-200k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of brightfunded-200k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "brightfunded-200k-fast",
+    "firm": "BrightFunded",
+    "program": "Classic 2-Step",
+    "product": "BrightFunded Classic 2-Step, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 200000.0,
+    "fee": 997.0,
+    "feeCurrency": "EUR",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     8.0,
+     5.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "equity",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 5,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 14,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 200000.0,
+    "dayStartBalance": 200000.0,
+    "peakBalance": 200000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 997.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 200000.0,
+    "lastWorst": 200000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "fintokei-200k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of fintokei-200k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "fintokei-200k-fast",
+    "firm": "Fintokei",
+    "program": "ProTrader Swing",
+    "product": "Fintokei ProTrader Swing, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 200000.0,
+    "fee": 1499.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     8.0,
+     6.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "balance",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 3,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [
+     "stock",
+     "crypto"
+    ],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 14,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 2.0
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 200000.0,
+    "dayStartBalance": 200000.0,
+    "peakBalance": 200000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 1499.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 200000.0,
+    "lastWorst": 200000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "fundingpips-100k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of fundingpips-100k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "fundingpips-100k-fast",
+    "firm": "FundingPips",
+    "program": "2-Step Standard + Swing add-on",
+    "product": "FundingPips 2-Step Standard with Swing add-on, US$100,000 (one of three identical accounts) - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 100000.0,
+    "fee": 450.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     8.0,
+     5.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "equity",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 0,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 14,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 100000.0,
+    "dayStartBalance": 100000.0,
+    "peakBalance": 100000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 450.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 100000.0,
+    "lastWorst": 100000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "the5ers-100k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of the5ers-100k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "the5ers-100k-fast",
+    "firm": "The5ers",
+    "program": "High Stakes (New)",
+    "product": "The5ers High Stakes, US$100,000 - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 100000.0,
+    "fee": 575.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     10.0,
+     5.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "equity",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 3,
+    "minProfitableDays": 3,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [
+     "stock"
+    ],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 14,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 100000.0,
+    "dayStartBalance": 100000.0,
+    "peakBalance": 100000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 575.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 100000.0,
+    "lastWorst": 100000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "cti-100k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of cti-100k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "cti-100k-fast",
+    "firm": "City Traders Imperium",
+    "program": "2-Step",
+    "product": "City Traders Imperium 2-Step, US$100,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 100000.0,
+    "fee": 549.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     10.0,
+     5.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "balance",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "balance",
+    "minTradingDays": 3,
+    "minProfitableDays": 3,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [
+     "stock"
+    ],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 7,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 100000.0,
+    "dayStartBalance": 100000.0,
+    "peakBalance": 100000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 549.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 100000.0,
+    "lastWorst": 100000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "fundednext-200k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of fundednext-200k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "fundednext-200k-fast",
+    "firm": "FundedNext",
+    "program": "Stellar 2-Step (manual execution only)",
+    "product": "FundedNext Stellar 2-Step, US$200,000 - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 200000.0,
+    "fee": 1050.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     8.0,
+     5.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 5.0,
+    "dailyLossBasis": "equity",
+    "maxLossPct": 10.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 5,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 1.0,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 21,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 200000.0,
+    "dayStartBalance": 200000.0,
+    "peakBalance": 200000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 1050.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 200000.0,
+    "lastWorst": 200000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "ftp-200k-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of ftp-200k"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "ftp-200k-fast",
+    "firm": "Funded Trading Plus",
+    "program": "2-Step Classic",
+    "product": "Funded Trading Plus 2-Step Classic, US$200,000 (one of two identical accounts) - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 200000.0,
+    "fee": 549.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     7.0,
+     7.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": 4.0,
+    "dailyLossBasis": "balance",
+    "maxLossPct": 8.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 0,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 0.8,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 10,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.0,
+    "dayGuardFlattenPct": -2.8,
+    "ddHalfRiskPct": -6.0,
+    "ddQuarterRiskPct": -8.0,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 200000.0,
+    "dayStartBalance": 200000.0,
+    "peakBalance": 200000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 549.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 200000.0,
+    "lastWorst": 200000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
+  },
+  "lux-1m-fast": {
+   "meta": {
+    "version": 2,
+    "createdAt": "2026-11-16T10:24:26Z",
+    "lastRunAt": null,
+    "lastProcessed": {
+     "EURUSD": "2026-11-13",
+     "GBPUSD": "2026-11-13",
+     "AUDUSD": "2026-11-13",
+     "NZDUSD": "2026-11-13",
+     "USDJPY": "2026-11-13",
+     "USDCAD": "2026-11-13",
+     "XAUUSD": "2026-11-13",
+     "US500": "2026-11-13",
+     "US100": "2026-11-13",
+     "US30": "2026-11-13",
+     "GER40": "2026-11-13",
+     "UK100": "2026-11-13",
+     "EU50": "2026-11-13",
+     "JP225": "2026-11-16",
+     "AUS200": "2026-11-13",
+     "XAGUSD": "2026-11-13",
+     "NVDA": "2026-11-13",
+     "AAPL": "2026-11-13",
+     "MSFT": "2026-11-13",
+     "AMZN": "2026-11-13",
+     "TSLA": "2026-11-13",
+     "GOOGL": "2026-11-13",
+     "META": "2026-11-13",
+     "AVGO": "2026-11-13",
+     "JPM": "2026-11-13",
+     "NFLX": "2026-11-13",
+     "LLY": "2026-11-13",
+     "COST": "2026-11-13",
+     "BTCUSD": "2026-11-15",
+     "ETHUSD": "2026-11-15"
+    },
+    "lastProcessedHourly": {
+     "XAUUSD": 1794816000,
+     "XAGUSD": 1794816000
+    },
+    "nextId": 1,
+    "runs": 0,
+    "lastCloses": {
+     "EURUSD": {
+      "d": "2026-11-13",
+      "c": 1.1050212383270264
+     },
+     "GBPUSD": {
+      "d": "2026-11-13",
+      "c": 1.3231364488601685
+     },
+     "AUDUSD": {
+      "d": "2026-11-13",
+      "c": 0.680689811706543
+     },
+     "NZDUSD": {
+      "d": "2026-11-13",
+      "c": 0.5544804930686951
+     },
+     "USDJPY": {
+      "d": "2026-11-13",
+      "c": 159.875
+     },
+     "USDCAD": {
+      "d": "2026-11-13",
+      "c": 1.4261000156402588
+     },
+     "XAUUSD": {
+      "d": "2026-11-13",
+      "c": 3883.39990234375
+     },
+     "US500": {
+      "d": "2026-11-13",
+      "c": 7561.669921875
+     },
+     "US100": {
+      "d": "2026-11-13",
+      "c": 27943.736328125
+     },
+     "US30": {
+      "d": "2026-11-13",
+      "c": 52347.55078125
+     },
+     "GER40": {
+      "d": "2026-11-13",
+      "c": 26749.94921875
+     },
+     "UK100": {
+      "d": "2026-11-13",
+      "c": 10902.5595703125
+     },
+     "EU50": {
+      "d": "2026-11-13",
+      "c": 6386.85986328125
+     },
+     "JP225": {
+      "d": "2026-11-16",
+      "c": 59662.01953125
+     },
+     "AUS200": {
+      "d": "2026-11-13",
+      "c": 9082.2001953125
+     },
+     "XAGUSD": {
+      "d": "2026-11-13",
+      "c": 48.599998474121094
+     },
+     "NVDA": {
+      "d": "2026-11-13",
+      "c": 162.85000610351562
+     },
+     "AAPL": {
+      "d": "2026-11-13",
+      "c": 356.2699890136719
+     },
+     "MSFT": {
+      "d": "2026-11-13",
+      "c": 523.8800048828125
+     },
+     "AMZN": {
+      "d": "2026-11-13",
+      "c": 266.6600036621094
+     },
+     "TSLA": {
+      "d": "2026-11-13",
+      "c": 390.2200012207031
+     },
+     "GOOGL": {
+      "d": "2026-11-13",
+      "c": 295.7699890136719
+     },
+     "META": {
+      "d": "2026-11-13",
+      "c": 641.6900024414062
+     },
+     "AVGO": {
+      "d": "2026-11-13",
+      "c": 347.010009765625
+     },
+     "JPM": {
+      "d": "2026-11-13",
+      "c": 346.19000244140625
+     },
+     "NFLX": {
+      "d": "2026-11-13",
+      "c": 62.150001525878906
+     },
+     "LLY": {
+      "d": "2026-11-13",
+      "c": 1443.5
+     },
+     "COST": {
+      "d": "2026-11-13",
+      "c": 1106.2099609375
+     },
+     "BTCUSD": {
+      "d": "2026-11-15",
+      "c": 65305.0625
+     },
+     "ETHUSD": {
+      "d": "2026-11-15",
+      "c": 1835.4952392578125
+     }
+    },
+    "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of lux-1m"
+   },
+   "config": {
+    "configVersion": 8,
+    "accountId": "lux-1m-fast",
+    "firm": "Lux Trading Firm",
+    "program": "1-Step Classic",
+    "product": "Lux Trading Firm 1-Step Classic, US$1,000,000 - fast-pass evaluation (track C)",
+    "currency": "USD",
+    "initial": 1000000.0,
+    "fee": 999.0,
+    "feeCurrency": "USD",
+    "feeEUR": 540.0,
+    "phaseTargetsPct": [
+     15.0
+    ],
+    "challengeTargetPct": 10.0,
+    "verificationTargetPct": 5.0,
+    "maxDailyLossPct": null,
+    "dailyLossBasis": "equity",
+    "maxLossPct": 6.0,
+    "maxLossBasis": "equity",
+    "minTradingDays": 0,
+    "minProfitableDays": 0,
+    "profitableDayPct": 0.5,
+    "excludeClasses": [
+     "stock",
+     "crypto"
+    ],
+    "volScale": {
+     "enabled": false,
+     "lookback": 252,
+     "trigger": 1.25,
+     "floor": 0.5
+    },
+    "riskScale": 0.6,
+    "rewardSplitPct": 80.0,
+    "rewardWaitDays": 14,
+    "fundedLadder": {
+     "enabled": true,
+     "cushionPct": [
+      0.0,
+      2.0,
+      4.0
+     ],
+     "riskPct": [
+      0.75,
+      1.125,
+      1.5
+     ],
+     "keepBufferPct": 4.0
+    },
+    "riskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 0.75
+    },
+    "maxOpenRiskPct": {
+     "challenge": 2.0,
+     "verification": 1.5,
+     "funded": 3.75
+    },
+    "maxPositions": 6,
+    "maxNewPerRun": 2,
+    "groupCaps": {
+     "fx": 2,
+     "metal": 1,
+     "energy": 1,
+     "us_index": 1,
+     "eu_index": 1,
+     "asia_index": 1,
+     "stock": 2,
+     "crypto": 1
+    },
+    "clusterCaps": {
+     "equity": 3
+    },
+    "clusters": {
+     "us_index": "equity",
+     "eu_index": "equity",
+     "asia_index": "equity",
+     "stock": "equity"
+    },
+    "maxSameUsdDirection": 2,
+    "dayGuardNoNewPct": -2.5,
+    "dayGuardFlattenPct": -3.5,
+    "ddHalfRiskPct": -3.6,
+    "ddQuarterRiskPct": -4.8,
+    "lossStreakCut": 3,
+    "atrLen": 14,
+    "emaFast": 20,
+    "emaSlow": 50,
+    "donchian": 20,
+    "smaLong": 200,
+    "smaExit": 5,
+    "rsiLen": 2,
+    "gapSkipAtr": 1.0,
+    "passBufferPct": 0.25,
+    "strategies": {
+     "trend": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "entries": [
+       "breakout"
+      ],
+      "adxMin": 25.0,
+      "stopAtr": 3.0,
+      "trailAtr": 3.5,
+      "trailAtR": 1.0,
+      "breakeven": false,
+      "emaExit": false,
+      "shorts": false
+     },
+     "mr": {
+      "enabled": true,
+      "classes": [
+       "index",
+       "stock"
+      ],
+      "rsiBuy": 15.0,
+      "rsiSell": 90.0,
+      "stopAtr": 3.0,
+      "maxBars": 8,
+      "shorts": false,
+      "panicDropPct": 2.5,
+      "panicRangeAtr": 2.5,
+      "riskMult": 0.75,
+      "blockPreMonthEnd": true
+     },
+     "pullback": {
+      "enabled": false,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 2.5,
+      "maxBars": 10,
+      "riskMult": 0.75
+     },
+     "tom": {
+      "enabled": true,
+      "classes": [
+       "index"
+      ],
+      "stopAtr": 3.0,
+      "holdBars": 3,
+      "riskMult": 0.75
+     },
+     "crypto": {
+      "enabled": true,
+      "symbols": [
+       "BTCUSD",
+       "ETHUSD"
+      ],
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskMult": 0.5
+     },
+     "intraday": {
+      "enabled": true,
+      "symbols": [
+       "XAUUSD",
+       "XAGUSD"
+      ],
+      "donchian": 48,
+      "atrLen": 14,
+      "minRangeAtr": 0.5,
+      "stopAtr": 2.5,
+      "trailAtr": 3.0,
+      "trailAtR": 1.0,
+      "riskPct": {
+       "challenge": 2.0,
+       "verification": 1.5,
+       "funded": 1.0
+      },
+      "slots": 1,
+      "gapSkipAtr": 1.0,
+      "yahooRange": "60d",
+      "scaleOutAtR": {
+       "challenge": null,
+       "verification": 2.0,
+       "funded": 2.0
+      },
+      "entryHoursUTC": [
+       21,
+       22,
+       23,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     }
+    }
+   },
+   "account": {
+    "attempt": 1,
+    "phase": "challenge",
+    "phaseStart": null,
+    "balance": 1000000.0,
+    "dayStartBalance": 1000000.0,
+    "peakBalance": 1000000.0,
+    "tradingDays": [],
+    "profitableDays": 0,
+    "feesPaidEUR": 999.0,
+    "phaseHistory": [],
+    "payouts": [],
+    "lastPayoutDate": null,
+    "lossStreak": 0,
+    "flattenNextOpen": false,
+    "status": "active",
+    "lastDate": null,
+    "lastEquity": 1000000.0,
+    "lastWorst": 1000000.0,
+    "lastDayPnl": 0.0,
+    "pragueDay": null,
+    "lastHourlyBar": null
+   },
+   "positions": [],
+   "orders": [],
+   "trades": [],
+   "equity": [],
+   "journal": [],
+   "watch": [],
+   "events": []
   }
  },
  "createdAt": "2026-10-18T17:35:10Z"
