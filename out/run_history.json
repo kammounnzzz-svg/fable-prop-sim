@@ -1,17 +1,5 @@
 [
  {
-  "startedAt": "2026-10-20T01:16:20Z",
-  "finishedAt": "2026-10-20T01:16:45Z",
-  "ok": true,
-  "stage": "done",
-  "error": "",
-  "nothingNew": true,
-  "runId": "39352493345",
-  "engineVersion": "0.7.1",
-  "events": 0,
-  "fetchFailures": []
- },
- {
   "startedAt": "2026-10-20T02:39:54Z",
   "finishedAt": "2026-10-20T02:40:17Z",
   "ok": true,
@@ -4797,6 +4785,18 @@
   "runId": "44158657908",
   "engineVersion": "0.8.0",
   "events": 9,
+  "fetchFailures": []
+ },
+ {
+  "startedAt": "2026-11-17T19:40:54Z",
+  "finishedAt": "2026-11-17T19:41:24Z",
+  "ok": true,
+  "stage": "done",
+  "error": "",
+  "nothingNew": true,
+  "runId": "44161173127",
+  "engineVersion": "0.8.0",
+  "events": 0,
   "fetchFailures": []
  }
 ]
