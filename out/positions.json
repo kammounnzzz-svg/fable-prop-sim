@@ -1,6 +1,25 @@
 [
  {
-  "id": "none",
-  "empty": true
+  "id": "T16",
+  "symbol": "US500",
+  "side": "long",
+  "size": "$6.7/pt",
+  "units": 6.7,
+  "entry": 7411.32001953125,
+  "entryDate": "2026-11-17",
+  "tf": "1d",
+  "price": 7340.52978515625,
+  "stop": 7075.6,
+  "initialStop": 7075.6,
+  "riskUSD": 2249.24,
+  "riskNow": 2249.24,
+  "pnlUSD": -474.29,
+  "r": -0.21,
+  "swapUSD": 0.0,
+  "bars": 1,
+  "setup": "dip",
+  "stage": "initial",
+  "thesis": "long US500: RSI(2) 10 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+  "exitPlan": ""
  }
 ]

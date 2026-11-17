@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-17",
+  "kind": "open",
+  "text": "T16 long $6.7/pt US500 at 7411.3, stop 7075.6, risk 2249 USD (dip)",
+  "n": 23
+ },
+ {
   "date": "2026-11-16",
   "kind": "order",
   "text": "O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)",
