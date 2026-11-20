@@ -1,6 +1,6 @@
 [
  {
-  "asOf": "2026-11-19T20:57:37Z",
+  "asOf": "2026-11-20T01:21:23Z",
   "track": "challenge",
   "label": "A: bought as evaluations, the engine passes them",
   "accounts": 16,
@@ -10,15 +10,15 @@
   "feesPaidAUD": 19970.59,
   "payoutsUSD": 0.0,
   "payoutsAUD": 0.0,
-  "netPnlUSD": -34319.83,
-  "netPct": -1.01,
+  "netPnlUSD": -46647.64,
+  "netPct": -1.37,
   "fundedAccounts": 0,
   "fundedCapital": 0.0,
   "attemptsFailed": 0,
-  "equity": 3365680.17
+  "equity": 3353352.36
  },
  {
-  "asOf": "2026-11-19T20:57:37Z",
+  "asOf": "2026-11-20T01:21:23Z",
   "track": "funded-start",
   "label": "B: passed by the trader, handed over funded",
   "accounts": 16,
@@ -28,15 +28,15 @@
   "feesPaidAUD": 19970.59,
   "payoutsUSD": 0.0,
   "payoutsAUD": 0.0,
-  "netPnlUSD": -49585.39,
-  "netPct": -1.46,
+  "netPnlUSD": -55622.69,
+  "netPct": -1.64,
   "fundedAccounts": 16,
   "fundedCapital": 3400000.0,
   "attemptsFailed": 0,
-  "equity": 3350414.61
+  "equity": 3344377.31
  },
  {
-  "asOf": "2026-11-19T20:57:37Z",
+  "asOf": "2026-11-20T01:21:23Z",
   "track": "fast-pass",
   "label": "fast-pass",
   "accounts": 16,
@@ -46,15 +46,15 @@
   "feesPaidAUD": 19970.59,
   "payoutsUSD": 0.0,
   "payoutsAUD": 0.0,
-  "netPnlUSD": -11542.6,
-  "netPct": -0.34,
+  "netPnlUSD": -30877.95,
+  "netPct": -0.91,
   "fundedAccounts": 0,
   "fundedCapital": 0.0,
   "attemptsFailed": 0,
-  "equity": 3388457.4
+  "equity": 3369122.05
  },
  {
-  "asOf": "2026-11-19T20:57:37Z",
+  "asOf": "2026-11-20T01:21:23Z",
   "track": "all",
   "label": "all",
   "accounts": 48,
@@ -64,11 +64,11 @@
   "feesPaidAUD": 59911.78,
   "payoutsUSD": 0.0,
   "payoutsAUD": 0.0,
-  "netPnlUSD": -95447.82,
-  "netPct": -0.94,
+  "netPnlUSD": -133148.28,
+  "netPct": -1.31,
   "fundedAccounts": 16,
   "fundedCapital": 3400000.0,
   "attemptsFailed": 0,
-  "equity": 10104552.18
+  "equity": 10066851.72
  }
 ]
