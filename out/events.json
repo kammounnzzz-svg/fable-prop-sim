@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-11-20",
+  "kind": "order",
+  "text": "O17 queued: long LLY at next open, stop 127.28 away (dip, score 98, risk 2250 USD)",
+  "n": 25
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "close",
+  "text": "T16 long US500 closed at 7075.3 (stop): -2276.80 USD, -1.01R",
+  "n": 24
+ },
+ {
   "date": "2026-11-17",
   "kind": "open",
   "text": "T16 long $6.7/pt US500 at 7411.3, stop 7075.6, risk 2249 USD (dip)",
