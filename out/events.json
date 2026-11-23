@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-23",
+  "kind": "open",
+  "text": "T18 long 17 sh LLY at 1345.45, stop 1218.17, risk 2164 USD (dip)",
+  "n": 26
+ },
+ {
   "date": "2026-11-20",
   "kind": "order",
   "text": "O17 queued: long LLY at next open, stop 127.28 away (dip, score 98, risk 2250 USD)",

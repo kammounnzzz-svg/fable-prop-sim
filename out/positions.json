@@ -1,6 +1,25 @@
 [
  {
-  "id": "none",
-  "empty": true
+  "id": "T18",
+  "symbol": "LLY",
+  "side": "long",
+  "size": "17 sh",
+  "units": 17,
+  "entry": 1345.4462628479005,
+  "entryDate": "2026-11-23",
+  "tf": "1d",
+  "price": 1364.5999755859375,
+  "stop": 1218.17,
+  "initialStop": 1218.17,
+  "riskUSD": 2163.77,
+  "riskNow": 2163.77,
+  "pnlUSD": 325.52,
+  "r": 0.15,
+  "swapUSD": 0.0,
+  "bars": 1,
+  "setup": "dip",
+  "stage": "initial",
+  "thesis": "long LLY: RSI(2) 2 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+  "exitPlan": ""
  }
 ]

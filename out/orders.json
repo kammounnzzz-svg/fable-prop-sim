@@ -1,15 +1,6 @@
 [
  {
-  "id": "O17",
-  "symbol": "LLY",
-  "side": "long",
-  "setup": "dip",
-  "signalClose": 1347.1099853515625,
-  "stopDist": 127.28,
-  "riskUSD": 2250.0,
-  "score": 97.7,
-  "createdDate": "2026-11-20",
-  "fills": "next open",
-  "reason": "long LLY: RSI(2) 2 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away"
+  "id": "none",
+  "empty": true
  }
 ]

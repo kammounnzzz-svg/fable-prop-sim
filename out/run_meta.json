@@ -1,6 +1,6 @@
 {
- "startedAt": "2026-11-23T19:21:59Z",
- "finishedAt": "2026-11-23T19:22:29Z",
+ "startedAt": "2026-11-23T21:33:13Z",
+ "finishedAt": "2026-11-23T21:33:40Z",
  "ok": true,
  "stage": "done",
  "error": "",
@@ -11,50 +11,141 @@
   "XAUUSD"
  ],
  "dailySymbols": 32,
- "events": [],
+ "events": [
+  {
+   "account": "ftmo-200k",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T18 long 17 sh LLY at 1345.45, stop 1218.17, risk 2164 USD (dip)"
+  },
+  {
+   "account": "brightfunded-200k",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T18 long 17 sh LLY at 1345.45, stop 1218.17, risk 2164 USD (dip)"
+  },
+  {
+   "account": "fundingpips-100k",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T18 long 8 sh LLY at 1345.45, stop 1218.17, risk 1018 USD (dip)"
+  },
+  {
+   "account": "fundednext-200k",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T18 long 17 sh LLY at 1345.45, stop 1218.17, risk 2164 USD (dip)"
+  },
+  {
+   "account": "ftp-200k",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T20 long 14 sh LLY at 1345.45, stop 1218.17, risk 1782 USD (dip)"
+  },
+  {
+   "account": "ftmo-200k-funded",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T30 long 30 sh AAPL at 347.92, stop 323.39, risk 736 USD (dip)"
+  },
+  {
+   "account": "brightfunded-200k-funded",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T30 long 30 sh AAPL at 347.92, stop 323.39, risk 736 USD (dip)"
+  },
+  {
+   "account": "fundingpips-100k-funded",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T30 long 15 sh AAPL at 347.92, stop 323.39, risk 368 USD (dip)"
+  },
+  {
+   "account": "fundednext-200k-funded",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T30 long 30 sh AAPL at 347.92, stop 323.39, risk 736 USD (dip)"
+  },
+  {
+   "account": "ftp-200k-funded",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T30 long 24 sh AAPL at 347.92, stop 323.39, risk 589 USD (dip)"
+  },
+  {
+   "account": "ftmo-200k-fast",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T4 long 23 sh LLY at 1345.45, stop 1218.17, risk 2927 USD (dip)"
+  },
+  {
+   "account": "brightfunded-200k-fast",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T4 long 23 sh LLY at 1345.45, stop 1218.17, risk 2927 USD (dip)"
+  },
+  {
+   "account": "fundingpips-100k-fast",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T4 long 11 sh LLY at 1345.45, stop 1218.17, risk 1400 USD (dip)"
+  },
+  {
+   "account": "fundednext-200k-fast",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T4 long 23 sh LLY at 1345.45, stop 1218.17, risk 2927 USD (dip)"
+  },
+  {
+   "account": "ftp-200k-fast",
+   "date": "2026-11-23",
+   "kind": "open",
+   "text": "T4 long 18 sh LLY at 1345.45, stop 1218.17, risk 2291 USD (dip)"
+  }
+ ],
  "accounts": [
-  "ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     199926 eq     199926 (-0.04%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     199926 eq     199926 (-0.04%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     193739 eq     193739 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99951 eq      99951 (-0.05%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     199926 eq     199926 (-0.04%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     195099 eq     195099 (-2.45%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     976570 eq     976570 (-2.34%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     195447 eq     195322 (-2.34%) day     -125 | pos 1 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     195447 eq     195322 (-2.34%) day     -125 | pos 1 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     195043 eq     195043 (-2.48%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      97673 eq      97611 (-2.39%) day      -62 | pos 1 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     195447 eq     195322 (-2.34%) day     -125 | pos 1 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     196290 eq     196197 (-1.90%) day      -94 | pos 1 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     985037 eq     985037 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     197587 eq     197587 (-1.21%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-23 18:00 UTC",
-  "lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     990893 eq     990893 (-0.91%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 18:00 UTC"
+  "ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     199926 eq     200252 (+0.13%) day     +326 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     199926 eq     200252 (+0.13%) day     +326 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     193739 eq     193739 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99951 eq     100104 (+0.10%) day     +153 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     199926 eq     200252 (+0.13%) day     +326 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     195099 eq     195367 (-2.32%) day     +268 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     976570 eq     976570 (-2.34%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     195447 eq     195491 (-2.25%) day      +44 | pos 2 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     195447 eq     195491 (-2.25%) day      +44 | pos 2 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     195043 eq     195043 (-2.48%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      97673 eq      97695 (-2.30%) day      +22 | pos 2 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     195447 eq     195491 (-2.25%) day      +44 | pos 2 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     196290 eq     196325 (-1.84%) day      +35 | pos 2 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     985037 eq     985037 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     196975 eq     197416 (-1.29%) day     +440 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     196975 eq     197416 (-1.29%) day     +440 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      98505 eq      98715 (-1.28%) day     +211 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     196975 eq     197416 (-1.29%) day     +440 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     197587 eq     197932 (-1.03%) day     +345 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC",
+  "lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     990893 eq     990893 (-0.91%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-23 20:00 UTC"
  ],
  "passFail": [],
  "focus": "ftmo-200k",
- "runId": "45248161718",
- "runNumber": "469",
- "baseCommit": "fda6250695a846ca43b834846162e3fe5043a42c",
+ "runId": "45270817322",
+ "runNumber": "470",
+ "baseCommit": "c21f82d2332155de2ded3e04012492811fdf9dbb",
  "runner": "github-actions",
  "trackExport": "ok",
  "trackSelfCheck": "ok",
  "engineVersion": "0.8.0",
  "engineSha256": "d86719dd516c286e9596cfe81075af45ef52155381a02ca328b0cee983c0e07d",
- "stateSha256Before": "c44f10b672bbf5238325a1c8c0401faad8f36352472cb40e2e7ecc9b8cabaab5",
+ "stateSha256Before": "d442f5d3382e9ee3c16ba1d93e94d1ebc30ceab9200cdd1c78b078183f7d328c",
  "newTrades": [],
  "phaseChanges": [],
  "lastDate": "2026-11-23",
- "lastHourlyBar": "2026-11-23 18:00 UTC",
- "stateSha256": "d442f5d3382e9ee3c16ba1d93e94d1ebc30ceab9200cdd1c78b078183f7d328c"
+ "lastHourlyBar": "2026-11-23 20:00 UTC",
+ "stateSha256": "77d94de01433ea6d55a97fdbcaffd1e04367cd12bec39ea37700d3af6495873b"
 }
