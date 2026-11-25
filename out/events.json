@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-25",
+  "kind": "config",
+  "text": "Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.",
+  "n": 27
+ },
+ {
   "date": "2026-11-23",
   "kind": "open",
   "text": "T18 long 17 sh LLY at 1345.45, stop 1218.17, risk 2164 USD (dip)",
