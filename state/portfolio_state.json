@@ -1001,7 +1001,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -1035,11 +1035,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 19,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -1402,7 +1402,7 @@
     "lastWorst": 200978.52436942386,
     "lastDayPnl": 1052.1816165249038,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -3449,37 +3449,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -3874,7 +3874,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -3908,11 +3908,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 19,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -4275,7 +4275,7 @@
     "lastWorst": 200978.52436942386,
     "lastDayPnl": 1052.1816165249038,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -6322,37 +6322,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -6747,7 +6747,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -6781,11 +6781,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 11,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -7145,7 +7145,7 @@
     "lastWorst": 193738.70045583302,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-21": 215.1674247371282,
      "2026-10-28": -443.94197251869195,
@@ -9087,37 +9087,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -9457,7 +9457,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -9491,11 +9491,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 19,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -9858,7 +9858,7 @@
     "lastWorst": 100445.83724658942,
     "lastDayPnl": 495.14429012936307,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-20": 358.23306605040744,
      "2026-10-22": -40.714554239310615,
@@ -11905,37 +11905,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -12330,7 +12330,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -12364,11 +12364,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 11,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -12727,7 +12727,7 @@
     "lastWorst": 96868.22644758294,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
@@ -14669,37 +14669,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -15039,7 +15039,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -15073,11 +15073,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 11,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -15436,7 +15436,7 @@
     "lastWorst": 96868.22644758294,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
@@ -17378,37 +17378,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -17748,7 +17748,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -17782,11 +17782,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 19,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -18149,7 +18149,7 @@
     "lastWorst": 200978.52436942386,
     "lastDayPnl": 1052.1816165249038,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -20196,37 +20196,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -20621,7 +20621,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -20655,11 +20655,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 21,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -21023,7 +21023,7 @@
     "lastWorst": 195965.63884038338,
     "lastDayPnl": 866.5025077263708,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-20": 571.4620339375546,
      "2026-10-22": -66.5303691227759,
@@ -23095,37 +23095,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -23535,7 +23535,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -23569,11 +23569,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 13,
-    "runs": 483,
+    "runs": 484,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -23933,7 +23933,7 @@
     "lastWorst": 976569.948631867,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-21": 645.5022742113847,
      "2026-10-28": -1332.6088839979077,
@@ -25900,37 +25900,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -26285,7 +26285,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -26319,11 +26319,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 31,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -26692,7 +26692,7 @@
     "lastWorst": 195800.3563533886,
     "lastDayPnl": 353.44376908644335,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -28850,37 +28850,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -29370,7 +29370,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -29404,11 +29404,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 31,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -29777,7 +29777,7 @@
     "lastWorst": 195800.3563533886,
     "lastDayPnl": 353.44376908644335,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -31935,37 +31935,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -32455,7 +32455,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -32489,11 +32489,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 17,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -32855,7 +32855,7 @@
     "lastWorst": 195043.07595454267,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-28": -332.760737778561,
      "2026-11-04": -1248.812310463427,
@@ -34833,37 +34833,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -35253,7 +35253,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -35287,11 +35287,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 31,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -35660,7 +35660,7 @@
     "lastWorst": 97849.87733811917,
     "lastDayPnl": 176.72188454322168,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-22": 155.55058981473755,
      "2026-10-27": -302.0378887178909,
@@ -37818,37 +37818,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -38338,7 +38338,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -38372,11 +38372,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 17,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -38737,7 +38737,7 @@
     "lastWorst": 97545.95392348582,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135,
@@ -40715,37 +40715,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -41135,7 +41135,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -41169,11 +41169,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 17,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -41534,7 +41534,7 @@
     "lastWorst": 97545.95392348582,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135,
@@ -43512,37 +43512,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -43932,7 +43932,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -43966,11 +43966,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 31,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -44339,7 +44339,7 @@
     "lastWorst": 195800.3563533886,
     "lastDayPnl": 353.44376908644335,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -46497,37 +46497,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -47017,7 +47017,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -47051,11 +47051,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 31,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -47424,7 +47424,7 @@
     "lastWorst": 196555.57631628696,
     "lastDayPnl": 265.19914872260415,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-22": 255.54739755278308,
      "2026-10-27": -537.4967643680384,
@@ -49582,37 +49582,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -50102,7 +50102,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -50136,11 +50136,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 17,
-    "runs": 475,
+    "runs": 476,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -50501,7 +50501,7 @@
     "lastWorst": 985037.4780697573,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-10-28": -999.0651797775148,
      "2026-11-04": -3765.8610780359672,
@@ -52479,37 +52479,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -52899,7 +52899,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -52933,11 +52933,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 5,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -53289,7 +53289,7 @@
     "lastWorst": 198399.02100749133,
     "lastDayPnl": 1423.5398341219116,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915
     }
@@ -53964,37 +53964,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -54284,7 +54284,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -54318,11 +54318,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 5,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -54674,7 +54674,7 @@
     "lastWorst": 198399.02100749133,
     "lastDayPnl": 1423.5398341219116,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915
     }
@@ -55349,37 +55349,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -55669,7 +55669,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -55703,11 +55703,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 3,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -56061,7 +56061,7 @@
     "lastWorst": 196975.5961733694,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915
     }
@@ -56706,37 +56706,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -57016,7 +57016,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -57050,11 +57050,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 5,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -57406,7 +57406,7 @@
     "lastWorst": 99185.55751834645,
     "lastDayPnl": 680.823398927867,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -1495.2108805814162
     }
@@ -58081,37 +58081,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -58401,7 +58401,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -58435,11 +58435,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 3,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -58792,7 +58792,7 @@
     "lastWorst": 98504.78911941858,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -1495.2108805814162
     }
@@ -59437,37 +59437,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -59747,7 +59747,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -59781,11 +59781,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 3,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -60138,7 +60138,7 @@
     "lastWorst": 98504.78911941858,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -1495.2108805814162
     }
@@ -60783,37 +60783,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -61093,7 +61093,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -61127,11 +61127,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 5,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -61483,7 +61483,7 @@
     "lastWorst": 198399.02100749133,
     "lastDayPnl": 1423.5398341219116,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915
     }
@@ -62158,37 +62158,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -62478,7 +62478,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -62512,11 +62512,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 5,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -62868,7 +62868,7 @@
     "lastWorst": 198701.25800458013,
     "lastDayPnl": 1114.0746527910524,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -2412.7266482109208
     }
@@ -63543,37 +63543,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -63863,7 +63863,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-25T02:46:31Z",
+    "lastRunAt": "2026-11-25T04:15:22Z",
     "lastProcessed": {
      "EURUSD": "2026-11-24",
      "GBPUSD": "2026-11-24",
@@ -63897,11 +63897,11 @@
      "ETHUSD": "2026-11-23"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795568400,
-     "XAGUSD": 1795568400
+     "XAUUSD": 1795575600,
+     "XAGUSD": 1795575600
     },
     "nextId": 3,
-    "runs": 88,
+    "runs": 89,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-24",
@@ -64254,7 +64254,7 @@
     "lastWorst": 990892.8064546405,
     "lastDayPnl": 0.0,
     "pragueDay": "2026-11-25",
-    "lastHourlyBar": "2026-11-25 01:00 UTC",
+    "lastHourlyBar": "2026-11-25 03:00 UTC",
     "realizedByDate": {
      "2026-11-20": -9107.193545359534
     }
@@ -64899,37 +64899,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-23",
-     "close": 80.16999816894531,
+     "date": "2026-11-24",
+     "close": 82.05000305175781,
      "regime": "down",
-     "adx": 27.9,
-     "atrPct": 5.06,
-     "distEma20Atr": -2.07,
-     "chg5Pct": -6.47,
-     "chg20Pct": -21.22,
-     "ema20": 88.56,
-     "ema50": 91.04,
-     "rsi2": 9.0,
+     "adx": 29.0,
+     "atrPct": 4.86,
+     "distEma20Atr": -1.48,
+     "chg5Pct": -4.6,
+     "chg20Pct": -17.87,
+     "ema20": 87.94,
+     "ema50": 90.69,
+     "rsi2": 49.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 81.55000305175781
+     "donchianLo": 79.87000274658203
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-23",
-     "close": 89.37000274658203,
+     "date": "2026-11-24",
+     "close": 91.4000015258789,
      "regime": "down",
-     "adx": 33.0,
-     "atrPct": 4.93,
-     "distEma20Atr": -1.73,
-     "chg5Pct": -3.32,
-     "chg20Pct": -22.83,
-     "ema20": 97.01,
-     "ema50": 99.57,
-     "rsi2": 9.8,
+     "adx": 33.8,
+     "atrPct": 4.74,
+     "distEma20Atr": -1.17,
+     "chg5Pct": -1.87,
+     "chg20Pct": -19.74,
+     "ema20": 96.47,
+     "ema50": 99.25,
+     "rsi2": 56.2,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 89.1500015258789
+     "donchianLo": 88.61000061035156
     },
     {
      "symbol": "XAGUSD",
