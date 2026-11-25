@@ -870,15 +870,12 @@ def process(state, allbars, mode="live", no_orders=False, start=None, end=None, 
                         exit_price, reason = bar["o"] + half_spread(sym, bar["o"]), "stop (gap)"
                     elif bar["h"] >= pos["stop"]:
                         exit_price, reason = pos["stop"] + half_spread(sym, pos["stop"]), "stop"
-                # adverse excursion for the worst-case equity check
-                adverse_px = bar["l"] if pos["side"] == "long" else bar["h"]
-                if exit_price is not None and reason.startswith("stop"):
-                    adverse_px = exit_price
-                day["adverse"] += min(0.0, pos_value(pos, adverse_px, conv))
                 if exit_price is not None:
                     state["positions"].remove(pos)
-                    close_position(state, pos, exit_price, d, reason, closes, day)
+                    close_position(state, pos, exit_price, d, reason, closes, day)      # a loss realised today enters the worst case once, through day["realizedLoss"]
                     continue
+                # adverse excursion of a position that stays open, for the worst-case equity check
+                day["adverse"] += min(0.0, pos_value(pos, bar["l"] if pos["side"] == "long" else bar["h"], conv))
                 strat = pos.get("strat", "trend")
                 if strat == "mr":
                     smaX = ind[sym]["smaX"][i]; m = cfg["strategies"]["mr"]
@@ -1087,6 +1084,7 @@ def process_hourly(state, hourly, allbars, closes, mode="live", no_orders=False,
                     acc["tradingDays"].append(bar["pday"])
                 record_event(state, bar["pday"], "open", "%s long %s %s at %s (%s), stop %s, risk %.0f USD (hourly breakout)" % (pos["id"], fmt_lots(sym, pos), sym, fmt_price(sym, fill), pos["entryTime"], fmt_price(sym, pos["stop"]), pos["riskUSD"]))
             # manage the hourly position
+            bar_dip = 0.0                                                             # how far below its end-of-bar value the open hourly position was at this bar's low
             for pos in [p for p in state["positions"] if p["symbol"] == sym and p.get("tf") == "1h"]:
                 if pos.get("entryT") == t:
                     continue
@@ -1103,14 +1101,13 @@ def process_hourly(state, hourly, allbars, closes, mode="live", no_orders=False,
                     exit_price, reason = bar["o"] - half_spread(sym, bar["o"]), "stop (gap)"
                 elif bar["l"] <= pos["stop"]:
                     exit_price, reason = pos["stop"] - half_spread(sym, pos["stop"]), "stop"
-                adverse_px = exit_price if (exit_price is not None and reason.startswith("stop")) else bar["l"]
-                day["adverse"] = min(day["adverse"], pos_value(pos, adverse_px, conv))   # worst single excursion this day for this position
                 if exit_price is not None:
                     state["positions"].remove(pos)
-                    close_position(state, pos, exit_price, bar["date"], reason, closes, day)
+                    close_position(state, pos, exit_price, bar["date"], reason, closes, day)      # realised: already in the balance, counted once
                     if bar["pday"] not in acc["tradingDays"]:
                         acc["tradingDays"].append(bar["pday"])
                     continue
+                bar_dip += min(0.0, pos_value(pos, bar["l"], conv) - pos_value(pos, bar["c"], conv))
                 pos["lastPrice"] = bar["c"]
                 pos["extreme"] = max(pos["extreme"], bar["c"])
                 if bar["c"] >= pos["entry"] + icfg["trailAtR"] * pos["stopDist"]:
@@ -1128,7 +1125,7 @@ def process_hourly(state, hourly, allbars, closes, mode="live", no_orders=False,
             # account check at this bar
             floating = sum(pos_value(p, p.get("lastPrice") or closes[p["symbol"]], conv_rate(p["symbol"], closes)) + p["swapUSD"] for p in state["positions"])
             equity = acc["balance"] + floating
-            worst = min(equity, acc["balance"] + floating + day["adverse"] - max(0.0, pos_value_now(state, sym, closes)))
+            worst = equity + bar_dip
             acc["lastEquity"] = equity; acc["lastWorst"] = min(acc["lastWorst"], worst) if acc.get("lastDate") == bar["pday"] else worst
             acc["lastDayPnl"] = equity - acc["dayStartBalance"]
             breach = breach_check(state, worst, acc["balance"], " intraday")
@@ -1165,9 +1162,6 @@ def process_hourly(state, hourly, allbars, closes, mode="live", no_orders=False,
                 state["orders"].append(order); day["orders"].append(order)
                 record_event(state, bar["pday"], "order", "%s queued: long %s at the next hourly open, stop %s away (hourly breakout, risk %.0f USD)" % (order["id"], sym, fmt_price(sym, order["stopDist"]), risk))
     return events
-
-def pos_value_now(state, sym, closes):
-    return 0.0
 
 def intraday_slot_free(state, sym, closes):
     cfg = state["config"]
