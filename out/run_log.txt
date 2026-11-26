@@ -1,26 +1,26 @@
-run started 2026-11-26T03:39:10Z, finished 2026-11-26T03:39:34Z, ok=True
+run started 2026-11-26T08:52:08Z, finished 2026-11-26T08:52:32Z, ok=True
 
 ### fetch (exit 0)
-XAUUSD  1153 hourly bars, last 2026-11-26 02:00 UTC close 3615.39990234375
-XAGUSD  1149 hourly bars, last 2026-11-26 02:00 UTC close 42.19499969482422
+XAUUSD  1155 hourly bars, last 2026-11-26 04:00 UTC close 3620.39990234375
+XAGUSD  1151 hourly bars, last 2026-11-26 04:00 UTC close 42.084999084472656
 EURUSD   517 bars, last 2026-11-25 close 1.0962268114089966
 GBPUSD   517 bars, last 2026-11-25 close 1.3111830949783325
 AUDUSD   517 bars, last 2026-11-25 close 0.6633983254432678
 NZDUSD   517 bars, last 2026-11-25 close 0.5477411150932312
 USDJPY   517 bars, last 2026-11-25 close 159.26199340820312
 USDCAD   517 bars, last 2026-11-25 close 1.4272899627685547
-XAUUSD   504 bars, last 2026-11-25 close 3535.800048828125
+XAUUSD   503 bars, last 2026-11-25 close 3535.800048828125
 US500    501 bars, last 2026-11-25 close 7182.77978515625
-US100    501 bars, last 2026-11-25 close 26046.896484375
+US100    501 bars, last 2026-11-25 close 26046.900390625
 US30     501 bars, last 2026-11-25 close 50182.94921875
-GER40    507 bars, last 2026-11-25 close 24702.130859375
-UK100    507 bars, last 2026-11-25 close 10426.900390625
-EU50     500 bars, last 2026-11-25 close 5894.4599609375
-JP225    485 bars, last 2026-11-25 close 57011.62109375
+GER40    506 bars, last 2026-11-25 close 24702.130859375
+UK100    506 bars, last 2026-11-25 close 10426.900390625
+EU50     499 bars, last 2026-11-25 close 5894.4599609375
+JP225    486 bars, last 2026-11-26 close 57499.16015625
 AUS200   507 bars, last 2026-11-25 close 8692.400390625
-USOIL    503 bars, last 2026-11-24 close 82.05000305175781
-UKOIL    503 bars, last 2026-11-24 close 91.4000015258789
-XAGUSD   504 bars, last 2026-11-25 close 40.051998138427734
+USOIL    503 bars, last 2026-11-25 close 83.68000030517578
+UKOIL    503 bars, last 2026-11-25 close 94.61000061035156
+XAGUSD   503 bars, last 2026-11-25 close 40.051998138427734
 NVDA     501 bars, last 2026-11-25 close 149.3000030517578
 AAPL     501 bars, last 2026-11-25 close 355.5799865722656
 MSFT     501 bars, last 2026-11-25 close 489.92999267578125
@@ -33,13 +33,13 @@ JPM      501 bars, last 2026-11-25 close 316.739990234375
 NFLX     501 bars, last 2026-11-25 close 59.40999984741211
 LLY      501 bars, last 2026-11-25 close 1392.219970703125
 COST     501 bars, last 2026-11-25 close 1086.81005859375
-BTCUSD   729 bars, last 2026-11-24 close 59747.765625
-ETHUSD   729 bars, last 2026-11-24 close 1677.69482421875
+BTCUSD   730 bars, last 2026-11-25 close 60378.19921875
+ETHUSD   730 bars, last 2026-11-25 close 1690.76904296875
 saved /home/runner/work/fable-prop-sim/fable-prop-sim/bars/all.json (32 ok, 0 failed)
 
 
 ### portfolio-run (exit 0)
-ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200924 eq     200924 (+0.46%) day     +998 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200924 eq     200924 (+0.46%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)
     EVENT 2026-11-17 open T16 long $6.7/pt US500 at 7411.3, stop 7075.6, risk 2249 USD (dip)
     EVENT 2026-11-20 close T16 long US500 closed at 7075.3 (stop): -2276.80 USD, -1.01R
@@ -48,7 +48,7 @@ ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T18 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +997.79 USD, +0.46R
     EVENT 2026-11-25 order O19 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 2250 USD)
-brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200924 eq     200924 (+0.46%) day     +998 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200924 eq     200924 (+0.46%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)
     EVENT 2026-11-17 open T16 long $6.7/pt US500 at 7411.3, stop 7075.6, risk 2249 USD (dip)
     EVENT 2026-11-20 close T16 long US500 closed at 7075.3 (stop): -2276.80 USD, -1.01R
@@ -57,7 +57,7 @@ brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal   
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T18 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +997.79 USD, +0.46R
     EVENT 2026-11-25 order O19 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 2250 USD)
-fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     193739 eq     193739 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     193739 eq     193739 (-3.13%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-04 close T6 long JP225 closed at 60293 (stop): -2280.45 USD, -1.01R
     EVENT 2026-11-04 order O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 2250 USD)
     EVENT 2026-11-05 open T8 long $80.2/pt JP225 at 62389, stop 57947, risk 2248 USD (dip)
@@ -66,7 +66,7 @@ fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal    
     EVENT 2026-11-17 open T10 long $4.4/pt US500 at 7411.3, stop 7075.6, risk 1477 USD (dip)
     EVENT 2026-11-20 close T10 long US500 closed at 7075.3 (stop): -1495.21 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100420 eq     100420 (+0.42%) day     +470 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100420 eq     100420 (+0.42%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1125 USD)
     EVENT 2026-11-17 open T16 long $3.3/pt US500 at 7411.3, stop 7075.6, risk 1108 USD (dip)
     EVENT 2026-11-20 close T16 long US500 closed at 7075.3 (stop): -1121.41 USD, -1.01R
@@ -75,7 +75,7 @@ fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T18 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +469.55 USD, +0.46R
     EVENT 2026-11-25 order O19 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 1125 USD)
-the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-04 close T6 long JP225 closed at 60293 (stop): -1140.23 USD, -1.01R
     EVENT 2026-11-04 order O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 1125 USD)
     EVENT 2026-11-05 open T8 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)
@@ -84,7 +84,7 @@ the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal    
     EVENT 2026-11-17 open T10 long $2.2/pt US500 at 7411.3, stop 7075.6, risk 739 USD (dip)
     EVENT 2026-11-20 close T10 long US500 closed at 7075.3 (stop): -747.61 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-04 close T6 long JP225 closed at 60293 (stop): -1140.23 USD, -1.01R
     EVENT 2026-11-04 order O7 queued: long JP225 at next open, stop 4442 away (dip, score 89, risk 1125 USD)
     EVENT 2026-11-05 open T8 long $40.1/pt JP225 at 62389, stop 57947, risk 1124 USD (dip)
@@ -93,7 +93,7 @@ cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal    
     EVENT 2026-11-17 open T10 long $2.2/pt US500 at 7411.3, stop 7075.6, risk 739 USD (dip)
     EVENT 2026-11-20 close T10 long US500 closed at 7075.3 (stop): -747.61 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200924 eq     200924 (+0.46%) day     +998 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200924 eq     200924 (+0.46%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O15 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2250 USD)
     EVENT 2026-11-17 open T16 long $6.7/pt US500 at 7411.3, stop 7075.6, risk 2249 USD (dip)
     EVENT 2026-11-20 close T16 long US500 closed at 7075.3 (stop): -2276.80 USD, -1.01R
@@ -102,7 +102,7 @@ fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T18 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +997.79 USD, +0.46R
     EVENT 2026-11-25 order O19 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 2250 USD)
-ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     195921 eq     195921 (-2.04%) day     +822 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     195921 eq     195921 (-2.04%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O17 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1800 USD)
     EVENT 2026-11-17 open T18 long $5.3/pt US500 at 7411.3, stop 7075.6, risk 1779 USD (dip)
     EVENT 2026-11-20 close T18 long US500 closed at 7075.3 (stop): -1801.05 USD, -1.01R
@@ -111,7 +111,7 @@ ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T20 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +821.71 USD, +0.46R
     EVENT 2026-11-25 order O21 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 1800 USD)
-lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     976570 eq     976570 (-2.34%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     976570 eq     976570 (-2.34%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-06 close T8 long JP225 closed at 57943 (stop): -6776.21 USD, -1.00R
     EVENT 2026-11-16 order O9 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 4522 USD)
     EVENT 2026-11-16 order O10 queued: long AUS200 at next open, stop 254.9 away (dip, score 86, risk 4522 USD)
@@ -120,7 +120,7 @@ lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal    
     EVENT 2026-11-19 close T12 long AUS200 closed at 8789.8 (stop): -4569.17 USD, -1.01R
     EVENT 2026-11-20 close T11 long US500 closed at 7075.3 (stop): -4553.60 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     195775 eq     195775 (-2.11%) day     +326 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     195775 eq     195775 (-2.11%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-20 close T24 long US500 closed at 7075.3 (stop): -1121.41 USD, -1.01R
     EVENT 2026-11-20 open T28 long 8 sh LLY at 1362.72, stop 1232.64, risk 1041 USD (dip)
     EVENT 2026-11-20 order O29 queued: long AAPL at next open, stop 24.53 away (dip, score 97, risk 754 USD)
@@ -129,7 +129,7 @@ ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T28 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +325.52 USD, +0.31R
     EVENT 2026-11-25 order O31 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 1125 USD)
-brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     195775 eq     195775 (-2.11%) day     +326 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     195775 eq     195775 (-2.11%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-20 close T24 long US500 closed at 7075.3 (stop): -1121.41 USD, -1.01R
     EVENT 2026-11-20 open T28 long 8 sh LLY at 1362.72, stop 1232.64, risk 1041 USD (dip)
     EVENT 2026-11-20 order O29 queued: long AAPL at next open, stop 24.53 away (dip, score 97, risk 754 USD)
@@ -138,7 +138,7 @@ brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T28 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +325.52 USD, +0.31R
     EVENT 2026-11-25 order O31 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 1125 USD)
-fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     195043 eq     195043 (-2.48%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     195043 eq     195043 (-2.48%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-17 order O13 queued: long EU50 at next open, stop 251.0 away (dip, score 95, risk 754 USD)
     EVENT 2026-11-17 open T14 long $2.2/pt US500 at 7411.3, stop 7075.6, risk 739 USD (dip)
     EVENT 2026-11-17 open T15 long $4.3/pt AUS200 at 9045.5, stop 8790.5, risk 739 USD (dip)
@@ -147,7 +147,7 @@ fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal
     EVENT 2026-11-20 close T16 long EU50 closed at 5972.1 (stop): -752.26 USD, -1.01R
     EVENT 2026-11-20 close T14 long US500 closed at 7075.3 (stop): -747.61 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      97837 eq      97837 (-2.16%) day     +163 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      97837 eq      97837 (-2.16%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-20 close T24 long US500 closed at 7075.3 (stop): -543.71 USD, -1.01R
     EVENT 2026-11-20 open T28 long 4 sh LLY at 1362.72, stop 1232.64, risk 520 USD (dip)
     EVENT 2026-11-20 order O29 queued: long AAPL at next open, stop 24.53 away (dip, score 97, risk 377 USD)
@@ -156,7 +156,7 @@ fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc 
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T28 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +162.76 USD, +0.31R
     EVENT 2026-11-25 order O31 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 562 USD)
-the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-17 order O13 queued: long EU50 at next open, stop 251.0 away (dip, score 95, risk 377 USD)
     EVENT 2026-11-17 open T14 long $1.1/pt US500 at 7411.3, stop 7075.6, risk 369 USD (dip)
     EVENT 2026-11-17 open T15 long $2.1/pt AUS200 at 9045.5, stop 8790.5, risk 361 USD (dip)
@@ -165,7 +165,7 @@ the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal 
     EVENT 2026-11-20 close T16 long EU50 closed at 5972.1 (stop): -362.20 USD, -1.01R
     EVENT 2026-11-20 close T14 long US500 closed at 7075.3 (stop): -373.80 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-17 order O13 queued: long EU50 at next open, stop 251.0 away (dip, score 95, risk 377 USD)
     EVENT 2026-11-17 open T14 long $1.1/pt US500 at 7411.3, stop 7075.6, risk 369 USD (dip)
     EVENT 2026-11-17 open T15 long $2.1/pt AUS200 at 9045.5, stop 8790.5, risk 361 USD (dip)
@@ -174,7 +174,7 @@ cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal    
     EVENT 2026-11-20 close T16 long EU50 closed at 5972.1 (stop): -362.20 USD, -1.01R
     EVENT 2026-11-20 close T14 long US500 closed at 7075.3 (stop): -373.80 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     195775 eq     195775 (-2.11%) day     +326 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     195775 eq     195775 (-2.11%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-20 close T24 long US500 closed at 7075.3 (stop): -1121.41 USD, -1.01R
     EVENT 2026-11-20 open T28 long 8 sh LLY at 1362.72, stop 1232.64, risk 1041 USD (dip)
     EVENT 2026-11-20 order O29 queued: long AAPL at next open, stop 24.53 away (dip, score 97, risk 754 USD)
@@ -183,7 +183,7 @@ fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco b
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T28 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +325.52 USD, +0.31R
     EVENT 2026-11-25 order O31 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 1125 USD)
-ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     196536 eq     196536 (-1.73%) day     +244 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     196536 eq     196536 (-1.73%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-20 close T24 long US500 closed at 7075.3 (stop): -883.53 USD, -1.01R
     EVENT 2026-11-20 open T28 long 6 sh LLY at 1362.72, stop 1232.64, risk 780 USD (dip)
     EVENT 2026-11-20 order O29 queued: long AAPL at next open, stop 24.53 away (dip, score 97, risk 603 USD)
@@ -192,7 +192,7 @@ ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T28 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +244.14 USD, +0.31R
     EVENT 2026-11-25 order O31 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 900 USD)
-lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     985037 eq     985037 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     985037 eq     985037 (-1.50%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-17 order O13 queued: long EU50 at next open, stop 251.0 away (dip, score 95, risk 2261 USD)
     EVENT 2026-11-17 open T14 long $6.7/pt US500 at 7411.3, stop 7075.6, risk 2249 USD (dip)
     EVENT 2026-11-17 open T15 long $13.1/pt AUS200 at 9045.5, stop 8790.5, risk 2250 USD (dip)
@@ -201,7 +201,7 @@ lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal    
     EVENT 2026-11-20 close T16 long EU50 closed at 5972.1 (stop): -2256.79 USD, -1.01R
     EVENT 2026-11-20 close T14 long US500 closed at 7075.3 (stop): -2276.80 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     198326 eq     198326 (-0.84%) day    +1350 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     198326 eq     198326 (-0.84%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)
     EVENT 2026-11-17 open T2 long $8.9/pt US500 at 7411.3, stop 7075.6, risk 2988 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -3024.40 USD, -1.01R
@@ -210,7 +210,7 @@ ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T4 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +1349.95 USD, +0.46R
     EVENT 2026-11-25 order O5 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 3000 USD)
-brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     198326 eq     198326 (-0.84%) day    +1350 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     198326 eq     198326 (-0.84%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)
     EVENT 2026-11-17 open T2 long $8.9/pt US500 at 7411.3, stop 7075.6, risk 2988 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -3024.40 USD, -1.01R
@@ -219,12 +219,12 @@ brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge b
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T4 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +1349.95 USD, +0.46R
     EVENT 2026-11-25 order O5 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 3000 USD)
-fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)
     EVENT 2026-11-17 open T2 long $8.9/pt US500 at 7411.3, stop 7075.6, risk 2988 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -3024.40 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99150 eq      99150 (-0.85%) day     +646 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99150 eq      99150 (-0.85%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1500 USD)
     EVENT 2026-11-17 open T2 long $4.4/pt US500 at 7411.3, stop 7075.6, risk 1477 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -1495.21 USD, -1.01R
@@ -233,17 +233,17 @@ fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  ba
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T4 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +645.63 USD, +0.46R
     EVENT 2026-11-25 order O5 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 1500 USD)
-the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1500 USD)
     EVENT 2026-11-17 open T2 long $4.4/pt US500 at 7411.3, stop 7075.6, risk 1477 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -1495.21 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 1500 USD)
     EVENT 2026-11-17 open T2 long $4.4/pt US500 at 7411.3, stop 7075.6, risk 1477 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -1495.21 USD, -1.01R
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
-fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     198326 eq     198326 (-0.84%) day    +1350 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     198326 eq     198326 (-0.84%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 3000 USD)
     EVENT 2026-11-17 open T2 long $8.9/pt US500 at 7411.3, stop 7075.6, risk 2988 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -3024.40 USD, -1.01R
@@ -252,7 +252,7 @@ fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T4 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +1349.95 USD, +0.46R
     EVENT 2026-11-25 order O5 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 3000 USD)
-ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     198644 eq     198644 (-0.68%) day    +1057 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     198644 eq     198644 (-0.68%) day       +0 | pos 0 ord 1 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 2400 USD)
     EVENT 2026-11-17 open T2 long $7.1/pt US500 at 7411.3, stop 7075.6, risk 2384 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -2412.73 USD, -1.01R
@@ -261,7 +261,7 @@ ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal    
     EVENT 2026-11-25 config Setting changed: the hourly gold and silver leg now takes new entries at any hour. The rule that skipped US hours (13:00-20:59 UTC) was removed after a 16-year test showed it cost the leg more than half of its profit. Nothing else changed.
     EVENT 2026-11-25 close T4 long LLY closed at 1404.65 (mean reached (close back through the 5-day average)): +1056.49 USD, +0.46R
     EVENT 2026-11-25 order O5 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 2400 USD)
-lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     990893 eq     990893 (-0.91%) day       +0 | pos 0 ord 0 | 1 date(s), hourly to 2026-11-26 02:00 UTC
+lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     990893 eq     990893 (-0.91%) day       +0 | pos 0 ord 0 | 2 date(s), hourly to 2026-11-26 04:00 UTC
     EVENT 2026-11-16 order O1 queued: long US500 at next open, stop 335.7 away (dip, score 90, risk 9000 USD)
     EVENT 2026-11-17 open T2 long $26.8/pt US500 at 7411.3, stop 7075.6, risk 8997 USD (dip)
     EVENT 2026-11-20 close T2 long US500 closed at 7075.3 (stop): -9107.19 USD, -1.01R
@@ -301,7 +301,7 @@ PORTFOLIO track all          48 accounts, capital 10200000, funded 16 (3400000),
   fast-pass     fundednext-200k-fast FundedNext Stellar 2-Step (m x1   200000 | FundedNext Challenge     a1 bal    198326 eq    198326  -0.84% | days 4/5 | pos 0 ord 1 | fees   1050 payouts       0
   fast-pass     ftp-200k-fast      Funded Trading Plus 2-Step C x2   200000 | Funded Trading Plus Chal a1 bal    198644 eq    198644  -0.68% | days 4/0 | pos 0 ord 1 | fees   1098 payouts       0
   fast-pass     lux-1m-fast        Lux Trading Firm 1-Step Clas x1  1000000 | Lux Trading Firm Evaluat a1 bal    990893 eq    990893  -0.91% | days 2/0 | pos 0 ord 0 | fees    999 payouts       0
-FTMO Challenge | attempt 1 | balance 200924.22 | equity 200924.22 (+0.46%) | day +997.88
+FTMO Challenge | attempt 1 | balance 200924.22 | equity 200924.22 (+0.46%) | day +0.00
 ORDER O19 long COST at next open, stop 57.46 away, risk 2250, dip score 89
 EVENT 2026-11-09 open T14 long 15 sh LLY at 1365.74, stop 1223.68, risk 2131 USD (dip)
 EVENT 2026-11-10 close T14 long LLY closed at 1408.14 (mean reached (close back through the 5-day average)): +632.05 USD, +0.30R

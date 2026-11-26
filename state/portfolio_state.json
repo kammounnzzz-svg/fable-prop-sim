@@ -1100,7 +1100,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -1115,7 +1115,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -1130,15 +1130,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 20,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -1193,8 +1193,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -1253,12 +1253,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -1452,7 +1452,7 @@
     "phase": "challenge",
     "phaseStart": "2026-10-16",
     "balance": 200924.22389755354,
-    "dayStartBalance": 199926.34275289896,
+    "dayStartBalance": 200924.22389755354,
     "peakBalance": 202203.22613923883,
     "tradingDays": [
      "2026-10-19",
@@ -1480,12 +1480,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 200924.22389755354,
     "lastWorst": 200924.22389755354,
-    "lastDayPnl": 997.8811446545878,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -3336,6 +3336,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 200924.22,
+     "equity": 200924.22,
+     "worst": 200924.22,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 200924.22,
+     "equity": 200924.22,
+     "worst": 200924.22,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -3479,7 +3497,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -3563,17 +3581,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -3597,37 +3615,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -3852,36 +3870,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -4037,7 +4055,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -4052,7 +4070,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -4067,15 +4085,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 20,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -4130,8 +4148,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -4190,12 +4208,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -4389,7 +4407,7 @@
     "phase": "challenge",
     "phaseStart": "2026-10-16",
     "balance": 200924.22389755354,
-    "dayStartBalance": 199926.34275289896,
+    "dayStartBalance": 200924.22389755354,
     "peakBalance": 202203.22613923883,
     "tradingDays": [
      "2026-10-19",
@@ -4417,12 +4435,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 200924.22389755354,
     "lastWorst": 200924.22389755354,
-    "lastDayPnl": 997.8811446545878,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -6273,6 +6291,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 200924.22,
+     "equity": 200924.22,
+     "worst": 200924.22,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 200924.22,
+     "equity": 200924.22,
+     "worst": 200924.22,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -6416,7 +6452,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -6500,17 +6536,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -6534,37 +6570,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -6789,36 +6825,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -6974,7 +7010,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -6989,7 +7025,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -7004,15 +7040,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 11,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -7067,8 +7103,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -7127,12 +7163,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -7350,12 +7386,12 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 193738.70045583302,
     "lastWorst": 193738.70045583302,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-21": 215.1674247371282,
      "2026-10-28": -443.94197251869195,
@@ -9090,6 +9126,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 193738.7,
+     "equity": 193738.7,
+     "worst": 193738.7,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 193738.7,
+     "equity": 193738.7,
+     "worst": 193738.7,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -9233,7 +9287,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -9317,17 +9371,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -9351,37 +9405,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -9606,36 +9660,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -9726,7 +9780,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -9741,7 +9795,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -9756,15 +9810,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 20,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -9819,8 +9873,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -9879,12 +9933,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -10078,7 +10132,7 @@
     "phase": "challenge",
     "phaseStart": "2026-10-16",
     "balance": 100420.28408335632,
-    "dayStartBalance": 99950.69295646006,
+    "dayStartBalance": 100420.28408335632,
     "peakBalance": 101072.14111689612,
     "tradingDays": [
      "2026-10-19",
@@ -10106,12 +10160,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 100420.28408335632,
     "lastWorst": 100420.28408335632,
-    "lastDayPnl": 469.59112689626636,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-20": 358.23306605040744,
      "2026-10-22": -40.714554239310615,
@@ -11962,6 +12016,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 100420.28,
+     "equity": 100420.28,
+     "worst": 100420.28,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 100420.28,
+     "equity": 100420.28,
+     "worst": 100420.28,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -12105,7 +12177,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -12189,17 +12261,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -12223,37 +12295,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -12478,36 +12550,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -12663,7 +12735,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -12678,7 +12750,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -12693,15 +12765,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 11,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -12756,8 +12828,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -12816,12 +12888,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -13038,12 +13110,12 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 96868.22644758294,
     "lastWorst": 96868.22644758294,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
@@ -14778,6 +14850,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 96868.23,
+     "equity": 96868.23,
+     "worst": 96868.23,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 96868.23,
+     "equity": 96868.23,
+     "worst": 96868.23,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -14921,7 +15011,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -15005,17 +15095,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -15039,37 +15129,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -15294,36 +15384,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -15414,7 +15504,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -15429,7 +15519,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -15444,15 +15534,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 11,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -15507,8 +15597,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -15567,12 +15657,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -15789,12 +15879,12 @@
     "lossStreak": 4,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 96868.22644758294,
     "lastWorst": 96868.22644758294,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-21": 106.06844881407727,
      "2026-10-28": -221.57950303843003,
@@ -17529,6 +17619,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 96868.23,
+     "equity": 96868.23,
+     "worst": 96868.23,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 96868.23,
+     "equity": 96868.23,
+     "worst": 96868.23,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -17672,7 +17780,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -17756,17 +17864,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -17790,37 +17898,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -18045,36 +18153,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -18165,7 +18273,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -18180,7 +18288,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -18195,15 +18303,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 20,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -18258,8 +18366,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -18318,12 +18426,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -18517,7 +18625,7 @@
     "phase": "challenge",
     "phaseStart": "2026-10-16",
     "balance": 200924.22389755354,
-    "dayStartBalance": 199926.34275289896,
+    "dayStartBalance": 200924.22389755354,
     "peakBalance": 202203.22613923883,
     "tradingDays": [
      "2026-10-19",
@@ -18545,12 +18653,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 200924.22389755354,
     "lastWorst": 200924.22389755354,
-    "lastDayPnl": 997.8811446545878,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-20": 716.4661321008149,
      "2026-10-22": -82.41702443567759,
@@ -20401,6 +20509,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 200924.22,
+     "equity": 200924.22,
+     "worst": 200924.22,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 200924.22,
+     "equity": 200924.22,
+     "worst": 200924.22,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -20544,7 +20670,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -20628,17 +20754,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -20662,37 +20788,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -20917,36 +21043,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -21102,7 +21228,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -21117,7 +21243,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -21132,15 +21258,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 22,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -21195,8 +21321,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -21255,12 +21381,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -21454,7 +21580,7 @@
     "phase": "challenge",
     "phaseStart": "2026-10-16",
     "balance": 195920.9208047255,
-    "dayStartBalance": 195099.136332657,
+    "dayStartBalance": 195920.9208047255,
     "peakBalance": 200571.13203393758,
     "tradingDays": [
      "2026-10-19",
@@ -21483,12 +21609,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 195920.9208047255,
     "lastWorst": 195920.9208047255,
-    "lastDayPnl": 821.7844720684807,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-20": 571.4620339375546,
      "2026-10-22": -66.5303691227759,
@@ -23364,6 +23490,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 195920.92,
+     "equity": 195920.92,
+     "worst": 195920.92,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 195920.92,
+     "equity": 195920.92,
+     "worst": 195920.92,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -23507,7 +23651,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -23591,17 +23735,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -23625,37 +23769,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -23880,36 +24024,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -24080,7 +24224,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-18T17:35:10Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -24095,7 +24239,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -24110,15 +24254,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 13,
-    "runs": 494,
+    "runs": 495,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -24173,8 +24317,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -24233,12 +24377,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -24456,12 +24600,12 @@
     "lossStreak": 5,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 976569.948631867,
     "lastWorst": 976569.948631867,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-21": 645.5022742113847,
      "2026-10-28": -1332.6088839979077,
@@ -26221,6 +26365,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 976569.95,
+     "equity": 976569.95,
+     "worst": 976569.95,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 976569.95,
+     "equity": 976569.95,
+     "worst": 976569.95,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -26364,7 +26526,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -26448,17 +26610,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -26482,37 +26644,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -26737,36 +26899,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -26872,7 +27034,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -26887,7 +27049,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -26902,15 +27064,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 32,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftmo-200k",
     "lastCloses": {
      "EURUSD": {
@@ -26966,8 +27128,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -27026,12 +27188,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -27225,7 +27387,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 195774.8031901555,
-    "dayStartBalance": 195449.23902245765,
+    "dayStartBalance": 195774.8031901555,
     "peakBalance": 200316.58155783714,
     "tradingDays": [
      "2026-10-20",
@@ -27258,12 +27420,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 195774.8031901555,
     "lastWorst": 195774.8031901555,
-    "lastDayPnl": 325.56416769785574,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -29225,6 +29387,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 195774.8,
+     "equity": 195774.8,
+     "worst": 195774.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 195774.8,
+     "equity": 195774.8,
+     "worst": 195774.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -29368,7 +29548,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -29452,17 +29632,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -29486,37 +29666,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -29741,36 +29921,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -30021,7 +30201,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -30036,7 +30216,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -30051,15 +30231,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 32,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of brightfunded-200k",
     "lastCloses": {
      "EURUSD": {
@@ -30115,8 +30295,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -30175,12 +30355,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -30374,7 +30554,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 195774.8031901555,
-    "dayStartBalance": 195449.23902245765,
+    "dayStartBalance": 195774.8031901555,
     "peakBalance": 200316.58155783714,
     "tradingDays": [
      "2026-10-20",
@@ -30407,12 +30587,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 195774.8031901555,
     "lastWorst": 195774.8031901555,
-    "lastDayPnl": 325.56416769785574,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -32374,6 +32554,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 195774.8,
+     "equity": 195774.8,
+     "worst": 195774.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 195774.8,
+     "equity": 195774.8,
+     "worst": 195774.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -32517,7 +32715,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -32601,17 +32799,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -32635,37 +32833,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -32890,36 +33088,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -33170,7 +33368,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -33185,7 +33383,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -33200,15 +33398,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 17,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fintokei-200k",
     "lastCloses": {
      "EURUSD": {
@@ -33264,8 +33462,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -33324,12 +33522,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -33548,12 +33746,12 @@
     "lossStreak": 8,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 195043.07595454267,
     "lastWorst": 195043.07595454267,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-28": -332.760737778561,
      "2026-11-04": -1248.812310463427,
@@ -35324,6 +35522,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 195043.08,
+     "equity": 195043.08,
+     "worst": 195043.08,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 195043.08,
+     "equity": 195043.08,
+     "worst": 195043.08,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -35467,7 +35683,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -35551,17 +35767,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -35585,37 +35801,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -35840,36 +36056,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -36010,7 +36226,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -36025,7 +36241,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -36040,15 +36256,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 32,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundingpips-100k",
     "lastCloses": {
      "EURUSD": {
@@ -36104,8 +36320,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -36164,12 +36380,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -36363,7 +36579,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 97837.10075650262,
-    "dayStartBalance": 97674.3186726537,
+    "dayStartBalance": 97837.10075650262,
     "peakBalance": 100155.51558981473,
     "tradingDays": [
      "2026-10-20",
@@ -36396,12 +36612,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 97837.10075650262,
     "lastWorst": 97837.10075650262,
-    "lastDayPnl": 162.78208384892787,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-22": 155.55058981473755,
      "2026-10-27": -302.0378887178909,
@@ -38363,6 +38579,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 97837.1,
+     "equity": 97837.1,
+     "worst": 97837.1,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 97837.1,
+     "equity": 97837.1,
+     "worst": 97837.1,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -38506,7 +38740,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -38590,17 +38824,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -38624,37 +38858,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -38879,36 +39113,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -39159,7 +39393,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -39174,7 +39408,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -39189,15 +39423,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 17,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of the5ers-100k",
     "lastCloses": {
      "EURUSD": {
@@ -39253,8 +39487,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -39313,12 +39547,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -39536,12 +39770,12 @@
     "lossStreak": 8,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 97545.95392348582,
     "lastWorst": 97545.95392348582,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135,
@@ -41312,6 +41546,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 97545.95,
+     "equity": 97545.95,
+     "worst": 97545.95,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 97545.95,
+     "equity": 97545.95,
+     "worst": 97545.95,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -41455,7 +41707,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -41539,17 +41791,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -41573,37 +41825,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -41828,36 +42080,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -41998,7 +42250,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -42013,7 +42265,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -42028,15 +42280,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 17,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of cti-100k",
     "lastCloses": {
      "EURUSD": {
@@ -42092,8 +42344,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -42152,12 +42404,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -42375,12 +42627,12 @@
     "lossStreak": 8,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 97545.95392348582,
     "lastWorst": 97545.95392348582,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-28": -165.98888566836453,
      "2026-11-04": -624.4061552317135,
@@ -44151,6 +44403,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 97545.95,
+     "equity": 97545.95,
+     "worst": 97545.95,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 97545.95,
+     "equity": 97545.95,
+     "worst": 97545.95,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -44294,7 +44564,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -44378,17 +44648,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -44412,37 +44682,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -44667,36 +44937,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -44837,7 +45107,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -44852,7 +45122,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -44867,15 +45137,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 32,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of fundednext-200k",
     "lastCloses": {
      "EURUSD": {
@@ -44931,8 +45201,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -44991,12 +45261,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -45190,7 +45460,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 195774.8031901555,
-    "dayStartBalance": 195449.23902245765,
+    "dayStartBalance": 195774.8031901555,
     "peakBalance": 200316.58155783714,
     "tradingDays": [
      "2026-10-20",
@@ -45223,12 +45493,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 195774.8031901555,
     "lastWorst": 195774.8031901555,
-    "lastDayPnl": 325.56416769785574,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-22": 316.6515578371442,
      "2026-10-27": -678.770089758127,
@@ -47190,6 +47460,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 195774.8,
+     "equity": 195774.8,
+     "worst": 195774.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 195774.8,
+     "equity": 195774.8,
+     "worst": 195774.8,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -47333,7 +47621,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -47417,17 +47705,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -47451,37 +47739,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -47706,36 +47994,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -47986,7 +48274,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -48001,7 +48289,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -48016,15 +48304,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 32,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of ftp-200k",
     "lastCloses": {
      "EURUSD": {
@@ -48080,8 +48368,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -48140,12 +48428,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -48339,7 +48627,7 @@
     "phase": "funded",
     "phaseStart": "2026-10-19",
     "balance": 196536.41144386213,
-    "dayStartBalance": 196292.23831808876,
+    "dayStartBalance": 196536.41144386213,
     "peakBalance": 200255.4873975528,
     "tradingDays": [
      "2026-10-20",
@@ -48372,12 +48660,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 196536.41144386213,
     "lastWorst": 196536.41144386213,
-    "lastDayPnl": 244.17312577337725,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-22": 255.54739755278308,
      "2026-10-27": -537.4967643680384,
@@ -50339,6 +50627,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 196536.41,
+     "equity": 196536.41,
+     "worst": 196536.41,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 196536.41,
+     "equity": 196536.41,
+     "worst": 196536.41,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -50482,7 +50788,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -50566,17 +50872,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -50600,37 +50906,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -50855,36 +51161,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -51135,7 +51441,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-10-19T12:41:09Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -51150,7 +51456,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -51165,15 +51471,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 17,
-    "runs": 486,
+    "runs": 487,
     "note": "created 2026-10-19T12:41:09Z as the funded-start twin of lux-1m",
     "lastCloses": {
      "EURUSD": {
@@ -51229,8 +51535,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -51289,12 +51595,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     }
    },
@@ -51512,12 +51818,12 @@
     "lossStreak": 8,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 985037.4780697573,
     "lastWorst": 985037.4780697573,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-10-28": -999.0651797775148,
      "2026-11-04": -3765.8610780359672,
@@ -53288,6 +53594,24 @@
      "phase": "funded",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 985037.48,
+     "equity": 985037.48,
+     "worst": 985037.48,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 985037.48,
+     "equity": 985037.48,
+     "worst": 985037.48,
+     "phase": "funded",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -53431,7 +53755,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -53515,17 +53839,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -53549,37 +53873,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -53804,36 +54128,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -53974,7 +54298,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -53989,7 +54313,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -54004,15 +54328,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 6,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -54067,8 +54391,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -54127,12 +54451,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of ftmo-200k"
@@ -54327,7 +54651,7 @@
     "phase": "challenge",
     "phaseStart": "2026-11-16",
     "balance": 198325.5556631962,
-    "dayStartBalance": 196975.48117336942,
+    "dayStartBalance": 198325.5556631962,
     "peakBalance": 200000.0,
     "tradingDays": [
      "2026-11-17",
@@ -54343,12 +54667,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 198325.5556631962,
     "lastWorst": 198325.5556631962,
-    "lastDayPnl": 1350.074489826773,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915,
      "2026-11-25": 1349.954489826777
@@ -54827,6 +55151,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 198325.56,
+     "equity": 198325.56,
+     "worst": 198325.56,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 198325.56,
+     "equity": 198325.56,
+     "worst": 198325.56,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -54970,7 +55312,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -55054,17 +55396,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -55088,37 +55430,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -55343,36 +55685,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -55423,7 +55765,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -55438,7 +55780,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -55453,15 +55795,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 6,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -55516,8 +55858,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -55576,12 +55918,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of brightfunded-200k"
@@ -55776,7 +56118,7 @@
     "phase": "challenge",
     "phaseStart": "2026-11-16",
     "balance": 198325.5556631962,
-    "dayStartBalance": 196975.48117336942,
+    "dayStartBalance": 198325.5556631962,
     "peakBalance": 200000.0,
     "tradingDays": [
      "2026-11-17",
@@ -55792,12 +56134,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 198325.5556631962,
     "lastWorst": 198325.5556631962,
-    "lastDayPnl": 1350.074489826773,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915,
      "2026-11-25": 1349.954489826777
@@ -56276,6 +56618,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 198325.56,
+     "equity": 198325.56,
+     "worst": 198325.56,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 198325.56,
+     "equity": 198325.56,
+     "worst": 198325.56,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -56419,7 +56779,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -56503,17 +56863,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -56537,37 +56897,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -56792,36 +57152,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -56872,7 +57232,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -56887,7 +57247,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -56902,15 +57262,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 3,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -56965,8 +57325,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -57025,12 +57385,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of fintokei-200k"
@@ -57242,12 +57602,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 196975.5961733694,
     "lastWorst": 196975.5961733694,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915
     }
@@ -57685,6 +58045,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 196975.6,
+     "equity": 196975.6,
+     "worst": 196975.6,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 196975.6,
+     "equity": 196975.6,
+     "worst": 196975.6,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -57828,7 +58206,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -57912,17 +58290,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -57946,37 +58324,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -58201,36 +58579,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -58261,7 +58639,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -58276,7 +58654,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -58291,15 +58669,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 6,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -58354,8 +58732,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -58414,12 +58792,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of fundingpips-100k"
@@ -58614,7 +58992,7 @@
     "phase": "challenge",
     "phaseStart": "2026-11-16",
     "balance": 99150.42191890096,
-    "dayStartBalance": 98504.73411941859,
+    "dayStartBalance": 99150.42191890096,
     "peakBalance": 100000.0,
     "tradingDays": [
      "2026-11-17",
@@ -58630,12 +59008,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 99150.42191890096,
     "lastWorst": 99150.42191890096,
-    "lastDayPnl": 645.6877994823735,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -1495.2108805814162,
      "2026-11-25": 645.6277994823716
@@ -59114,6 +59492,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 99150.42,
+     "equity": 99150.42,
+     "worst": 99150.42,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 99150.42,
+     "equity": 99150.42,
+     "worst": 99150.42,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -59257,7 +59653,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -59341,17 +59737,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -59375,37 +59771,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -59630,36 +60026,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -59710,7 +60106,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -59725,7 +60121,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -59740,15 +60136,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 3,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -59803,8 +60199,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -59863,12 +60259,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of the5ers-100k"
@@ -60079,12 +60475,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 98504.78911941858,
     "lastWorst": 98504.78911941858,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -1495.2108805814162
     }
@@ -60522,6 +60918,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 98504.79,
+     "equity": 98504.79,
+     "worst": 98504.79,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 98504.79,
+     "equity": 98504.79,
+     "worst": 98504.79,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -60665,7 +61079,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -60749,17 +61163,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -60783,37 +61197,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -61038,36 +61452,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -61098,7 +61512,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -61113,7 +61527,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -61128,15 +61542,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 3,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -61191,8 +61605,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -61251,12 +61665,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of cti-100k"
@@ -61467,12 +61881,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 98504.78911941858,
     "lastWorst": 98504.78911941858,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -1495.2108805814162
     }
@@ -61910,6 +62324,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 98504.79,
+     "equity": 98504.79,
+     "worst": 98504.79,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 98504.79,
+     "equity": 98504.79,
+     "worst": 98504.79,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -62053,7 +62485,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -62137,17 +62569,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -62171,37 +62603,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -62426,36 +62858,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -62486,7 +62918,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -62501,7 +62933,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -62516,15 +62948,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 6,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -62579,8 +63011,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -62639,12 +63071,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of fundednext-200k"
@@ -62839,7 +63271,7 @@
     "phase": "challenge",
     "phaseStart": "2026-11-16",
     "balance": 198325.5556631962,
-    "dayStartBalance": 196975.48117336942,
+    "dayStartBalance": 198325.5556631962,
     "peakBalance": 200000.0,
     "tradingDays": [
      "2026-11-17",
@@ -62855,12 +63287,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 198325.5556631962,
     "lastWorst": 198325.5556631962,
-    "lastDayPnl": 1350.074489826773,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -3024.4038266305915,
      "2026-11-25": 1349.954489826777
@@ -63339,6 +63771,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 198325.56,
+     "equity": 198325.56,
+     "worst": 198325.56,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 198325.56,
+     "equity": 198325.56,
+     "worst": 198325.56,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -63482,7 +63932,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -63566,17 +64016,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -63600,37 +64050,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -63855,36 +64305,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -63935,7 +64385,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -63950,7 +64400,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -63965,15 +64415,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 6,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -64028,8 +64478,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -64088,12 +64538,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of ftp-200k"
@@ -64288,7 +64738,7 @@
     "phase": "challenge",
     "phaseStart": "2026-11-16",
     "balance": 198643.7633873057,
-    "dayStartBalance": 197587.18335178908,
+    "dayStartBalance": 198643.7633873057,
     "peakBalance": 200000.0,
     "tradingDays": [
      "2026-11-17",
@@ -64304,12 +64754,12 @@
     "lossStreak": 0,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 198643.7633873057,
     "lastWorst": 198643.7633873057,
-    "lastDayPnl": 1056.5800355166139,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "lastDayPnl": 0.0,
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -2412.7266482109208,
      "2026-11-25": 1056.490035516608
@@ -64788,6 +65238,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 198643.76,
+     "equity": 198643.76,
+     "worst": 198643.76,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 198643.76,
+     "equity": 198643.76,
+     "worst": 198643.76,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -64931,7 +65399,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -65015,17 +65483,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -65049,37 +65517,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -65304,36 +65772,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
@@ -65384,7 +65852,7 @@
    "meta": {
     "version": 2,
     "createdAt": "2026-11-16T10:24:26Z",
-    "lastRunAt": "2026-11-26T03:39:34Z",
+    "lastRunAt": "2026-11-26T08:52:32Z",
     "lastProcessed": {
      "EURUSD": "2026-11-25",
      "GBPUSD": "2026-11-25",
@@ -65399,7 +65867,7 @@
      "GER40": "2026-11-25",
      "UK100": "2026-11-25",
      "EU50": "2026-11-25",
-     "JP225": "2026-11-25",
+     "JP225": "2026-11-26",
      "AUS200": "2026-11-25",
      "XAGUSD": "2026-11-25",
      "NVDA": "2026-11-25",
@@ -65414,15 +65882,15 @@
      "NFLX": "2026-11-25",
      "LLY": "2026-11-25",
      "COST": "2026-11-25",
-     "BTCUSD": "2026-11-24",
-     "ETHUSD": "2026-11-24"
+     "BTCUSD": "2026-11-25",
+     "ETHUSD": "2026-11-25"
     },
     "lastProcessedHourly": {
-     "XAUUSD": 1795658400,
-     "XAGUSD": 1795658400
+     "XAUUSD": 1795665600,
+     "XAGUSD": 1795665600
     },
     "nextId": 3,
-    "runs": 99,
+    "runs": 100,
     "lastCloses": {
      "EURUSD": {
       "d": "2026-11-25",
@@ -65477,8 +65945,8 @@
       "c": 5894.4599609375
      },
      "JP225": {
-      "d": "2026-11-25",
-      "c": 57011.62109375
+      "d": "2026-11-26",
+      "c": 57499.16015625
      },
      "AUS200": {
       "d": "2026-11-25",
@@ -65537,12 +66005,12 @@
       "c": 1086.81005859375
      },
      "BTCUSD": {
-      "d": "2026-11-24",
-      "c": 59747.765625
+      "d": "2026-11-25",
+      "c": 60378.19921875
      },
      "ETHUSD": {
-      "d": "2026-11-24",
-      "c": 1677.69482421875
+      "d": "2026-11-25",
+      "c": 1690.76904296875
      }
     },
     "note": "created 2026-11-16T10:24:26Z as the fast-pass twin of lux-1m"
@@ -65753,12 +66221,12 @@
     "lossStreak": 1,
     "flattenNextOpen": false,
     "status": "active",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "lastEquity": 990892.8064546405,
     "lastWorst": 990892.8064546405,
     "lastDayPnl": 0.0,
-    "pragueDay": "2026-11-26",
-    "lastHourlyBar": "2026-11-26 02:00 UTC",
+    "pragueDay": "2026-11-27",
+    "lastHourlyBar": "2026-11-26 04:00 UTC",
     "realizedByDate": {
      "2026-11-20": -9107.193545359534
     }
@@ -66196,6 +66664,24 @@
      "phase": "challenge",
      "attempt": 1,
      "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "balance": 990892.81,
+     "equity": 990892.81,
+     "worst": 990892.81,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "balance": 990892.81,
+     "equity": 990892.81,
+     "worst": 990892.81,
+     "phase": "challenge",
+     "attempt": 1,
+     "dayPnl": 0.0
     }
    ],
    "journal": [],
@@ -66339,7 +66825,7 @@
     {
      "symbol": "US100",
      "date": "2026-11-25",
-     "close": 26046.896484375,
+     "close": 26046.900390625,
      "regime": "down",
      "adx": 33.0,
      "atrPct": 3.36,
@@ -66423,17 +66909,17 @@
     },
     {
      "symbol": "JP225",
-     "date": "2026-11-25",
-     "close": 57011.62109375,
+     "date": "2026-11-26",
+     "close": 57499.16015625,
      "regime": "down",
-     "adx": 37.8,
-     "atrPct": 3.05,
-     "distEma20Atr": -1.89,
-     "chg5Pct": -3.14,
-     "chg20Pct": -8.33,
-     "ema20": 60303.0,
-     "ema50": 62667.0,
-     "rsi2": 32.5,
+     "adx": 38.6,
+     "atrPct": 2.97,
+     "distEma20Atr": -1.49,
+     "chg5Pct": -2.58,
+     "chg20Pct": -9.12,
+     "ema20": 60036.0,
+     "ema50": 62465.0,
+     "rsi2": 46.9,
      "aboveSma200": false,
      "donchianHi": 64831.2890625,
      "donchianLo": 56436.6484375
@@ -66457,37 +66943,37 @@
     },
     {
      "symbol": "USOIL",
-     "date": "2026-11-24",
-     "close": 82.05000305175781,
+     "date": "2026-11-25",
+     "close": 83.68000030517578,
      "regime": "down",
-     "adx": 29.0,
-     "atrPct": 4.86,
-     "distEma20Atr": -1.48,
-     "chg5Pct": -4.6,
-     "chg20Pct": -17.87,
-     "ema20": 87.94,
-     "ema50": 90.69,
-     "rsi2": 49.5,
+     "adx": 29.1,
+     "atrPct": 4.78,
+     "distEma20Atr": -0.96,
+     "chg5Pct": 0.5,
+     "chg20Pct": -18.58,
+     "ema20": 87.53,
+     "ema50": 90.41,
+     "rsi2": 71.5,
      "aboveSma200": false,
      "donchianHi": 104.98999786376953,
-     "donchianLo": 79.87000274658203
+     "donchianLo": 79.06999969482422
     },
     {
      "symbol": "UKOIL",
-     "date": "2026-11-24",
-     "close": 91.4000015258789,
+     "date": "2026-11-25",
+     "close": 94.61000061035156,
      "regime": "down",
-     "adx": 33.8,
-     "atrPct": 4.74,
-     "distEma20Atr": -1.17,
-     "chg5Pct": -1.87,
-     "chg20Pct": -19.74,
-     "ema20": 96.47,
-     "ema50": 99.25,
-     "rsi2": 56.2,
+     "adx": 33.2,
+     "atrPct": 4.65,
+     "distEma20Atr": -0.38,
+     "chg5Pct": 2.89,
+     "chg20Pct": -17.96,
+     "ema20": 96.29,
+     "ema50": 99.07,
+     "rsi2": 83.3,
      "aboveSma200": false,
      "donchianHi": 118.0,
-     "donchianLo": 88.61000061035156
+     "donchianLo": 88.11000061035156
     },
     {
      "symbol": "XAGUSD",
@@ -66712,36 +67198,36 @@
     },
     {
      "symbol": "BTCUSD",
-     "date": "2026-11-24",
-     "close": 59747.765625,
+     "date": "2026-11-25",
+     "close": 60378.19921875,
      "regime": "down",
-     "adx": 48.5,
-     "atrPct": 5.02,
-     "distEma20Atr": -2.24,
-     "chg5Pct": -3.48,
-     "chg20Pct": -25.69,
-     "ema20": 66456.1,
-     "ema50": 72396.4,
-     "rsi2": 20.9,
+     "adx": 49.1,
+     "atrPct": 5.0,
+     "distEma20Atr": -1.82,
+     "chg5Pct": 2.69,
+     "chg20Pct": -20.49,
+     "ema20": 65877.3,
+     "ema50": 71925.1,
+     "rsi2": 49.8,
      "aboveSma200": false,
-     "donchianHi": 81079.7890625,
+     "donchianHi": 80833.6171875,
      "donchianLo": 55149.56640625
     },
     {
      "symbol": "ETHUSD",
-     "date": "2026-11-24",
-     "close": 1677.69482421875,
+     "date": "2026-11-25",
+     "close": 1690.76904296875,
      "regime": "down",
-     "adx": 44.5,
-     "atrPct": 6.43,
-     "distEma20Atr": -1.92,
-     "chg5Pct": -4.42,
-     "chg20Pct": -30.74,
-     "ema20": 1884.39,
-     "ema50": 2110.18,
-     "rsi2": 27.2,
+     "adx": 44.7,
+     "atrPct": 6.3,
+     "distEma20Atr": -1.65,
+     "chg5Pct": 4.41,
+     "chg20Pct": -24.33,
+     "ema20": 1865.95,
+     "ema50": 2093.73,
+     "rsi2": 48.1,
      "aboveSma200": false,
-     "donchianHi": 2446.0478515625,
+     "donchianHi": 2434.427734375,
      "donchianLo": 1538.6019287109375
     }
    ],
