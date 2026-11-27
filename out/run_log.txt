@@ -1,4 +1,4 @@
-run started 2026-11-27T01:15:38Z, finished 2026-11-27T01:16:03Z, ok=True
+run started 2026-11-27T01:48:37Z, finished 2026-11-27T01:49:04Z, ok=True
 
 ### fetch (exit 0)
 XAUUSD  1155 hourly bars, last 2026-11-26 04:00 UTC close 3620.39990234375
@@ -13,11 +13,11 @@ XAUUSD   503 bars, last 2026-11-25 close 3535.800048828125
 US500    501 bars, last 2026-11-25 close 7182.77978515625
 US100    501 bars, last 2026-11-25 close 26046.900390625
 US30     501 bars, last 2026-11-25 close 50182.94921875
-GER40    506 bars, last 2026-11-25 close 24702.130859375
-UK100    506 bars, last 2026-11-25 close 10426.900390625
-EU50     499 bars, last 2026-11-25 close 5894.4599609375
-JP225    484 bars, last 2026-11-25 close 57011.62109375
-AUS200   506 bars, last 2026-11-25 close 8692.400390625
+GER40    507 bars, last 2026-11-26 close 25215.51953125
+UK100    507 bars, last 2026-11-26 close 10609.2998046875
+EU50     500 bars, last 2026-11-26 close 6014.740234375
+JP225    485 bars, last 2026-11-26 close 57499.16015625
+AUS200   507 bars, last 2026-11-26 close 8763.7998046875
 USOIL    503 bars, last 2026-11-25 close 83.68000030517578
 UKOIL    503 bars, last 2026-11-25 close 94.61000061035156
 XAGUSD   503 bars, last 2026-11-25 close 40.051998138427734
