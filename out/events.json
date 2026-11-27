@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-11-27",
+  "kind": "open",
+  "text": "T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)",
+  "n": 30
+ },
+ {
   "date": "2026-11-25",
   "kind": "order",
   "text": "O19 queued: long COST at next open, stop 57.46 away (dip, score 89, risk 2250 USD)",

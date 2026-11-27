@@ -1,6 +1,25 @@
 [
  {
-  "id": "none",
-  "empty": true
+  "id": "T20",
+  "symbol": "COST",
+  "side": "long",
+  "size": "39 sh",
+  "units": 39,
+  "entry": 1086.2522411865234,
+  "entryDate": "2026-11-27",
+  "tf": "1d",
+  "price": 1097.81005859375,
+  "stop": 1028.79,
+  "initialStop": 1028.79,
+  "riskUSD": 2241.03,
+  "riskNow": 2241.03,
+  "pnlUSD": 450.55,
+  "r": 0.2,
+  "swapUSD": 0.0,
+  "bars": 1,
+  "setup": "dip",
+  "stage": "initial",
+  "thesis": "long COST: RSI(2) 11 dip above the 200-day average; exit on a close back above the 5-day average, disaster stop 3.0 ATR away",
+  "exitPlan": "mean reached (close back through the 5-day average)"
  }
 ]
