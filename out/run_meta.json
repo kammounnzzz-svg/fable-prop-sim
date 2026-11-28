@@ -1,6 +1,6 @@
 {
- "startedAt": "2026-11-27T23:34:26Z",
- "finishedAt": "2026-11-27T23:34:50Z",
+ "startedAt": "2026-11-28T01:14:56Z",
+ "finishedAt": "2026-11-28T01:15:25Z",
  "ok": true,
  "stage": "done",
  "error": "",
@@ -11,122 +11,7 @@
   "XAUUSD"
  ],
  "dailySymbols": 32,
- "events": [
-  {
-   "account": "ftmo-200k",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)"
-  },
-  {
-   "account": "brightfunded-200k",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)"
-  },
-  {
-   "account": "fundingpips-100k",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T20 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)"
-  },
-  {
-   "account": "fundednext-200k",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)"
-  },
-  {
-   "account": "ftp-200k",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T22 long 31 sh COST at 1086.25, stop 1028.79, risk 1781 USD (dip)"
-  },
-  {
-   "account": "ftmo-200k-funded",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T34 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)"
-  },
-  {
-   "account": "brightfunded-200k-funded",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T34 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)"
-  },
-  {
-   "account": "fintokei-200k-funded",
-   "date": "2026-11-27",
-   "kind": "order",
-   "text": "O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 754 USD)"
-  },
-  {
-   "account": "fundingpips-100k-funded",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T34 long 9 sh COST at 1086.25, stop 1028.79, risk 517 USD (dip)"
-  },
-  {
-   "account": "the5ers-100k-funded",
-   "date": "2026-11-27",
-   "kind": "order",
-   "text": "O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 377 USD)"
-  },
-  {
-   "account": "cti-100k-funded",
-   "date": "2026-11-27",
-   "kind": "order",
-   "text": "O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 377 USD)"
-  },
-  {
-   "account": "fundednext-200k-funded",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T34 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)"
-  },
-  {
-   "account": "ftp-200k-funded",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T34 long 15 sh COST at 1086.25, stop 1028.79, risk 862 USD (dip)"
-  },
-  {
-   "account": "lux-1m-funded",
-   "date": "2026-11-27",
-   "kind": "order",
-   "text": "O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 2261 USD)"
-  },
-  {
-   "account": "ftmo-200k-fast",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T6 long 52 sh COST at 1086.25, stop 1028.79, risk 2988 USD (dip)"
-  },
-  {
-   "account": "brightfunded-200k-fast",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T6 long 52 sh COST at 1086.25, stop 1028.79, risk 2988 USD (dip)"
-  },
-  {
-   "account": "fundingpips-100k-fast",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T6 long 26 sh COST at 1086.25, stop 1028.79, risk 1494 USD (dip)"
-  },
-  {
-   "account": "fundednext-200k-fast",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T6 long 52 sh COST at 1086.25, stop 1028.79, risk 2988 USD (dip)"
-  },
-  {
-   "account": "ftp-200k-fast",
-   "date": "2026-11-27",
-   "kind": "open",
-   "text": "T6 long 41 sh COST at 1086.25, stop 1028.79, risk 2356 USD (dip)"
-  }
- ],
+ "events": [],
  "accounts": [
   "ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC",
   "brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC",
@@ -158,18 +43,18 @@
  ],
  "passFail": [],
  "focus": "ftmo-200k",
- "runId": "46083237520",
- "runNumber": "506",
- "baseCommit": "5c8c5a25729b4179d31206aca551f2328c3d381d",
+ "runId": "46092122829",
+ "runNumber": "507",
+ "baseCommit": "00db6b8bc991e1f342aaba5ebcaa5731afe43c8f",
  "runner": "github-actions",
  "trackExport": "ok",
  "trackSelfCheck": "ok",
  "engineVersion": "0.9.0",
  "engineSha256": "09867fe3ce5a7ff524684b80163e0699d9e1481923f4df5e27983e16cf7572ac",
- "stateSha256Before": "b5ac7484fc2546c3728424e9eb2ef086460d0c10bc7d6fe2402e1860d9fc6043",
+ "stateSha256Before": "60dbc9188cba50e73a47e5334eb59c6e0b9646d7d13542919dd673f0a6fb8020",
  "newTrades": [],
  "phaseChanges": [],
  "lastDate": "2026-11-27",
  "lastHourlyBar": "2026-11-27 18:00 UTC",
- "stateSha256": "60dbc9188cba50e73a47e5334eb59c6e0b9646d7d13542919dd673f0a6fb8020"
+ "stateSha256": "df086c47c2a041b4dafba4f4db0f46ad64b3918047b5726a553df1d106b110f4"
 }
