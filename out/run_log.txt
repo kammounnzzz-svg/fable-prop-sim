@@ -1,4 +1,4 @@
-run started 2026-11-28T01:39:52Z, finished 2026-11-28T01:40:17Z, ok=True
+run started 2026-11-28T07:14:45Z, finished 2026-11-28T07:15:11Z, ok=True
 
 ### fetch (exit 0)
 XAUUSD  1137 hourly bars, last 2026-11-27 18:00 UTC close 3668.5
@@ -11,62 +11,108 @@ USDJPY   518 bars, last 2026-11-27 close 159.281005859375
 USDCAD   518 bars, last 2026-11-27 close 1.424530029296875
 XAUUSD   501 bars, last 2026-11-25 close 3535.800048828125
 US500    500 bars, last 2026-11-27 close 7297.490234375
-US100    500 bars, last 2026-11-27 close 26726.388671875
+US100    500 bars, last 2026-11-27 close 26726.390625
 US30     500 bars, last 2026-11-27 close 50774.94140625
-GER40    506 bars, last 2026-11-26 close 25215.51953125
-UK100    506 bars, last 2026-11-26 close 10609.2998046875
-EU50     499 bars, last 2026-11-26 close 6014.740234375
-JP225    485 bars, last 2026-11-26 close 57499.16015625
-AUS200   507 bars, last 2026-11-26 close 8763.7998046875
+GER40    507 bars, last 2026-11-27 close 25441.240234375
+UK100    507 bars, last 2026-11-27 close 10698.7998046875
+EU50     500 bars, last 2026-11-27 close 6089.2001953125
+JP225    486 bars, last 2026-11-27 close 58711.109375
+AUS200   508 bars, last 2026-11-27 close 8833.599609375
 USOIL    501 bars, last 2026-11-25 close 83.68000030517578
 UKOIL    501 bars, last 2026-11-25 close 94.61000061035156
 XAGUSD   501 bars, last 2026-11-25 close 40.051998138427734
-NVDA     499 bars, last 2026-11-25 close 149.3000030517578
-AAPL     499 bars, last 2026-11-25 close 355.5799865722656
-MSFT     499 bars, last 2026-11-25 close 489.92999267578125
-AMZN     499 bars, last 2026-11-25 close 244.42999267578125
-TSLA     499 bars, last 2026-11-25 close 380.1400146484375
-GOOGL    499 bars, last 2026-11-25 close 273.1000061035156
-META     499 bars, last 2026-11-25 close 609.8900146484375
-AVGO     499 bars, last 2026-11-25 close 300.8599853515625
-JPM      499 bars, last 2026-11-25 close 316.739990234375
-NFLX     499 bars, last 2026-11-25 close 59.40999984741211
-LLY      499 bars, last 2026-11-25 close 1392.219970703125
-COST     499 bars, last 2026-11-25 close 1086.81005859375
-BTCUSD   729 bars, last 2026-11-26 close 60494.7109375
-ETHUSD   729 bars, last 2026-11-26 close 1687.7418212890625
+NVDA     500 bars, last 2026-11-27 close 150.49000549316406
+AAPL     500 bars, last 2026-11-27 close 358.5400085449219
+MSFT     500 bars, last 2026-11-27 close 492.8500061035156
+AMZN     500 bars, last 2026-11-27 close 254.1199951171875
+TSLA     500 bars, last 2026-11-27 close 400.0
+GOOGL    500 bars, last 2026-11-27 close 274.9599914550781
+META     500 bars, last 2026-11-27 close 628.9600219726562
+AVGO     500 bars, last 2026-11-27 close 312.3399963378906
+JPM      500 bars, last 2026-11-27 close 322.9599914550781
+NFLX     500 bars, last 2026-11-27 close 60.93000030517578
+LLY      500 bars, last 2026-11-27 close 1392.3800048828125
+COST     500 bars, last 2026-11-27 close 1097.81005859375
+BTCUSD   730 bars, last 2026-11-27 close 59866.37109375
+ETHUSD   730 bars, last 2026-11-27 close 1661.083251953125
 saved /home/runner/work/fable-prop-sim/fable-prop-sim/bars/all.json (32 ok, 0 failed)
 
 
 ### portfolio-run (exit 0)
-ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | nothing new
-brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | nothing new
-fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     193739 eq     193739 (-3.13%) day       +0 | pos 0 ord 1 | nothing new
-fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100420 eq     100640 (+0.64%) day     +220 | pos 1 ord 0 | nothing new
-the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 1 | nothing new
-cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 1 | nothing new
-fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | nothing new
-ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     195921 eq     196279 (-1.86%) day     +358 | pos 1 ord 0 | nothing new
-lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     976570 eq     976570 (-2.34%) day       +0 | pos 0 ord 2 | nothing new
-ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     195775 eq     195994 (-2.00%) day     +220 | pos 1 ord 2 | nothing new
-brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     195775 eq     195994 (-2.00%) day     +220 | pos 1 ord 2 | nothing new
-fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     195043 eq     195043 (-2.48%) day       +0 | pos 0 ord 3 | nothing new
-fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      97837 eq      97941 (-2.06%) day     +104 | pos 1 ord 2 | nothing new
-the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 3 | nothing new
-cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 3 | nothing new
-fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     195775 eq     195994 (-2.00%) day     +220 | pos 1 ord 2 | nothing new
-ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     196536 eq     196710 (-1.65%) day     +173 | pos 1 ord 2 | nothing new
-lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     985037 eq     985037 (-1.50%) day       +0 | pos 0 ord 3 | nothing new
-ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     198325 eq     198926 (-0.54%) day     +601 | pos 1 ord 0 | nothing new
-brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     198325 eq     198926 (-0.54%) day     +601 | pos 1 ord 0 | nothing new
-fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 1 | nothing new
-fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99150 eq      99451 (-0.55%) day     +300 | pos 1 ord 0 | nothing new
-the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 1 | nothing new
-cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 1 | nothing new
-fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     198325 eq     198926 (-0.54%) day     +601 | pos 1 ord 0 | nothing new
-ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     198644 eq     199117 (-0.44%) day     +474 | pos 1 ord 0 | nothing new
-lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     990893 eq     990893 (-0.91%) day       +0 | pos 0 ord 1 | nothing new
-No new completed bars since the last run. Nothing changed.
+ftmo-200k        FTMO 2-Step Swing                FTMO Challenge         bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)
+brightfunded-200k BrightFunded Classic 2-Step      BrightFunded Challenge bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)
+fintokei-200k    Fintokei ProTrader Swing         Fintokei Challenge     bal     193739 eq     193739 (-3.13%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O11 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 1508 USD)
+fundingpips-100k FundingPips 2-Step Standard + Sw FundingPips Challenge  bal     100420 eq     100640 (+0.64%) day     +220 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T20 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)
+the5ers-100k     The5ers High Stakes (New)        The5ers Challenge      bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O11 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 754 USD)
+cti-100k         City Traders Imperium 2-Step     City Traders Imperium  bal      96868 eq      96868 (-3.13%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O11 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 754 USD)
+fundednext-200k  FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     200924 eq     201375 (+0.69%) day     +451 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T20 long 39 sh COST at 1086.25, stop 1028.79, risk 2241 USD (dip)
+ftp-200k         Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     195921 eq     196279 (-1.86%) day     +358 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T22 long 31 sh COST at 1086.25, stop 1028.79, risk 1781 USD (dip)
+lux-1m           Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     976570 eq     976570 (-2.34%) day       +0 | pos 0 ord 2 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O13 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 4522 USD)
+    EVENT 2026-11-27 order O14 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 4522 USD)
+ftmo-200k-funded FTMO 2-Step Swing                FTMO funded account    bal     195775 eq     195994 (-2.00%) day     +220 | pos 1 ord 2 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O32 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-11-27 order O33 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-11-27 open T34 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)
+brightfunded-200k-funded BrightFunded Classic 2-Step      BrightFunded funded ac bal     195775 eq     195994 (-2.00%) day     +220 | pos 1 ord 2 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O32 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-11-27 order O33 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-11-27 open T34 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)
+fintokei-200k-funded Fintokei ProTrader Swing         Fintokei funded accoun bal     195043 eq     195043 (-2.48%) day       +0 | pos 0 ord 3 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O17 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 754 USD)
+    EVENT 2026-11-27 order O18 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 754 USD)
+    EVENT 2026-11-27 order O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 754 USD)
+fundingpips-100k-funded FundingPips 2-Step Standard + Sw FundingPips funded acc bal      97837 eq      97941 (-2.06%) day     +104 | pos 1 ord 2 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O32 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-11-27 order O33 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 562 USD)
+    EVENT 2026-11-27 open T34 long 9 sh COST at 1086.25, stop 1028.79, risk 517 USD (dip)
+the5ers-100k-funded The5ers High Stakes (New)        The5ers funded account bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 3 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O17 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 377 USD)
+    EVENT 2026-11-27 order O18 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 377 USD)
+    EVENT 2026-11-27 order O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 377 USD)
+cti-100k-funded  City Traders Imperium 2-Step     City Traders Imperium  bal      97546 eq      97546 (-2.45%) day       +0 | pos 0 ord 3 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O17 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 377 USD)
+    EVENT 2026-11-27 order O18 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 377 USD)
+    EVENT 2026-11-27 order O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 377 USD)
+fundednext-200k-funded FundedNext Stellar 2-Step (manua FundedNext funded acco bal     195775 eq     195994 (-2.00%) day     +220 | pos 1 ord 2 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O32 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-11-27 order O33 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 1125 USD)
+    EVENT 2026-11-27 open T34 long 19 sh COST at 1086.25, stop 1028.79, risk 1092 USD (dip)
+ftp-200k-funded  Funded Trading Plus 2-Step Class Funded Trading Plus fu bal     196536 eq     196710 (-1.65%) day     +173 | pos 1 ord 2 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O32 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 900 USD)
+    EVENT 2026-11-27 order O33 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 900 USD)
+    EVENT 2026-11-27 open T34 long 15 sh COST at 1086.25, stop 1028.79, risk 862 USD (dip)
+lux-1m-funded    Lux Trading Firm 1-Step Classic  Lux Trading Firm funde bal     985037 eq     985037 (-1.50%) day       +0 | pos 0 ord 3 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O17 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 2261 USD)
+    EVENT 2026-11-27 order O18 queued: long GER40 at next open, stop 1233.7 away (turn of month, score 55, risk 2261 USD)
+    EVENT 2026-11-27 order O19 queued: long US500 at next open, stop 455.5 away (turn of month, score 55, risk 2261 USD)
+ftmo-200k-fast   FTMO 2-Step Swing                FTMO Challenge         bal     198325 eq     198926 (-0.54%) day     +601 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T6 long 52 sh COST at 1086.25, stop 1028.79, risk 2988 USD (dip)
+brightfunded-200k-fast BrightFunded Classic 2-Step      BrightFunded Challenge bal     198325 eq     198926 (-0.54%) day     +601 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T6 long 52 sh COST at 1086.25, stop 1028.79, risk 2988 USD (dip)
+fintokei-200k-fast Fintokei ProTrader Swing         Fintokei Challenge     bal     196976 eq     196976 (-1.51%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O3 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 3000 USD)
+fundingpips-100k-fast FundingPips 2-Step Standard + Sw FundingPips Challenge  bal      99150 eq      99451 (-0.55%) day     +300 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T6 long 26 sh COST at 1086.25, stop 1028.79, risk 1494 USD (dip)
+the5ers-100k-fast The5ers High Stakes (New)        The5ers Challenge      bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O3 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 1500 USD)
+cti-100k-fast    City Traders Imperium 2-Step     City Traders Imperium  bal      98505 eq      98505 (-1.50%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O3 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 1500 USD)
+fundednext-200k-fast FundedNext Stellar 2-Step (manua FundedNext Challenge   bal     198325 eq     198926 (-0.54%) day     +601 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T6 long 52 sh COST at 1086.25, stop 1028.79, risk 2988 USD (dip)
+ftp-200k-fast    Funded Trading Plus 2-Step Class Funded Trading Plus Ch bal     198644 eq     199117 (-0.44%) day     +474 | pos 1 ord 0 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 open T6 long 41 sh COST at 1086.25, stop 1028.79, risk 2356 USD (dip)
+lux-1m-fast      Lux Trading Firm 1-Step Classic  Lux Trading Firm Evalu bal     990893 eq     990893 (-0.91%) day       +0 | pos 0 ord 1 | 1 date(s), hourly to 2026-11-27 18:00 UTC
+    EVENT 2026-11-27 order O3 queued: long JP225 at next open, stop 5028 away (turn of month, score 55, risk 9000 USD)
+portfolio updated
 
 
 ### portfolio-status (exit 0)
