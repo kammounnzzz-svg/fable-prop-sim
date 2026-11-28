@@ -5,6 +5,8 @@ name: Simulation watchdog (starts a missed run)
 # scheduled run is 70 minutes or more overdue and nothing is queued or running, starts it - the same thing the
 # "Run workflow" button on the Actions page does. It runs no simulation code, commits nothing and changes nothing in
 # the repository. If a run it starts turns out to be a duplicate, that is harmless: the second run finds nothing new.
+# GitHub fires this schedule only a few times a day (1 to 4 times in November 2026), so since 28 Nov 2026 the keeper
+# (.github/workflows/keeper.yml) does the same check without GitHub's schedule; both use scripts/watchdog_check.sh.
 # Paper trading only.
 on:
   schedule:
@@ -12,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       pretend_last_run:
-        description: "Test only: treat this UTC time (like 2026-11-18T07:53:41Z) as the newest simulation run"
+        description: "Test only: treat this UTC time (like 2026-11-18T07:53:41Z) as the newest successful simulation run"
         required: false
         default: ""
       dry_run:
@@ -45,36 +47,5 @@ jobs:
           REPO: ${{ github.repository }}
           PRETEND_LAST: ${{ inputs.pretend_last_run }}
           DRY_RUN: ${{ inputs.dry_run }}
-        run: |
-          set +e     # this step must never fail: when anything is unclear it starts nothing and says why
-          say() { echo "$1"; echo "$1" >> "$GITHUB_STEP_SUMMARY"; }
-          newest=$(gh api "repos/$REPO/actions/workflows/sim.yml/runs?per_page=1" --jq '.workflow_runs[0] | "\(.status) \(.created_at)"' 2>&1)
-          if [ $? -ne 0 ] || ! echo "$newest" | grep -Eq '^[a-z_]+ [0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9:]{8}Z$'; then
-            say "Could not read the simulation's runs (${newest:0:200}). Nothing started."
-            exit 0
-          fi
-          status=${newest%% *}; last=${newest##* }
-          if [ -n "$PRETEND_LAST" ]; then
-            say "TEST: pretending the newest simulation run started at $PRETEND_LAST (really: $status, started $last)."
-            last="$PRETEND_LAST"
-          elif [ "$status" != "completed" ]; then
-            say "A simulation run is already $status (started $last). Nothing to do."
-            exit 0
-          fi
-          verdict=$(python3 scripts/sim_watchdog.py --last "$last" 2>&1)
-          say "Newest simulation run started $last. $verdict"
-          case "$verdict" in
-            *"start=yes"*)
-              if [ "$DRY_RUN" = "true" ]; then
-                say "TEST (dry run): the simulation would be started now."
-              elif out=$(gh workflow run sim.yml -R "$REPO" --ref main 2>&1); then
-                say "The scheduled run is overdue: started the simulation. ${out:0:200}"
-              else
-                say "The scheduled run is overdue, but the simulation could not be started: ${out:0:300}"
-              fi
-              ;;
-            *)
-              say "Nothing to do."
-              ;;
-          esac
-          exit 0
+        # the same check the keeper does (scripts/watchdog_check.sh); it never fails and starts nothing when in doubt
+        run: bash scripts/watchdog_check.sh

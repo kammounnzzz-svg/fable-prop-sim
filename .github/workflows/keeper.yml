@@ -1,0 +1,70 @@
+name: Simulation keeper (backup start, independent of GitHub's schedule)
+
+# GitHub starts this repository's scheduled workflows late and on many days not at all (in November 2026 it fired the
+# watchdog's twice-hourly schedule only 1 to 4 times a day). The keeper does not wait for GitHub's schedule. Each
+# keeper run first waits on the wait timer of the environment "sim-keeper" (set once by the owner in Settings >
+# Environments; the wait holds no runner and is not billed), then does the watchdog's check (scripts/watchdog_check.sh:
+# start the simulation when its scheduled run is 70 or more minutes overdue and nothing is queued or running), then
+# starts the next keeper run (scripts/keeper_next.sh). The schedule below only restarts the keeper if it ever stops; a
+# keeper run that finds a newer one already going stops, so only one keeper keeps going, and a keeper run that did not
+# wait (timer missing) does not restart itself. Paper trading only: the keeper runs no simulation code, commits nothing
+# and starts only this repository's own workflows.
+run-name: ${{ (inputs.dry_run || inputs.no_restart || inputs.pretend_last_run) && 'Keeper test run' || (github.event_name == 'schedule' && 'Keeper (restarted by the schedule)' || 'Keeper') }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Test only: decide and print, start nothing (and do not start the next keeper run)"
+        type: boolean
+        required: false
+        default: false
+      no_restart:
+        description: "Test only: do the check for real but do not start the next keeper run"
+        type: boolean
+        required: false
+        default: false
+      pretend_last_run:
+        description: "Test only: treat this UTC time (like 2026-11-18T07:53:41Z) as the newest successful simulation run (no restart)"
+        required: false
+        default: ""
+  schedule:
+    # restarts a stopped keeper; GitHub drops most of these, which is why the keeper does not rely on them
+    - cron: "11 * * * *"
+    - cron: "41 * * * *"
+
+permissions:
+  actions: write     # to start the simulation and the next keeper run; nothing else is written
+  contents: read
+
+jobs:
+  keep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: sim-keeper
+      deployment: false    # no deployment records; the environment's wait timer still applies
+    steps:
+      - name: Check out the scripts
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          sparse-checkout: scripts
+
+      - name: Start the simulation if its scheduled run is overdue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PRETEND_LAST: ${{ inputs.pretend_last_run }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: bash scripts/watchdog_check.sh
+
+      - name: Start the next keeper run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          REF: ${{ github.ref_name }}
+          RUN_ID: ${{ github.run_id }}
+          TEST_RUN: ${{ (inputs.dry_run || inputs.no_restart || inputs.pretend_last_run) && 'true' || 'false' }}
+        run: bash scripts/keeper_next.sh

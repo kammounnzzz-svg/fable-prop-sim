@@ -6,7 +6,8 @@ Paper-trading simulation of a portfolio of prop-firm style accounts (FTMO-type r
 
 - `.github/workflows/sim.yml` runs `scripts/run_sim.py` every three hours Monday–Saturday (00:23, 03:23 … 21:23 UTC) on GitHub Actions, and on demand (workflow_dispatch).
 - `scripts/run_sim.py` fetches price bars from the Yahoo Finance chart feed (daily bars for 30 markets, hourly bars for gold and silver), runs every account in `state/portfolio_state.json` through the engine (`python3 -m fable_prop_sim portfolio-run`), exports the dashboard datasets to `out/` and always writes `out/run_meta.json` (what happened: new events, closed trades, phase changes, fetch failures, errors) and `out/run_log.txt`.
-- The workflow then commits `state/` and `out/` back to this repository, so every run is a commit and the full history of the simulation is the git history.
+- The workflow then commits `state/` and `out/` back to this repository, so every run is a commit and the full history of the simulation is the git history (`scripts/commit_run.sh`: GitHub's push errors are retried, and when another run saved its result first the simulation runs again on that newer commit).
+- Backup starts, because GitHub starts scheduled workflows late and often not at all: `.github/workflows/watchdog.yml` (on GitHub's schedule) and `.github/workflows/keeper.yml` (not on GitHub's schedule: each run waits on the wait timer of the environment `sim-keeper`, then starts the next one) both run `scripts/watchdog_check.sh`, which starts the simulation when its scheduled run is 70 minutes or more overdue. Tests: `python3 tests/test_backup_scripts.py`.
 - A separate scheduled Claude task reads `out/` from the latest commit (data only), publishes the datasets to the owner's dashboard and sends a short report. It never executes anything from this repository.
 
 ## Layout
